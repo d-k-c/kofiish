@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kofiish"
+version = "0.1.0"
+description = "Generate Anki Decks with the KOFI Method"
+readme = "README.md"
+requires-python = ">=3.8" # ordered dict in 3.7
+authors = [
+    { name = "Damien Riégel", email = "damien@riegel.io" }
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+    "genanki>=0.13.1",
+]
+
+[project.scripts]
+kofiish = "kofiish.main:main"

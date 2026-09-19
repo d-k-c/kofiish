@@ -1,0 +1,33 @@
+{{cloze:Prompt}}
+
+
+<div class="back">
+<br /><br />
+&mdash;<br />
+
+same family: {{Similar}}
+<br />
+&mdash;<br />
+
+{{Notes}}
+{{Dictionaries}}
+{{Forvo}}
+{{Sentence_Translation}}
+<br />
+&mdash;<br />
+
+</span>
+<span class="manual">the <a href="https://www.asiteaboutnothing.net/w_kofi-french.html">manual</a> | lists of <a href="https://www.asiteaboutnothing.net/w_kofi-french.html#deck-description">verbs and tags</a> | buy me a <a href="https://www.buymeacoffee.com/lutfen">coffee</a><br>
+&mdash;<br />
+
+
+{{#Tags}}
+<span class='tag_SECTION'>
+tags: <span class='tags'>{{Tags}}</span>
+</span>
+{{/Tags}}
+</div>
+
+
+<br><br>
+

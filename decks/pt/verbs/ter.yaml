@@ -1,0 +1,180 @@
+metadata:
+  lemma: ter
+  translation: to have
+
+conjugation:
+  type: irregular_ter
+
+tenses:
+  indicative_present:
+    forms:
+      1sg: tenho
+      2sg: tens
+      3sg: tem
+      1pl: temos
+      2pl: tendes
+      3pl: têm
+
+    context:
+      default:
+        cue: "Agora"
+        hint: "dois irmãos"
+      1sg:
+        cue: "Foo"
+        hint: "Bar"
+
+  indicative_preterite:
+    forms:
+      1sg: tive
+      2sg: tiveste
+      3sg: teve
+      1pl: tivemos
+      2pl: tivestes
+      3pl: tiveram
+
+    context:
+      default:
+        cue: "No ano passado, "
+        hint: "muito trabalho"
+
+  indicative_imperfect:
+    forms:
+      1sg: tinha
+      2sg: tinhas
+      3sg: tinha
+      1pl: tínhamos
+      2pl: tínheis
+      3pl: tinham
+
+    context:
+      default:
+        cue: "Quando era criança, eu"
+        hint: "um cão"
+
+  indicative_future:
+    forms:
+      1sg: terei
+      2sg: terás
+      3sg: terá
+      1pl: teremos
+      2pl: tereis
+      3pl: terão
+
+    context:
+      default:
+        cue: "No próximo ano, ela"
+        hint: "mais tempo livre"
+
+  conditional:
+    forms:
+      1sg: teria
+      2sg: terias
+      3sg: teria
+      1pl: teríamos
+      2pl: teríeis
+      3pl: teriam
+
+    context:
+      default:
+        cue: "Se pudesse, eu"
+        hint: "uma casa maior"
+
+  subjunctive_present:
+    forms:
+      1sg: tenha
+      2sg: tenhas
+      3sg: tenha
+      1pl: tenhamos
+      2pl: tenhais
+      3pl: tenham
+
+    context:
+      default:
+        cue: "Espero que ele"
+        hint: "tempo suficiente"
+
+  subjunctive_imperfect:
+    forms:
+      1sg: tivesse
+      2sg: tivesses
+      3sg: tivesse
+      1pl: tivéssemos
+      2pl: tivésseis
+      3pl: tivessem
+
+    context:
+      default:
+        cue: "Se nós"
+        hint: "mais dinheiro"
+
+  subjunctive_future:
+    forms:
+      1sg: tiver
+      2sg: tiveres
+      3sg: tiver
+      1pl: tivermos
+      2pl: tiverdes
+      3pl: tiverem
+
+    context:
+      default:
+        cue: "Quando eu"
+        hint: "a oportunidade"
+
+  imperative_affirmative:
+    forms:
+      2sg: tem
+      3sg: tenha
+      1pl: tenhamos
+      2pl: tende
+      3pl: tenham
+
+    context:
+      default:
+        cue: "Não te preocupes;"
+        hint: "paciência"
+
+  imperative_negative:
+    forms:
+      2sg: não tenhas
+      3sg: não tenha
+      1pl: não tenhamos
+      2pl: não tenhais
+      3pl: não tenham
+
+    context:
+      default:
+        cue: "Por favor,"
+        hint: "medo"
+
+  personal_infinitive:
+    forms:
+      1sg: ter
+      2sg: teres
+      3sg: ter
+      1pl: termos
+      2pl: terdes
+      3pl: terem
+
+    context:
+      default:
+        cue: "É bom"
+        hint: "amigos por perto"
+
+  gerund:
+    forms:
+      all: tendo
+
+    context:
+      default:
+        cue: "Ele saiu de casa"
+        hint: "muito cuidado"
+
+  past_participle:
+    forms:
+      all: tido
+
+    context:
+      default:
+        cue: "Depois de"
+        hint: "a oportunidade"

@@ -1,0 +1,152 @@
+metadata:
+  model:
+    id: 1655903400
+    name: "KOFI Portuguese"
+  deck:
+    id: 1662045664
+    name: 'KOFI::KOFI Portuguese (Portugal) (Ultimate Portuguese Conjugation)'
+
+# UUID and Prompt are always included
+fields:
+  - Similar
+  - Notes
+  - Dictionaries
+  - Forvo
+  - Sentence_Translation
+
+pronouns:
+  1sg:
+    prompt: "eu"
+  2sg:
+    prompt: "tu"
+  3sg:
+    prompt: "ele | ela"
+    tag: "ele_ela"
+  1pl:
+    prompt: "nós"
+  2pl:
+    prompt: "vós"
+  3pl:
+    prompt: "eles | elas"
+    tag: "eles_elas"
+  all:
+    prompt: null
+    tag: null
+
+tenses:
+  indicative_present:
+    forms:
+      - 1sg
+      - 2sg
+      - 3sg
+      - 1pl
+      - 2pl
+      - 3pl
+    cue: "⊙"
+
+  indicative_preterite:
+    forms:
+      - 1sg
+      - 2sg
+      - 3sg
+      - 1pl
+      - 2pl
+      - 3pl
+    cue: "↧"
+
+  indicative_imperfect:
+    forms:
+      - 1sg
+      - 2sg
+      - 3sg
+      - 1pl
+      - 2pl
+      - 3pl
+    cue: "←"
+
+  indicative_future:
+    forms:
+      - 1sg
+      - 2sg
+      - 3sg
+      - 1pl
+      - 2pl
+      - 3pl
+    cue: "→"
+
+  conditional:
+    forms:
+      - 1sg
+      - 2sg
+      - 3sg
+      - 1pl
+      - 2pl
+      - 3pl
+    cue: "…"
+
+  subjunctive_present:
+    forms:
+      - 1sg
+      - 2sg
+      - 3sg
+      - 1pl
+      - 2pl
+      - 3pl
+    cue: "〰"
+
+  subjunctive_imperfect:
+    forms:
+      - 1sg
+      - 2sg
+      - 3sg
+      - 1pl
+      - 2pl
+      - 3pl
+    cue: "↫"
+
+  subjunctive_future:
+    forms:
+      - 1sg
+      - 2sg
+      - 3sg
+      - 1pl
+      - 2pl
+      - 3pl
+    cue: "↬"
+
+  imperative_affirmative:
+    forms:
+      - 2sg
+      - 3sg
+      - 1pl
+      - 2pl
+      - 3pl
+    cue: "!"
+
+  imperative_negative:
+    forms:
+      - 2sg
+      - 3sg
+      - 1pl
+      - 2pl
+      - 3pl
+    cue: "!"
+
+
+  personal_infinitive:
+    forms:
+      - 1sg
+      - 2sg
+      - 3sg
+      - 1pl
+      - 2pl
+      - 3pl
+    cue: "↻"
+
+  gerund:
+    forms:
+      - all
+
+  past_participle:
+    forms:
+      - all
