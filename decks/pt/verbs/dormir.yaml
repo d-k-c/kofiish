@@ -1,0 +1,174 @@
+metadata:
+  lemma: dormir
+  translation: to sleep
+
+transformations:
+  - conjugator_ir
+
+analogs:
+  cobrir:
+    presente_indicativo:
+      forms:
+        1sg: cubro
+    presente_conjuntivo:
+      forms:
+        1sg: cubra
+        2sg: cubras
+        3sg: cubra
+        1pl: cubramos
+        2pl: cubrais
+        3pl: cubram
+    imperativo_afirmativo:
+      forms:
+        3sg: cubra
+        1pl: cubramos
+        3pl: cubram
+    imperativo_negativo:
+      forms:
+        2sg: cubras
+        3sg: cubra
+        1pl: cubramos
+        2pl: cubrais
+        3pl: cubram
+    participio_passado:
+      forms:
+        all: coberto
+
+  descobrir:
+    presente_indicativo:
+      forms:
+        1sg: descubro
+    presente_conjuntivo:
+      forms:
+        1sg: descubra
+        2sg: descubras
+        3sg: descubra
+        1pl: descubramos
+        2pl: descubrais
+        3pl: descubram
+    imperativo_afirmativo:
+      forms:
+        3sg: descubra
+        1pl: descubramos
+        3pl: descubram
+    imperativo_negativo:
+      forms:
+        2sg: descubras
+        3sg: descubra
+        1pl: descubramos
+        2pl: descubrais
+        3pl: descubram
+    participio_passado:
+      forms:
+        all: descoberto
+
+tenses:
+  presente_indicativo:
+    forms:
+      1sg: durmo
+
+    context:
+      default:
+        cue: "Normalmente,"
+        hint: "oito horas por noite"
+
+    notes:
+      1sg: "[[Irregular]]: The ~o~ becomes ~u~ (`durmo`). Other persons keep the regular stem."
+
+  preterito_perfeito_indicativo:
+    context:
+      default:
+        cue: "Ontem à noite,"
+        hint: "mal"
+
+  preterito_imperfeito_indicativo:
+    context:
+      default:
+        cue: "Em criança,"
+        hint: "com a luz acesa"
+
+  futuro_indicativo:
+    context:
+      default:
+        cue: "Esta noite,"
+        hint: "no sofá"
+
+  condicional:
+    context:
+      default:
+        cue: "Sem despertador,"
+        hint: "até tarde"
+
+  presente_conjuntivo:
+    forms:
+      1sg: durma
+      2sg: durmas
+      3sg: durma
+      1pl: durmamos
+      2pl: durmais
+      3pl: durmam
+
+    context:
+      default:
+        cue: "Espero que"
+        hint: "bem esta noite"
+
+    pattern: "[[Irregular]]: The presente do conjuntivo uses the stem `durm-`, from the presente do indicativo eu-form `durmo`."
+
+  preterito_imperfeito_conjuntivo:
+    context:
+      default:
+        cue: "Se"
+        hint: "mais cedo"
+
+  futuro_conjuntivo:
+    context:
+      default:
+        cue: "Quando"
+        hint: "tarde demais"
+
+  imperativo_afirmativo:
+    forms:
+      3sg: durma
+      1pl: durmamos
+      3pl: durmam
+
+    context:
+      default:
+        cue: "Por favor,"
+        hint: "uma sesta"
+
+    pattern: "[[Regular]]: Follow normal construction rules."
+
+  imperativo_negativo:
+    forms:
+      2sg: durmas
+      3sg: durma
+      1pl: durmamos
+      2pl: durmais
+      3pl: durmam
+
+    context:
+      default:
+        cue: "Por favor, não"
+        hint: "tão tarde"
+
+    pattern: "[[Regular]]: Forms follow normal construction rule."
+
+  infinitivo_pessoal:
+    context:
+      default:
+        cue: "É importante"
+        hint: "o suficiente"
+
+  gerundio:
+    context:
+      default:
+        cue: "Ela recupera energias"
+        hint: "oito horas por noite"
+
+  participio_passado:
+    context:
+      default:
+        cue: "Depois de ter"
+        hint: "toda a manhã"

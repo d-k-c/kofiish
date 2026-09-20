@@ -1,0 +1,208 @@
+metadata:
+  lemma: trazer
+  translation: to bring
+
+transformations:
+  - conjugator_er
+
+tenses:
+  presente_indicativo:
+    forms:
+      1sg: trago
+      2sg: trazes
+      3sg: traz
+      1pl: trazemos
+      2pl: trazeis
+      3pl: trazem
+
+    context:
+      default:
+        cue: "Todos os dias,"
+        hint: "o jornal para casa"
+
+    notes:
+      1sg: "[[Irregular]]: The ~z~ becomes ~g~ (`trago`). Other persons keep the regular stem."
+      3sg: "[[Irregular]]: Missing expected ending `-e`."
+
+  preterito_perfeito_indicativo:
+    forms:
+      1sg: trouxe
+      2sg: trouxeste
+      3sg: trouxe
+      1pl: trouxemos
+      2pl: trouxestes
+      3pl: trouxeram
+
+    context:
+      default:
+        cue: "Ontem,"
+        hint: "flores para a festa"
+
+    pattern: "[[Irregular]]: The pretérito perfeito uses the stem `troux-`. The ~x~ is pronounced like ~ss~."
+    notes:
+      1sg: "[[Irregular]]: Ends in `-e` instead of the expected `-i`."
+      3sg: "[[Irregular]]: Ends in `-e` instead of the expected `-eu`."
+
+  preterito_imperfeito_indicativo:
+    forms:
+      1sg: trazia
+      2sg: trazias
+      3sg: trazia
+      1pl: trazíamos
+      2pl: trazíeis
+      3pl: traziam
+
+    context:
+      default:
+        cue: "Todos os verões,"
+        hint: "presentes dos avós"
+
+  futuro_indicativo:
+    forms:
+      1sg: trarei
+      2sg: trarás
+      3sg: trará
+      1pl: traremos
+      2pl: trareis
+      3pl: trarão
+
+    context:
+      default:
+        cue: "Amanhã,"
+        hint: "as chaves de casa"
+
+    pattern: "[[Irregular]]: The futuro uses the stem `trar-`."
+
+  condicional:
+    forms:
+      1sg: traria
+      2sg: trarias
+      3sg: traria
+      1pl: traríamos
+      2pl: traríeis
+      3pl: trariam
+
+    context:
+      default:
+        cue: "Se fosse possível,"
+        hint: "mais bagagem"
+
+    pattern: "[[Irregular]]: The condicional uses the stem `trar-`."
+
+  presente_conjuntivo:
+    forms:
+      1sg: traga
+      2sg: tragas
+      3sg: traga
+      1pl: tragamos
+      2pl: tragais
+      3pl: tragam
+
+    context:
+      default:
+        cue: "Espero que"
+        hint: "boas notícias"
+
+    pattern: "[[Irregular]]: The presente do conjuntivo uses the stem `trag-`, from the presente do indicativo eu-form `trago`."
+
+  preterito_imperfeito_conjuntivo:
+    forms:
+      1sg: trouxesse
+      2sg: trouxesses
+      3sg: trouxesse
+      1pl: trouxéssemos
+      2pl: trouxésseis
+      3pl: trouxessem
+
+    context:
+      default:
+        cue: "Se"
+        hint: "o guarda-chuva"
+
+    pattern: "[[Irregular]]: The pretérito imperfeito do conjuntivo uses the stem `troux-`."
+    notes:
+      1pl: "`-êssemos` is the regular ending for verbs in ~-er~. Note the change ~ê → é~."
+      2pl: "`-êsseis` is the regular ending for verbs in ~-er~. Note the change ~ê → é~."
+
+  futuro_conjuntivo:
+    forms:
+      1sg: trouxer
+      2sg: trouxeres
+      3sg: trouxer
+      1pl: trouxermos
+      2pl: trouxerdes
+      3pl: trouxerem
+
+    context:
+      default:
+        cue: "Quando"
+        hint: "as compras"
+
+    pattern: "[[Irregular]]: The futuro do conjuntivo uses the stem `troux-`."
+
+  imperativo_afirmativo:
+    forms:
+      2sg: traz
+      3sg: traga
+      1pl: tragamos
+      2pl: trazei
+      3pl: tragam
+
+    context:
+      default:
+        cue: "Por favor,"
+        hint: "a conta"
+
+    notes:
+      2sg: "[[Irregular]]: This form is usually built on ~tu~ form of the presente do indicativo without the final ~s~, which would give *traze*. This form is actually valid but familiar. The textbook form is `traz`."
+      3sg: "[[Regular]]: Follow normal construction rules."
+      1pl: "[[Regular]]: Follow normal construction rules."
+      2pl: "[[Regular]]: Follow normal construction rules."
+      3pl: "[[Regular]]: Follow normal construction rules."
+
+  imperativo_negativo:
+    forms:
+      2sg: tragas
+      3sg: traga
+      1pl: tragamos
+      2pl: tragais
+      3pl: tragam
+
+    context:
+      default:
+        cue: "Por favor, não"
+        hint: "problemas"
+
+    pattern: "[[Regular]]: Forms follow normal construction rule."
+
+  infinitivo_pessoal:
+    forms:
+      1sg: trazer
+      2sg: trazeres
+      3sg: trazer
+      1pl: trazermos
+      2pl: trazerdes
+      3pl: trazerem
+
+    context:
+      default:
+        cue: "É importante"
+        hint: "provas"
+
+  gerundio:
+    forms:
+      all: trazendo
+
+    context:
+      default:
+        cue: "Ela agradeceu à vizinha"
+        hint: "um bolo"
+
+  participio_passado:
+    forms:
+      all: trazido
+
+    context:
+      default:
+        cue: "Depois de ter"
+        hint: "as malas do carro"

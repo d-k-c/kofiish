@@ -1,0 +1,109 @@
+metadata:
+  lemma: chegar
+  translation: to arrive
+
+transformations:
+  - conjugator_ar
+
+analogs:
+  jogar: {}
+  apagar: {}
+  entregar: {}
+  negar: {}
+
+tenses:
+  presente_indicativo:
+    context:
+      default:
+        cue: "Todos os dias,"
+        hint: "atrasado | atrasada ao trabalho"
+      1pl:
+        cue: "Todos os dias,"
+        hint: "atrasados | atrasadas ao trabalho"
+      2pl:
+        cue: "Todos os dias,"
+        hint: "atrasados | atrasadas ao trabalho"
+      3pl:
+        cue: "Todos os dias,"
+        hint: "atrasados | atrasadas ao trabalho"
+
+  preterito_perfeito_indicativo:
+    context:
+      default:
+        cue: "Ontem,"
+        hint: "mesmo a tempo"
+
+  preterito_imperfeito_indicativo:
+    context:
+      default:
+        cue: "Todos os verões,"
+        hint: "cedo à praia"
+
+  futuro_indicativo:
+    context:
+      default:
+        cue: "Amanhã,"
+        hint: "ao meio-dia"
+
+  condicional:
+    context:
+      default:
+        cue: "Sem trânsito,"
+        hint: "a tempo"
+
+  presente_conjuntivo:
+    context:
+      default:
+        cue: "Espero que"
+        hint: "em breve"
+
+  preterito_imperfeito_conjuntivo:
+    context:
+      default:
+        cue: "Se"
+        hint: "mais cedo"
+
+  futuro_conjuntivo:
+    context:
+      default:
+        cue: "Quando"
+        hint: "ao aeroporto"
+
+  imperativo_afirmativo:
+    context:
+      default:
+        cue: "Por favor,"
+        hint: "a horas"
+
+  imperativo_negativo:
+    context:
+      default:
+        cue: "Por favor, não"
+        hint: "atrasado | atrasada"
+      1pl:
+        cue: "Por favor, não"
+        hint: "atrasados | atrasadas"
+      2pl:
+        cue: "Por favor, não"
+        hint: "atrasados | atrasadas"
+      3pl:
+        cue: "Por favor, não"
+        hint: "atrasados | atrasadas"
+
+  infinitivo_pessoal:
+    context:
+      default:
+        cue: "É importante"
+        hint: "sem pressa"
+
+  gerundio:
+    context:
+      default:
+        cue: "Ele evita o trânsito"
+        hint: "antes das sete"
+
+  participio_passado:
+    context:
+      default:
+        cue: "Depois de ter"
+        hint: "atrasado | atrasada outra vez"

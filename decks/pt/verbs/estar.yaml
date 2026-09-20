@@ -1,0 +1,197 @@
+metadata:
+  lemma: estar
+  translation: to be (temporary state, condition, location)
+
+transformations:
+  - conjugator_ar
+
+tenses:
+  presente_indicativo:
+    forms:
+      1sg: estou
+      2sg: estás
+      3sg: está
+      1pl: estamos
+      2pl: estais
+      3pl: estão
+
+    context:
+      default:
+        cue: "Neste momento,"
+        hint: "em casa"
+
+    notes:
+      1sg: "[[Irregular]]: Ending `-ou` instead of the expected `-o`."
+      2sg: "[[Note]]: Stressed on the ending, hence the accent on `-ás`."
+      3sg: "[[Note]]: Stressed on the ending, hence the accent on `-á`."
+      3pl: "[[Irregular]]: Ending `-ão` instead of the expected `-am`."
+
+  preterito_perfeito_indicativo:
+    forms:
+      1sg: estive
+      2sg: estiveste
+      3sg: esteve
+      1pl: estivemos
+      2pl: estivestes
+      3pl: estiveram
+
+    context:
+      default:
+        cue: "Ontem,"
+        hint: "com febre"
+
+    pattern: |
+      *Highly irregular form*.
+      [[Irregular]]: The pretérito perfeito uses the stem `estiv-` (except `esteve`). Same endings as the verb `ter`.
+
+  preterito_imperfeito_indicativo:
+    forms:
+      1sg: estava
+      2sg: estavas
+      3sg: estava
+      1pl: estávamos
+      2pl: estáveis
+      3pl: estavam
+
+    context:
+      default:
+        cue: "Naquela época,"
+        hint: "sempre com pressa"
+
+  futuro_indicativo:
+    forms:
+      1sg: estarei
+      2sg: estarás
+      3sg: estará
+      1pl: estaremos
+      2pl: estareis
+      3pl: estarão
+
+    context:
+      default:
+        cue: "Amanhã,"
+        hint: "no trabalho"
+
+  condicional:
+    forms:
+      1sg: estaria
+      2sg: estarias
+      3sg: estaria
+      1pl: estaríamos
+      2pl: estaríeis
+      3pl: estariam
+
+    context:
+      default:
+        cue: "Se fosse o caso,"
+        hint: "de férias"
+
+  presente_conjuntivo:
+    forms:
+      1sg: esteja
+      2sg: estejas
+      3sg: esteja
+      1pl: estejamos
+      2pl: estejais
+      3pl: estejam
+
+    context:
+      default:
+        cue: "Espero que"
+        hint: "bem"
+
+    pattern: "[[Irregular]]: The presente do conjuntivo uses the stem `estej-`, with the endings of `ter`."
+
+  preterito_imperfeito_conjuntivo:
+    forms:
+      1sg: estivesse
+      2sg: estivesses
+      3sg: estivesse
+      1pl: estivéssemos
+      2pl: estivésseis
+      3pl: estivessem
+
+    context:
+      default:
+        cue: "Se"
+        hint: "no hospital"
+
+    pattern: "[[Irregular]]: The pretérito imperfeito do conjuntivo uses the stem `estiv-`, with the endings of `ter`."
+
+  futuro_conjuntivo:
+    forms:
+      1sg: estiver
+      2sg: estiveres
+      3sg: estiver
+      1pl: estivermos
+      2pl: estiverdes
+      3pl: estiverem
+
+    context:
+      default:
+        cue: "Quando"
+        hint: "no aeroporto"
+
+    pattern: "[[Irregular]]: The futuro do conjuntivo uses the stem `estiv-`, with the endings of `ter`."
+
+  imperativo_afirmativo:
+    forms:
+      2sg: está
+      3sg: esteja
+      1pl: estejamos
+      2pl: estai
+      3pl: estejam
+
+    context:
+      default:
+        cue: "Por favor,"
+        hint: "em silêncio"
+
+    pattern: "[[Regular]]: Forms follow normal construction rule."
+
+  imperativo_negativo:
+    forms:
+      2sg: estejas
+      3sg: esteja
+      1pl: estejamos
+      2pl: estejais
+      3pl: estejam
+
+    context:
+      default:
+        cue: "Por favor, não"
+        hint: "em pânico"
+
+    pattern: "[[Regular]]: Forms follow normal construction rule."
+
+  infinitivo_pessoal:
+    forms:
+      1sg: estar
+      2sg: estares
+      3sg: estar
+      1pl: estarmos
+      2pl: estardes
+      3pl: estarem
+
+    context:
+      default:
+        cue: "É importante"
+        hint: "a horas"
+
+  gerundio:
+    forms:
+      all: estando
+
+    context:
+      default:
+        cue: "Ele apanhou uma gripe"
+        hint: "no estrangeiro"
+
+  participio_passado:
+    forms:
+      all: estado
+
+    context:
+      default:
+        cue: "Depois de ter"
+        hint: "de baixa"

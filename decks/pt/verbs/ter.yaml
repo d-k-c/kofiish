@@ -2,179 +2,127 @@ metadata:
   lemma: ter
   translation: to have
 
-conjugation:
-  type: irregular_ter
+transformations:
+  - conjugator_er
+  - ter_compound
+
+analogs:
+  conter: {}
+  deter: {}
+  entreter: {}
+  reter: {}
+  suster: {}
 
 tenses:
-  indicative_present:
-    forms:
-      1sg: tenho
-      2sg: tens
-      3sg: tem
-      1pl: temos
-      2pl: tendes
-      3pl: têm
-
+  presente_indicativo:
     context:
       default:
         cue: "Agora"
         hint: "dois irmãos"
-      1sg:
-        cue: "Foo"
-        hint: "Bar"
 
-  indicative_preterite:
-    forms:
-      1sg: tive
-      2sg: tiveste
-      3sg: teve
-      1pl: tivemos
-      2pl: tivestes
-      3pl: tiveram
+    notes:
+      1sg: "*Highly irregular form*."
+      2sg: "*Highly irregular form*."
+      3sg: "*Highly irregular form*."
+      1pl: "*Highly irregular form*."
+      2pl: "*Highly irregular form*. Note the extra ~d~."
+      3pl: "*Highly irregular form*. The circumflex tells `têm` (eles) apart from `tem` (ele)."
 
+  preterito_perfeito_indicativo:
     context:
       default:
-        cue: "No ano passado, "
+        cue: "No ano passado,"
         hint: "muito trabalho"
 
-  indicative_imperfect:
-    forms:
-      1sg: tinha
-      2sg: tinhas
-      3sg: tinha
-      1pl: tínhamos
-      2pl: tínheis
-      3pl: tinham
+    pattern: "[[Irregular]]: The pretérito perfeito uses the stem `tiv-` (except `teve`)."
+    notes:
+      1sg: "*Highly irregular form*."
+      3sg: "*Highly irregular form*."
+
+  preterito_imperfeito_indicativo:
+    pattern: |
+      *Highly irregular form*.
+      [[Irregular]]: The pretérito imperfeito uses the stem `tinh-` or `tính-`.
 
     context:
       default:
-        cue: "Quando era criança, eu"
+        cue: "Em criança,"
         hint: "um cão"
 
-  indicative_future:
-    forms:
-      1sg: terei
-      2sg: terás
-      3sg: terá
-      1pl: teremos
-      2pl: tereis
-      3pl: terão
-
+  futuro_indicativo:
     context:
       default:
-        cue: "No próximo ano, ela"
+        cue: "No próximo ano,"
         hint: "mais tempo livre"
 
-  conditional:
-    forms:
-      1sg: teria
-      2sg: terias
-      3sg: teria
-      1pl: teríamos
-      2pl: teríeis
-      3pl: teriam
-
+  condicional:
     context:
       default:
-        cue: "Se pudesse, eu"
+        cue: "Se fosse o caso,"
         hint: "uma casa maior"
 
-  subjunctive_present:
-    forms:
-      1sg: tenha
-      2sg: tenhas
-      3sg: tenha
-      1pl: tenhamos
-      2pl: tenhais
-      3pl: tenham
-
+  presente_conjuntivo:
     context:
       default:
-        cue: "Espero que ele"
+        cue: "Espero que"
         hint: "tempo suficiente"
 
-  subjunctive_imperfect:
-    forms:
-      1sg: tivesse
-      2sg: tivesses
-      3sg: tivesse
-      1pl: tivéssemos
-      2pl: tivésseis
-      3pl: tivessem
+    pattern: "[[Irregular]]: The presente do conjuntivo uses the stem `tenh-`, from the presente do indicativo eu-form `tenho`."
 
+  preterito_imperfeito_conjuntivo:
     context:
       default:
-        cue: "Se nós"
+        cue: "Se"
         hint: "mais dinheiro"
 
-  subjunctive_future:
-    forms:
-      1sg: tiver
-      2sg: tiveres
-      3sg: tiver
-      1pl: tivermos
-      2pl: tiverdes
-      3pl: tiverem
+    pattern: "[[Irregular]]: The pretérito imperfeito do conjuntivo uses the stem `tiv-`."
+    notes:
+      1pl: "`-êssemos` is the regular ending for verbs in ~-er~. Note the change ~ê → é~."
+      2pl: "`-êsseis` is the regular ending for verbs in ~-er~. Note the change ~ê → é~."
 
+  futuro_conjuntivo:
     context:
       default:
-        cue: "Quando eu"
+        cue: "Quando"
         hint: "a oportunidade"
 
-  imperative_affirmative:
-    forms:
-      2sg: tem
-      3sg: tenha
-      1pl: tenhamos
-      2pl: tende
-      3pl: tenham
+    pattern: "[[Irregular]]: The futuro do conjuntivo uses the stem `tiv-`."
 
+  imperativo_afirmativo:
     context:
       default:
-        cue: "Não te preocupes;"
+        cue: "Neste momento,"
         hint: "paciência"
 
-  imperative_negative:
-    forms:
-      2sg: não tenhas
-      3sg: não tenha
-      1pl: não tenhamos
-      2pl: não tenhais
-      3pl: não tenham
+    notes:
+      2sg: "[[Irregular]]: This form is usually built on ~tu~ form of the presente do indicativo without the final ~s~, which would give *ten*."
+      3sg: "[[Regular]]: Same presente do conjuntivo ~ele~ form."
+      1pl: "[[Regular]]: Same presente do conjuntivo ~nós~ form."
+      2pl: "[[Regular]]: Built on ~vós~ form of the presente do indicativo without the final ~s~."
+      3pl: "[[Regular]]: Same presente do conjuntivo ~eles~ form."
 
+  imperativo_negativo:
     context:
       default:
-        cue: "Por favor,"
+        cue: "Por favor, não"
         hint: "medo"
 
-  personal_infinitive:
-    forms:
-      1sg: ter
-      2sg: teres
-      3sg: ter
-      1pl: termos
-      2pl: terdes
-      3pl: terem
+    pattern: "[[Regular]]: Forms follow normal construction rule."
 
+  infinitivo_pessoal:
     context:
       default:
         cue: "É bom"
         hint: "amigos por perto"
 
-  gerund:
-    forms:
-      all: tendo
-
+  gerundio:
     context:
       default:
-        cue: "Ele saiu de casa"
-        hint: "muito cuidado"
+        cue: "Ele conseguiu o lugar,"
+        hint: "apenas vinte anos"
 
-  past_participle:
-    forms:
-      all: tido
-
+  participio_passado:
     context:
       default:
-        cue: "Depois de"
+        cue: "Depois de ter"
         hint: "a oportunidade"

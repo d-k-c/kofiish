@@ -1,0 +1,199 @@
+metadata:
+  lemma: dar
+  translation: to give
+
+transformations:
+  - conjugator_ar
+
+tenses:
+  presente_indicativo:
+    forms:
+      1sg: dou
+      2sg: dás
+      3sg: dá
+      1pl: damos
+      2pl: dais
+      3pl: dão
+
+    context:
+      default:
+        cue: "Hoje,"
+        hint: "um presente à mãe"
+
+    notes:
+      1sg: "[[Irregular]]: Ending `-ou` instead of the expected `-o`."
+      2sg: "`-as` is the regular ending for verbs in ~-ar~. The ~á~ is the accent every stressed monosyllable ending in ~-as~ takes."
+      3sg: "`-a` is the regular ending for verbs in ~-ar~. The ~á~ is the accent every stressed monosyllable ending in ~-a~ takes."
+      3pl: "[[Irregular]]: Ending `-ão` instead of the expected `-am`."
+
+  preterito_perfeito_indicativo:
+    forms:
+      1sg: dei
+      2sg: deste
+      3sg: deu
+      1pl: demos
+      2pl: destes
+      3pl: deram
+
+    context:
+      default:
+        cue: "Ontem,"
+        hint: "um abraço ao avô"
+
+    pattern: "[[Irregular]]: The pretérito perfeito uses the endings of verbs in ~-er~ instead of ~-ar~ (except `dei`)."
+
+  preterito_imperfeito_indicativo:
+    forms:
+      1sg: dava
+      2sg: davas
+      3sg: dava
+      1pl: dávamos
+      2pl: dáveis
+      3pl: davam
+
+    context:
+      default:
+        cue: "Todos os domingos,"
+        hint: "um passeio pelo parque"
+
+  futuro_indicativo:
+    forms:
+      1sg: darei
+      2sg: darás
+      3sg: dará
+      1pl: daremos
+      2pl: dareis
+      3pl: darão
+
+    context:
+      default:
+        cue: "Amanhã,"
+        hint: "a boa notícia à família"
+
+  condicional:
+    forms:
+      1sg: daria
+      2sg: darias
+      3sg: daria
+      1pl: daríamos
+      2pl: daríeis
+      3pl: dariam
+
+    context:
+      default:
+        cue: "Se fosse possível,"
+        hint: "mais atenção ao assunto"
+
+  presente_conjuntivo:
+    forms:
+      1sg: dê
+      2sg: dês
+      3sg: dê
+      1pl: demos
+      2pl: deis
+      3pl: deem
+
+    context:
+      default:
+        cue: "Espero que"
+        hint: "um exemplo aos alunos"
+
+    notes:
+      1sg: "`-e` is the regular ending for verbs in ~-ar~. The ~ê~ is the accent every stressed monosyllable ending in ~-e~ takes."
+      2sg: "`-es` is the regular ending for verbs in ~-ar~. The ~ê~ is the accent every stressed monosyllable ending in ~-es~ takes."
+      3sg: "`-e` is the regular ending for verbs in ~-ar~. The ~ê~ is the accent every stressed monosyllable ending in ~-e~ takes."
+      3pl: "[[Irregular]]: The ~e~ is doubled (`deem`, not *dem*)."
+
+  preterito_imperfeito_conjuntivo:
+    forms:
+      1sg: desse
+      2sg: desses
+      3sg: desse
+      1pl: déssemos
+      2pl: désseis
+      3pl: dessem
+
+    context:
+      default:
+        cue: "Se"
+        hint: "mais valor ao trabalho"
+
+    pattern: "[[Irregular]]: The pretérito imperfeito do conjuntivo uses the endings of verbs in ~-er~ instead of ~-ar~."
+
+  futuro_conjuntivo:
+    forms:
+      1sg: der
+      2sg: deres
+      3sg: der
+      1pl: dermos
+      2pl: derdes
+      3pl: derem
+
+    context:
+      default:
+        cue: "Quando"
+        hint: "a resposta certa"
+
+    pattern: "[[Irregular]]: The futuro do conjuntivo uses the endings of verbs in ~-er~ instead of ~-ar~."
+
+  imperativo_afirmativo:
+    forms:
+      2sg: dá
+      3sg: dê
+      1pl: demos
+      2pl: dai
+      3pl: deem
+
+    context:
+      default:
+        cue: "Por favor,"
+        hint: "uma ajuda a um amigo"
+
+    pattern: "[[Regular]]: Forms follow normal construction rule."
+
+  imperativo_negativo:
+    forms:
+      2sg: dês
+      3sg: dê
+      1pl: demos
+      2pl: deis
+      3pl: deem
+
+    context:
+      default:
+        cue: "Por favor, não"
+        hint: "desculpas"
+
+    pattern: "[[Regular]]: Forms follow normal construction rule."
+
+  infinitivo_pessoal:
+    forms:
+      1sg: dar
+      2sg: dares
+      3sg: dar
+      1pl: darmos
+      2pl: dardes
+      3pl: darem
+
+    context:
+      default:
+        cue: "É importante"
+        hint: "asas à imaginação"
+
+  gerundio:
+    forms:
+      all: dando
+
+    context:
+      default:
+        cue: "Ela agradeceu"
+        hint: "um abraço a cada um"
+
+  participio_passado:
+    forms:
+      all: dado
+
+    context:
+      default:
+        cue: "Depois de ter"
+        hint: "a notícia"

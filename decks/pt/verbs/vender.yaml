@@ -1,0 +1,92 @@
+metadata:
+  lemma: vender
+  translation: to sell
+
+transformations:
+  - conjugator_er
+
+analogs:
+  comer: {}
+  beber: {}
+  aprender: {}
+  correr: {}
+  receber: {}
+
+tenses:
+  presente_indicativo:
+    context:
+      default:
+        cue: "Aos sábados,"
+        hint: "flores no mercado"
+
+  preterito_perfeito_indicativo:
+    context:
+      default:
+        cue: "Ontem,"
+        hint: "o carro velho"
+
+  preterito_imperfeito_indicativo:
+    context:
+      default:
+        cue: "Antigamente,"
+        hint: "produtos na feira"
+
+  futuro_indicativo:
+    context:
+      default:
+        cue: "Para o Natal,"
+        hint: "brinquedos artesanais"
+
+  condicional:
+    context:
+      default:
+        cue: "Em caso de necessidade,"
+        hint: "a bicicleta"
+
+  presente_conjuntivo:
+    context:
+      default:
+        cue: "Espero que"
+        hint: "a casa por um bom preço"
+
+  preterito_imperfeito_conjuntivo:
+    context:
+      default:
+        cue: "Se"
+        hint: "tudo mais barato"
+
+  futuro_conjuntivo:
+    context:
+      default:
+        cue: "Quando"
+        hint: "a última peça"
+
+  imperativo_afirmativo:
+    context:
+      default:
+        cue: "Por favor,"
+        hint: "os bilhetes que sobraram"
+
+  imperativo_negativo:
+    context:
+      default:
+        cue: "Por favor, não"
+        hint: "essa peça por tão pouco"
+
+  infinitivo_pessoal:
+    context:
+      default:
+        cue: "É importante"
+        hint: "com transparência"
+
+  gerundio:
+    context:
+      default:
+        cue: "Ela juntou dinheiro para a viagem"
+        hint: "bolos na feira"
+
+  participio_passado:
+    context:
+      default:
+        cue: "O carro foi"
+        hint: null

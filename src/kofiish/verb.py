@@ -1,140 +1,115 @@
-import yaml
+from __future__ import annotations
 
 from dataclasses import dataclass, field
-from enum import StrEnum
 from pathlib import Path
-from typing import Optional
+from typing import TypeAlias
 
-class Person(StrEnum):
+import yaml
 
-    FIRST_SINGULAR  = "1sg"
-    SECOND_SINGULAR = "2sg"
-    THIRD_SINGULAR  = "3sg"
-    FIRST_PLUPAL    = "1pl"
-    SECOND_PLUPAL   = "2pl"
-    THIRD_PLUPAL    = "3pl"
-    ALL             = "all"
+
+# Morphology is deliberately independent of YAML, deck configuration, and
+# rendering. A tense maps a person (for example ``"1sg"``) to its form.
+Tense: TypeAlias = dict[str, str | None]
+Verb: TypeAlias = dict[str, Tense]
+
 
 @dataclass
 class Context:
-    cue: str
-    hint: Optional[str] = None
+    cue: str | None
+    hint: str | None = None
 
-
-class Form:
-
-    def __init__(self, tense, person, form):
-        self.tense = tense
-        self.person = person
-        self.form = form
-
-    @property
-    def context(self):
-        return self.tense.get_context(self.person)
-
-    @property
-    def analogs(self):
-        return self.tense.get_analogs(self.person)
-
-    def __repr__(self):
-        attr = ["person", "form", "context", "analogs"]
-
-        rep = ", ".join(["'{0}': {1}".format(a, getattr(self, a)) for a in attr])
-
-        return "<Form (" + rep + ")>"
 
 @dataclass
-class Tense:
-    verb: "Verb"
-    tense: str
-    forms: dict[str, Form] = field(default_factory=dict)
-    contexes: dict[str, Context] = field(default_factory=dict)
+class VerbDefinition:
+    """Sparse verb data authored in a verb YAML file."""
 
-    def __getitem__(self, key):
-        try:
-            p = Person(key)
-        except ValueError:
-            raise KeyError(f"Invalid key for Tense dictionary: {key}")
-
-        if key not in self.forms:
-            self.forms[key] = Form(self, key, None)
-
-        return self.forms[key]
-
-
-    def get_context(self, person):
-        key = person if person in self.contexes else "default"
-
-        return self.contexes[key]
-
-    def get_analogs(self, person):
-        result = []
-
-        for a in self.verb.analogs:
-            if not self.tense in a.tenses:
-                continue
-
-            t = a.tenses[self.tense]
-            if not person in t.forms:
-                continue
-
-            result.append((a.lemma, t[person]))
-
-        return result
-
-@dataclass
-class Verb:
     lemma: str
-    translation: str = field(default_factory=str)
-    conjugation_type: str = field(default_factory=str)
+    translation: str
+    transformations: tuple[str, ...]
+    forms: Verb = field(default_factory=dict)
+    contexts: dict[str, dict[str, Context]] = field(default_factory=dict)
+    analogs: dict[str, Verb] = field(default_factory=dict)
+    notes: dict[str, dict[str, str]] = field(default_factory=dict)
+    # One note per tense, shown on every card of that tense: a pattern
+    # shared by all its forms, e.g. an irregular stem.
+    patterns: dict[str, str] = field(default_factory=dict)
 
-    tenses: dict[str, Tense] = field(default_factory=dict)
-    analogs: list["Verb"] = field(default_factory=list)
 
-class VerbYamlLoader:
+@dataclass
+class ResolvedVerb:
+    """A verb ready for card generation after morphology and overrides merge."""
 
-    def load(self, path: str | Path):
+    lemma: str
+    translation: str
+    forms: Verb
+    contexts: dict[str, dict[str, Context]]
+    analogs: dict[str, Verb] = field(default_factory=dict)
+    notes: dict[str, dict[str, str]] = field(default_factory=dict)
+
+    def get_context(self, tense_name: str, person: str) -> Context:
+        tense_contexts = self.contexts[tense_name]
+        return tense_contexts.get(person, tense_contexts["default"])
+
+    def get_note(self, tense_name: str, person: str) -> str | None:
+        return self.notes.get(tense_name, {}).get(person)
+
+
+class VerbDefinitionYamlLoader:
+    def load(self, path: str | Path) -> VerbDefinition:
         path = Path(path)
 
         with path.open("r", encoding="utf-8") as f:
             data = yaml.safe_load(f)
 
         metadata = data["metadata"]
-        conjugation = data["conjugation"]
-
-        verb = Verb(
+        return VerbDefinition(
             lemma=metadata["lemma"],
             translation=metadata["translation"],
-            conjugation_type=conjugation["type"],
+            transformations=tuple(data.get("transformations", ())),
+            forms=self._load_forms(data.get("tenses", {})),
+            contexts=self._load_contexts(data.get("tenses", {})),
+            analogs=self._load_analogs(data.get("analogs") or {}),
+            notes=self._load_notes(data.get("tenses", {})),
+            patterns=self._load_patterns(data.get("tenses", {})),
         )
 
-        for tense_name, tense_data in data.get("tenses", {}).items():
-            tense = Tense(verb, tense_name)
+    @staticmethod
+    def _load_forms(tenses: dict) -> Verb:
+        return {
+            tense_name: dict(tense_data.get("forms", {}))
+            for tense_name, tense_data in tenses.items()
+        }
 
-            tense.contexes = dict()
-            for ctx_key, ctx_data in tense_data.get("context").items():
-                ctx = Context(
-                        cue=ctx_data.get("cue"),
-                        hint=ctx_data.get("hint"))
-                tense.contexes[ctx_key] = ctx
+    @staticmethod
+    def _load_contexts(tenses: dict) -> dict[str, dict[str, Context]]:
+        return {
+            tense_name: {
+                context_key: Context(
+                    cue=context_data.get("cue"),
+                    hint=context_data.get("hint"),
+                )
+                for context_key, context_data in tense_data.get("context", {}).items()
+            }
+            for tense_name, tense_data in tenses.items()
+        }
 
-            for person, form in tense_data.get("forms", {}).items():
-                f = Form(tense, person, form)
-                tense.forms[person] = f
+    @staticmethod
+    def _load_notes(tenses: dict) -> dict[str, dict[str, str]]:
+        return {
+            tense_name: dict(tense_data.get("notes", {}))
+            for tense_name, tense_data in tenses.items()
+        }
 
-            verb.tenses[tense_name] = tense
+    @staticmethod
+    def _load_patterns(tenses: dict) -> dict[str, str]:
+        return {
+            tense_name: tense_data["pattern"]
+            for tense_name, tense_data in tenses.items()
+            if tense_data.get("pattern")
+        }
 
-        for lemma, analog_data in data.get("analogs", {}).items():
-            analog = Verb(lemma=lemma)
-
-            for tense_name, tense_data in analog_data.items():
-                tense = Tense(analog, tense_name)
-
-                for person, form in tense_data.get("forms", {}).items():
-                    tense.forms[person] = form
-
-                analog.tenses[tense_name] = tense
-
-            verb.analogs.append(analog)
-
-        return verb
+    def _load_analogs(self, analogs: dict) -> dict[str, Verb]:
+        return {
+            lemma: self._load_forms(tenses)
+            for lemma, tenses in analogs.items()
+        }

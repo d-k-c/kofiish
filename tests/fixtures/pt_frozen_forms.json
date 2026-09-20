@@ -1,0 +1,1882 @@
+{
+ "atrair": {
+  "condicional": {
+   "1pl": "atrairíamos",
+   "1sg": "atrairia",
+   "2pl": "atrairíeis",
+   "2sg": "atrairias",
+   "3pl": "atrairiam",
+   "3sg": "atrairia"
+  },
+  "futuro_conjuntivo": {
+   "1pl": "atrairmos",
+   "1sg": "atrair",
+   "2pl": "atrairdes",
+   "2sg": "atraíres",
+   "3pl": "atraírem",
+   "3sg": "atrair"
+  },
+  "futuro_indicativo": {
+   "1pl": "atrairemos",
+   "1sg": "atrairei",
+   "2pl": "atraireis",
+   "2sg": "atrairás",
+   "3pl": "atrairão",
+   "3sg": "atrairá"
+  },
+  "gerundio": {
+   "all": "atraindo"
+  },
+  "imperativo_afirmativo": {
+   "1pl": "atraiamos",
+   "2pl": "atraí",
+   "2sg": "atrai",
+   "3pl": "atraiam",
+   "3sg": "atraia"
+  },
+  "imperativo_negativo": {
+   "1pl": "atraiamos",
+   "2pl": "atraiais",
+   "2sg": "atraias",
+   "3pl": "atraiam",
+   "3sg": "atraia"
+  },
+  "infinitivo_pessoal": {
+   "1pl": "atrairmos",
+   "1sg": "atrair",
+   "2pl": "atrairdes",
+   "2sg": "atraíres",
+   "3pl": "atraírem",
+   "3sg": "atrair"
+  },
+  "participio_passado": {
+   "all": "atraído"
+  },
+  "presente_conjuntivo": {
+   "1pl": "atraiamos",
+   "1sg": "atraia",
+   "2pl": "atraiais",
+   "2sg": "atraias",
+   "3pl": "atraiam",
+   "3sg": "atraia"
+  },
+  "presente_indicativo": {
+   "1pl": "atraímos",
+   "1sg": "atraio",
+   "2pl": "atraís",
+   "2sg": "atrais",
+   "3pl": "atraem",
+   "3sg": "atrai"
+  },
+  "preterito_imperfeito_conjuntivo": {
+   "1pl": "atraíssemos",
+   "1sg": "atraísse",
+   "2pl": "atraísseis",
+   "2sg": "atraísses",
+   "3pl": "atraíssem",
+   "3sg": "atraísse"
+  },
+  "preterito_imperfeito_indicativo": {
+   "1pl": "atraíamos",
+   "1sg": "atraía",
+   "2pl": "atraíeis",
+   "2sg": "atraías",
+   "3pl": "atraíam",
+   "3sg": "atraía"
+  },
+  "preterito_perfeito_indicativo": {
+   "1pl": "atraímos",
+   "1sg": "atraí",
+   "2pl": "atraístes",
+   "2sg": "atraíste",
+   "3pl": "atraíram",
+   "3sg": "atraiu"
+  }
+ },
+ "cair": {
+  "condicional": {
+   "1pl": "cairíamos",
+   "1sg": "cairia",
+   "2pl": "cairíeis",
+   "2sg": "cairias",
+   "3pl": "cairiam",
+   "3sg": "cairia"
+  },
+  "futuro_conjuntivo": {
+   "1pl": "cairmos",
+   "1sg": "cair",
+   "2pl": "cairdes",
+   "2sg": "caíres",
+   "3pl": "caírem",
+   "3sg": "cair"
+  },
+  "futuro_indicativo": {
+   "1pl": "cairemos",
+   "1sg": "cairei",
+   "2pl": "caireis",
+   "2sg": "cairás",
+   "3pl": "cairão",
+   "3sg": "cairá"
+  },
+  "gerundio": {
+   "all": "caindo"
+  },
+  "imperativo_afirmativo": {
+   "1pl": "caiamos",
+   "2pl": "caí",
+   "2sg": "cai",
+   "3pl": "caiam",
+   "3sg": "caia"
+  },
+  "imperativo_negativo": {
+   "1pl": "caiamos",
+   "2pl": "caiais",
+   "2sg": "caias",
+   "3pl": "caiam",
+   "3sg": "caia"
+  },
+  "infinitivo_pessoal": {
+   "1pl": "cairmos",
+   "1sg": "cair",
+   "2pl": "cairdes",
+   "2sg": "caíres",
+   "3pl": "caírem",
+   "3sg": "cair"
+  },
+  "participio_passado": {
+   "all": "caído"
+  },
+  "presente_conjuntivo": {
+   "1pl": "caiamos",
+   "1sg": "caia",
+   "2pl": "caiais",
+   "2sg": "caias",
+   "3pl": "caiam",
+   "3sg": "caia"
+  },
+  "presente_indicativo": {
+   "1pl": "caímos",
+   "1sg": "caio",
+   "2pl": "caís",
+   "2sg": "cais",
+   "3pl": "caem",
+   "3sg": "cai"
+  },
+  "preterito_imperfeito_conjuntivo": {
+   "1pl": "caíssemos",
+   "1sg": "caísse",
+   "2pl": "caísseis",
+   "2sg": "caísses",
+   "3pl": "caíssem",
+   "3sg": "caísse"
+  },
+  "preterito_imperfeito_indicativo": {
+   "1pl": "caíamos",
+   "1sg": "caía",
+   "2pl": "caíeis",
+   "2sg": "caías",
+   "3pl": "caíam",
+   "3sg": "caía"
+  },
+  "preterito_perfeito_indicativo": {
+   "1pl": "caímos",
+   "1sg": "caí",
+   "2pl": "caístes",
+   "2sg": "caíste",
+   "3pl": "caíram",
+   "3sg": "caiu"
+  }
+ },
+ "conter": {
+  "condicional": {
+   "1pl": "conteríamos",
+   "1sg": "conteria",
+   "2pl": "conteríeis",
+   "2sg": "conterias",
+   "3pl": "conteriam",
+   "3sg": "conteria"
+  },
+  "futuro_conjuntivo": {
+   "1pl": "contivermos",
+   "1sg": "contiver",
+   "2pl": "contiverdes",
+   "2sg": "contiveres",
+   "3pl": "contiverem",
+   "3sg": "contiver"
+  },
+  "futuro_indicativo": {
+   "1pl": "conteremos",
+   "1sg": "conterei",
+   "2pl": "contereis",
+   "2sg": "conterás",
+   "3pl": "conterão",
+   "3sg": "conterá"
+  },
+  "gerundio": {
+   "all": "contendo"
+  },
+  "imperativo_afirmativo": {
+   "1pl": "contenhamos",
+   "2pl": "contende",
+   "2sg": "contém",
+   "3pl": "contenham",
+   "3sg": "contenha"
+  },
+  "imperativo_negativo": {
+   "1pl": "contenhamos",
+   "2pl": "contenhais",
+   "2sg": "contenhas",
+   "3pl": "contenham",
+   "3sg": "contenha"
+  },
+  "infinitivo_pessoal": {
+   "1pl": "contermos",
+   "1sg": "conter",
+   "2pl": "conterdes",
+   "2sg": "conteres",
+   "3pl": "conterem",
+   "3sg": "conter"
+  },
+  "participio_passado": {
+   "all": "contido"
+  },
+  "presente_conjuntivo": {
+   "1pl": "contenhamos",
+   "1sg": "contenha",
+   "2pl": "contenhais",
+   "2sg": "contenhas",
+   "3pl": "contenham",
+   "3sg": "contenha"
+  },
+  "presente_indicativo": {
+   "1pl": "contemos",
+   "1sg": "contenho",
+   "2pl": "contendes",
+   "2sg": "conténs",
+   "3pl": "contêm",
+   "3sg": "contém"
+  },
+  "preterito_imperfeito_conjuntivo": {
+   "1pl": "contivéssemos",
+   "1sg": "contivesse",
+   "2pl": "contivésseis",
+   "2sg": "contivesses",
+   "3pl": "contivessem",
+   "3sg": "contivesse"
+  },
+  "preterito_imperfeito_indicativo": {
+   "1pl": "contínhamos",
+   "1sg": "continha",
+   "2pl": "contínheis",
+   "2sg": "continhas",
+   "3pl": "continham",
+   "3sg": "continha"
+  },
+  "preterito_perfeito_indicativo": {
+   "1pl": "contivemos",
+   "1sg": "contive",
+   "2pl": "contivestes",
+   "2sg": "contiveste",
+   "3pl": "contiveram",
+   "3sg": "conteve"
+  }
+ },
+ "convir": {
+  "condicional": {
+   "1pl": "conviríamos",
+   "1sg": "conviria",
+   "2pl": "conviríeis",
+   "2sg": "convirias",
+   "3pl": "conviriam",
+   "3sg": "conviria"
+  },
+  "futuro_conjuntivo": {
+   "1pl": "conviermos",
+   "1sg": "convier",
+   "2pl": "convierdes",
+   "2sg": "convieres",
+   "3pl": "convierem",
+   "3sg": "convier"
+  },
+  "futuro_indicativo": {
+   "1pl": "conviremos",
+   "1sg": "convirei",
+   "2pl": "convireis",
+   "2sg": "convirás",
+   "3pl": "convirão",
+   "3sg": "convirá"
+  },
+  "gerundio": {
+   "all": "convindo"
+  },
+  "imperativo_afirmativo": {
+   "1pl": "convenhamos",
+   "2pl": "convinde",
+   "2sg": "convém",
+   "3pl": "convenham",
+   "3sg": "convenha"
+  },
+  "imperativo_negativo": {
+   "1pl": "convenhamos",
+   "2pl": "convenhais",
+   "2sg": "convenhas",
+   "3pl": "convenham",
+   "3sg": "convenha"
+  },
+  "infinitivo_pessoal": {
+   "1pl": "convirmos",
+   "1sg": "convir",
+   "2pl": "convirdes",
+   "2sg": "convires",
+   "3pl": "convirem",
+   "3sg": "convir"
+  },
+  "participio_passado": {
+   "all": "convindo"
+  },
+  "presente_conjuntivo": {
+   "1pl": "convenhamos",
+   "1sg": "convenha",
+   "2pl": "convenhais",
+   "2sg": "convenhas",
+   "3pl": "convenham",
+   "3sg": "convenha"
+  },
+  "presente_indicativo": {
+   "1pl": "convimos",
+   "1sg": "convenho",
+   "2pl": "convindes",
+   "2sg": "convéns",
+   "3pl": "convêm",
+   "3sg": "convém"
+  },
+  "preterito_imperfeito_conjuntivo": {
+   "1pl": "conviéssemos",
+   "1sg": "conviesse",
+   "2pl": "conviésseis",
+   "2sg": "conviesses",
+   "3pl": "conviessem",
+   "3sg": "conviesse"
+  },
+  "preterito_imperfeito_indicativo": {
+   "1pl": "convínhamos",
+   "1sg": "convinha",
+   "2pl": "convínheis",
+   "2sg": "convinhas",
+   "3pl": "convinham",
+   "3sg": "convinha"
+  },
+  "preterito_perfeito_indicativo": {
+   "1pl": "conviemos",
+   "1sg": "convim",
+   "2pl": "conviestes",
+   "2sg": "convieste",
+   "3pl": "convieram",
+   "3sg": "conveio"
+  }
+ },
+ "crer": {
+  "condicional": {
+   "1pl": "creríamos",
+   "1sg": "creria",
+   "2pl": "creríeis",
+   "2sg": "crerias",
+   "3pl": "creriam",
+   "3sg": "creria"
+  },
+  "futuro_conjuntivo": {
+   "1pl": "crermos",
+   "1sg": "crer",
+   "2pl": "crerdes",
+   "2sg": "creres",
+   "3pl": "crerem",
+   "3sg": "crer"
+  },
+  "futuro_indicativo": {
+   "1pl": "creremos",
+   "1sg": "crerei",
+   "2pl": "crereis",
+   "2sg": "crerás",
+   "3pl": "crerão",
+   "3sg": "crerá"
+  },
+  "gerundio": {
+   "all": "crendo"
+  },
+  "imperativo_afirmativo": {
+   "1pl": "creiamos",
+   "2pl": "crede",
+   "2sg": "crê",
+   "3pl": "creiam",
+   "3sg": "creia"
+  },
+  "imperativo_negativo": {
+   "1pl": "creiamos",
+   "2pl": "creiais",
+   "2sg": "creias",
+   "3pl": "creiam",
+   "3sg": "creia"
+  },
+  "infinitivo_pessoal": {
+   "1pl": "crermos",
+   "1sg": "crer",
+   "2pl": "crerdes",
+   "2sg": "creres",
+   "3pl": "crerem",
+   "3sg": "crer"
+  },
+  "participio_passado": {
+   "all": "crido"
+  },
+  "presente_conjuntivo": {
+   "1pl": "creiamos",
+   "1sg": "creia",
+   "2pl": "creiais",
+   "2sg": "creias",
+   "3pl": "creiam",
+   "3sg": "creia"
+  },
+  "presente_indicativo": {
+   "1pl": "cremos",
+   "1sg": "creio",
+   "2pl": "credes",
+   "2sg": "crês",
+   "3pl": "creem",
+   "3sg": "crê"
+  },
+  "preterito_imperfeito_conjuntivo": {
+   "1pl": "crêssemos",
+   "1sg": "cresse",
+   "2pl": "crêsseis",
+   "2sg": "cresses",
+   "3pl": "cressem",
+   "3sg": "cresse"
+  },
+  "preterito_imperfeito_indicativo": {
+   "1pl": "críamos",
+   "1sg": "cria",
+   "2pl": "críeis",
+   "2sg": "crias",
+   "3pl": "criam",
+   "3sg": "cria"
+  },
+  "preterito_perfeito_indicativo": {
+   "1pl": "cremos",
+   "1sg": "cri",
+   "2pl": "crestes",
+   "2sg": "creste",
+   "3pl": "creram",
+   "3sg": "creu"
+  }
+ },
+ "deter": {
+  "condicional": {
+   "1pl": "deteríamos",
+   "1sg": "deteria",
+   "2pl": "deteríeis",
+   "2sg": "deterias",
+   "3pl": "deteriam",
+   "3sg": "deteria"
+  },
+  "futuro_conjuntivo": {
+   "1pl": "detivermos",
+   "1sg": "detiver",
+   "2pl": "detiverdes",
+   "2sg": "detiveres",
+   "3pl": "detiverem",
+   "3sg": "detiver"
+  },
+  "futuro_indicativo": {
+   "1pl": "deteremos",
+   "1sg": "deterei",
+   "2pl": "detereis",
+   "2sg": "deterás",
+   "3pl": "deterão",
+   "3sg": "deterá"
+  },
+  "gerundio": {
+   "all": "detendo"
+  },
+  "imperativo_afirmativo": {
+   "1pl": "detenhamos",
+   "2pl": "detende",
+   "2sg": "detém",
+   "3pl": "detenham",
+   "3sg": "detenha"
+  },
+  "imperativo_negativo": {
+   "1pl": "detenhamos",
+   "2pl": "detenhais",
+   "2sg": "detenhas",
+   "3pl": "detenham",
+   "3sg": "detenha"
+  },
+  "infinitivo_pessoal": {
+   "1pl": "determos",
+   "1sg": "deter",
+   "2pl": "deterdes",
+   "2sg": "deteres",
+   "3pl": "deterem",
+   "3sg": "deter"
+  },
+  "participio_passado": {
+   "all": "detido"
+  },
+  "presente_conjuntivo": {
+   "1pl": "detenhamos",
+   "1sg": "detenha",
+   "2pl": "detenhais",
+   "2sg": "detenhas",
+   "3pl": "detenham",
+   "3sg": "detenha"
+  },
+  "presente_indicativo": {
+   "1pl": "detemos",
+   "1sg": "detenho",
+   "2pl": "detendes",
+   "2sg": "deténs",
+   "3pl": "detêm",
+   "3sg": "detém"
+  },
+  "preterito_imperfeito_conjuntivo": {
+   "1pl": "detivéssemos",
+   "1sg": "detivesse",
+   "2pl": "detivésseis",
+   "2sg": "detivesses",
+   "3pl": "detivessem",
+   "3sg": "detivesse"
+  },
+  "preterito_imperfeito_indicativo": {
+   "1pl": "detínhamos",
+   "1sg": "detinha",
+   "2pl": "detínheis",
+   "2sg": "detinhas",
+   "3pl": "detinham",
+   "3sg": "detinha"
+  },
+  "preterito_perfeito_indicativo": {
+   "1pl": "detivemos",
+   "1sg": "detive",
+   "2pl": "detivestes",
+   "2sg": "detiveste",
+   "3pl": "detiveram",
+   "3sg": "deteve"
+  }
+ },
+ "entreter": {
+  "condicional": {
+   "1pl": "entreteríamos",
+   "1sg": "entreteria",
+   "2pl": "entreteríeis",
+   "2sg": "entreterias",
+   "3pl": "entreteriam",
+   "3sg": "entreteria"
+  },
+  "futuro_conjuntivo": {
+   "1pl": "entretivermos",
+   "1sg": "entretiver",
+   "2pl": "entretiverdes",
+   "2sg": "entretiveres",
+   "3pl": "entretiverem",
+   "3sg": "entretiver"
+  },
+  "futuro_indicativo": {
+   "1pl": "entreteremos",
+   "1sg": "entreterei",
+   "2pl": "entretereis",
+   "2sg": "entreterás",
+   "3pl": "entreterão",
+   "3sg": "entreterá"
+  },
+  "gerundio": {
+   "all": "entretendo"
+  },
+  "imperativo_afirmativo": {
+   "1pl": "entretenhamos",
+   "2pl": "entretende",
+   "2sg": "entretém",
+   "3pl": "entretenham",
+   "3sg": "entretenha"
+  },
+  "imperativo_negativo": {
+   "1pl": "entretenhamos",
+   "2pl": "entretenhais",
+   "2sg": "entretenhas",
+   "3pl": "entretenham",
+   "3sg": "entretenha"
+  },
+  "infinitivo_pessoal": {
+   "1pl": "entretermos",
+   "1sg": "entreter",
+   "2pl": "entreterdes",
+   "2sg": "entreteres",
+   "3pl": "entreterem",
+   "3sg": "entreter"
+  },
+  "participio_passado": {
+   "all": "entretido"
+  },
+  "presente_conjuntivo": {
+   "1pl": "entretenhamos",
+   "1sg": "entretenha",
+   "2pl": "entretenhais",
+   "2sg": "entretenhas",
+   "3pl": "entretenham",
+   "3sg": "entretenha"
+  },
+  "presente_indicativo": {
+   "1pl": "entretemos",
+   "1sg": "entretenho",
+   "2pl": "entretendes",
+   "2sg": "entreténs",
+   "3pl": "entretêm",
+   "3sg": "entretém"
+  },
+  "preterito_imperfeito_conjuntivo": {
+   "1pl": "entretivéssemos",
+   "1sg": "entretivesse",
+   "2pl": "entretivésseis",
+   "2sg": "entretivesses",
+   "3pl": "entretivessem",
+   "3sg": "entretivesse"
+  },
+  "preterito_imperfeito_indicativo": {
+   "1pl": "entretínhamos",
+   "1sg": "entretinha",
+   "2pl": "entretínheis",
+   "2sg": "entretinhas",
+   "3pl": "entretinham",
+   "3sg": "entretinha"
+  },
+  "preterito_perfeito_indicativo": {
+   "1pl": "entretivemos",
+   "1sg": "entretive",
+   "2pl": "entretivestes",
+   "2sg": "entretiveste",
+   "3pl": "entretiveram",
+   "3sg": "entreteve"
+  }
+ },
+ "intervir": {
+  "condicional": {
+   "1pl": "interviríamos",
+   "1sg": "interviria",
+   "2pl": "interviríeis",
+   "2sg": "intervirias",
+   "3pl": "interviriam",
+   "3sg": "interviria"
+  },
+  "futuro_conjuntivo": {
+   "1pl": "interviermos",
+   "1sg": "intervier",
+   "2pl": "intervierdes",
+   "2sg": "intervieres",
+   "3pl": "intervierem",
+   "3sg": "intervier"
+  },
+  "futuro_indicativo": {
+   "1pl": "interviremos",
+   "1sg": "intervirei",
+   "2pl": "intervireis",
+   "2sg": "intervirás",
+   "3pl": "intervirão",
+   "3sg": "intervirá"
+  },
+  "gerundio": {
+   "all": "intervindo"
+  },
+  "imperativo_afirmativo": {
+   "1pl": "intervenhamos",
+   "2pl": "intervinde",
+   "2sg": "intervém",
+   "3pl": "intervenham",
+   "3sg": "intervenha"
+  },
+  "imperativo_negativo": {
+   "1pl": "intervenhamos",
+   "2pl": "intervenhais",
+   "2sg": "intervenhas",
+   "3pl": "intervenham",
+   "3sg": "intervenha"
+  },
+  "infinitivo_pessoal": {
+   "1pl": "intervirmos",
+   "1sg": "intervir",
+   "2pl": "intervirdes",
+   "2sg": "intervires",
+   "3pl": "intervirem",
+   "3sg": "intervir"
+  },
+  "participio_passado": {
+   "all": "intervindo"
+  },
+  "presente_conjuntivo": {
+   "1pl": "intervenhamos",
+   "1sg": "intervenha",
+   "2pl": "intervenhais",
+   "2sg": "intervenhas",
+   "3pl": "intervenham",
+   "3sg": "intervenha"
+  },
+  "presente_indicativo": {
+   "1pl": "intervimos",
+   "1sg": "intervenho",
+   "2pl": "intervindes",
+   "2sg": "intervéns",
+   "3pl": "intervêm",
+   "3sg": "intervém"
+  },
+  "preterito_imperfeito_conjuntivo": {
+   "1pl": "interviéssemos",
+   "1sg": "interviesse",
+   "2pl": "interviésseis",
+   "2sg": "interviesses",
+   "3pl": "interviessem",
+   "3sg": "interviesse"
+  },
+  "preterito_imperfeito_indicativo": {
+   "1pl": "intervínhamos",
+   "1sg": "intervinha",
+   "2pl": "intervínheis",
+   "2sg": "intervinhas",
+   "3pl": "intervinham",
+   "3sg": "intervinha"
+  },
+  "preterito_perfeito_indicativo": {
+   "1pl": "interviemos",
+   "1sg": "intervim",
+   "2pl": "interviestes",
+   "2sg": "intervieste",
+   "3pl": "intervieram",
+   "3sg": "interveio"
+  }
+ },
+ "ler": {
+  "condicional": {
+   "1pl": "leríamos",
+   "1sg": "leria",
+   "2pl": "leríeis",
+   "2sg": "lerias",
+   "3pl": "leriam",
+   "3sg": "leria"
+  },
+  "futuro_conjuntivo": {
+   "1pl": "lermos",
+   "1sg": "ler",
+   "2pl": "lerdes",
+   "2sg": "leres",
+   "3pl": "lerem",
+   "3sg": "ler"
+  },
+  "futuro_indicativo": {
+   "1pl": "leremos",
+   "1sg": "lerei",
+   "2pl": "lereis",
+   "2sg": "lerás",
+   "3pl": "lerão",
+   "3sg": "lerá"
+  },
+  "gerundio": {
+   "all": "lendo"
+  },
+  "imperativo_afirmativo": {
+   "1pl": "leiamos",
+   "2pl": "lede",
+   "2sg": "lê",
+   "3pl": "leiam",
+   "3sg": "leia"
+  },
+  "imperativo_negativo": {
+   "1pl": "leiamos",
+   "2pl": "leiais",
+   "2sg": "leias",
+   "3pl": "leiam",
+   "3sg": "leia"
+  },
+  "infinitivo_pessoal": {
+   "1pl": "lermos",
+   "1sg": "ler",
+   "2pl": "lerdes",
+   "2sg": "leres",
+   "3pl": "lerem",
+   "3sg": "ler"
+  },
+  "participio_passado": {
+   "all": "lido"
+  },
+  "presente_conjuntivo": {
+   "1pl": "leiamos",
+   "1sg": "leia",
+   "2pl": "leiais",
+   "2sg": "leias",
+   "3pl": "leiam",
+   "3sg": "leia"
+  },
+  "presente_indicativo": {
+   "1pl": "lemos",
+   "1sg": "leio",
+   "2pl": "ledes",
+   "2sg": "lês",
+   "3pl": "leem",
+   "3sg": "lê"
+  },
+  "preterito_imperfeito_conjuntivo": {
+   "1pl": "lêssemos",
+   "1sg": "lesse",
+   "2pl": "lêsseis",
+   "2sg": "lesses",
+   "3pl": "lessem",
+   "3sg": "lesse"
+  },
+  "preterito_imperfeito_indicativo": {
+   "1pl": "líamos",
+   "1sg": "lia",
+   "2pl": "líeis",
+   "2sg": "lias",
+   "3pl": "liam",
+   "3sg": "lia"
+  },
+  "preterito_perfeito_indicativo": {
+   "1pl": "lemos",
+   "1sg": "li",
+   "2pl": "lestes",
+   "2sg": "leste",
+   "3pl": "leram",
+   "3sg": "leu"
+  }
+ },
+ "prever": {
+  "condicional": {
+   "1pl": "preveríamos",
+   "1sg": "preveria",
+   "2pl": "preveríeis",
+   "2sg": "preverias",
+   "3pl": "preveriam",
+   "3sg": "preveria"
+  },
+  "futuro_conjuntivo": {
+   "1pl": "previrmos",
+   "1sg": "previr",
+   "2pl": "previrdes",
+   "2sg": "previres",
+   "3pl": "previrem",
+   "3sg": "previr"
+  },
+  "futuro_indicativo": {
+   "1pl": "preveremos",
+   "1sg": "preverei",
+   "2pl": "prevereis",
+   "2sg": "preverás",
+   "3pl": "preverão",
+   "3sg": "preverá"
+  },
+  "gerundio": {
+   "all": "prevendo"
+  },
+  "imperativo_afirmativo": {
+   "1pl": "prevejamos",
+   "2pl": "prevede",
+   "2sg": "prevê",
+   "3pl": "prevejam",
+   "3sg": "preveja"
+  },
+  "imperativo_negativo": {
+   "1pl": "prevejamos",
+   "2pl": "prevejais",
+   "2sg": "prevejas",
+   "3pl": "prevejam",
+   "3sg": "preveja"
+  },
+  "infinitivo_pessoal": {
+   "1pl": "prevermos",
+   "1sg": "prever",
+   "2pl": "preverdes",
+   "2sg": "preveres",
+   "3pl": "preverem",
+   "3sg": "prever"
+  },
+  "participio_passado": {
+   "all": "previsto"
+  },
+  "presente_conjuntivo": {
+   "1pl": "prevejamos",
+   "1sg": "preveja",
+   "2pl": "prevejais",
+   "2sg": "prevejas",
+   "3pl": "prevejam",
+   "3sg": "preveja"
+  },
+  "presente_indicativo": {
+   "1pl": "prevemos",
+   "1sg": "prevejo",
+   "2pl": "prevedes",
+   "2sg": "prevês",
+   "3pl": "preveem",
+   "3sg": "prevê"
+  },
+  "preterito_imperfeito_conjuntivo": {
+   "1pl": "prevíssemos",
+   "1sg": "previsse",
+   "2pl": "prevísseis",
+   "2sg": "previsses",
+   "3pl": "previssem",
+   "3sg": "previsse"
+  },
+  "preterito_imperfeito_indicativo": {
+   "1pl": "prevíamos",
+   "1sg": "previa",
+   "2pl": "prevíeis",
+   "2sg": "previas",
+   "3pl": "previam",
+   "3sg": "previa"
+  },
+  "preterito_perfeito_indicativo": {
+   "1pl": "previmos",
+   "1sg": "previ",
+   "2pl": "previstes",
+   "2sg": "previste",
+   "3pl": "previram",
+   "3sg": "previu"
+  }
+ },
+ "provir": {
+  "condicional": {
+   "1pl": "proviríamos",
+   "1sg": "proviria",
+   "2pl": "proviríeis",
+   "2sg": "provirias",
+   "3pl": "proviriam",
+   "3sg": "proviria"
+  },
+  "futuro_conjuntivo": {
+   "1pl": "proviermos",
+   "1sg": "provier",
+   "2pl": "provierdes",
+   "2sg": "provieres",
+   "3pl": "provierem",
+   "3sg": "provier"
+  },
+  "futuro_indicativo": {
+   "1pl": "proviremos",
+   "1sg": "provirei",
+   "2pl": "provireis",
+   "2sg": "provirás",
+   "3pl": "provirão",
+   "3sg": "provirá"
+  },
+  "gerundio": {
+   "all": "provindo"
+  },
+  "imperativo_afirmativo": {
+   "1pl": "provenhamos",
+   "2pl": "provinde",
+   "2sg": "provém",
+   "3pl": "provenham",
+   "3sg": "provenha"
+  },
+  "imperativo_negativo": {
+   "1pl": "provenhamos",
+   "2pl": "provenhais",
+   "2sg": "provenhas",
+   "3pl": "provenham",
+   "3sg": "provenha"
+  },
+  "infinitivo_pessoal": {
+   "1pl": "provirmos",
+   "1sg": "provir",
+   "2pl": "provirdes",
+   "2sg": "provires",
+   "3pl": "provirem",
+   "3sg": "provir"
+  },
+  "participio_passado": {
+   "all": "provindo"
+  },
+  "presente_conjuntivo": {
+   "1pl": "provenhamos",
+   "1sg": "provenha",
+   "2pl": "provenhais",
+   "2sg": "provenhas",
+   "3pl": "provenham",
+   "3sg": "provenha"
+  },
+  "presente_indicativo": {
+   "1pl": "provimos",
+   "1sg": "provenho",
+   "2pl": "provindes",
+   "2sg": "provéns",
+   "3pl": "provêm",
+   "3sg": "provém"
+  },
+  "preterito_imperfeito_conjuntivo": {
+   "1pl": "proviéssemos",
+   "1sg": "proviesse",
+   "2pl": "proviésseis",
+   "2sg": "proviesses",
+   "3pl": "proviessem",
+   "3sg": "proviesse"
+  },
+  "preterito_imperfeito_indicativo": {
+   "1pl": "provínhamos",
+   "1sg": "provinha",
+   "2pl": "provínheis",
+   "2sg": "provinhas",
+   "3pl": "provinham",
+   "3sg": "provinha"
+  },
+  "preterito_perfeito_indicativo": {
+   "1pl": "proviemos",
+   "1sg": "provim",
+   "2pl": "proviestes",
+   "2sg": "provieste",
+   "3pl": "provieram",
+   "3sg": "proveio"
+  }
+ },
+ "reler": {
+  "condicional": {
+   "1pl": "releríamos",
+   "1sg": "releria",
+   "2pl": "releríeis",
+   "2sg": "relerias",
+   "3pl": "releriam",
+   "3sg": "releria"
+  },
+  "futuro_conjuntivo": {
+   "1pl": "relermos",
+   "1sg": "reler",
+   "2pl": "relerdes",
+   "2sg": "releres",
+   "3pl": "relerem",
+   "3sg": "reler"
+  },
+  "futuro_indicativo": {
+   "1pl": "releremos",
+   "1sg": "relerei",
+   "2pl": "relereis",
+   "2sg": "relerás",
+   "3pl": "relerão",
+   "3sg": "relerá"
+  },
+  "gerundio": {
+   "all": "relendo"
+  },
+  "imperativo_afirmativo": {
+   "1pl": "releiamos",
+   "2pl": "relede",
+   "2sg": "relê",
+   "3pl": "releiam",
+   "3sg": "releia"
+  },
+  "imperativo_negativo": {
+   "1pl": "releiamos",
+   "2pl": "releiais",
+   "2sg": "releias",
+   "3pl": "releiam",
+   "3sg": "releia"
+  },
+  "infinitivo_pessoal": {
+   "1pl": "relermos",
+   "1sg": "reler",
+   "2pl": "relerdes",
+   "2sg": "releres",
+   "3pl": "relerem",
+   "3sg": "reler"
+  },
+  "participio_passado": {
+   "all": "relido"
+  },
+  "presente_conjuntivo": {
+   "1pl": "releiamos",
+   "1sg": "releia",
+   "2pl": "releiais",
+   "2sg": "releias",
+   "3pl": "releiam",
+   "3sg": "releia"
+  },
+  "presente_indicativo": {
+   "1pl": "relemos",
+   "1sg": "releio",
+   "2pl": "reledes",
+   "2sg": "relês",
+   "3pl": "releem",
+   "3sg": "relê"
+  },
+  "preterito_imperfeito_conjuntivo": {
+   "1pl": "relêssemos",
+   "1sg": "relesse",
+   "2pl": "relêsseis",
+   "2sg": "relesses",
+   "3pl": "relessem",
+   "3sg": "relesse"
+  },
+  "preterito_imperfeito_indicativo": {
+   "1pl": "relíamos",
+   "1sg": "relia",
+   "2pl": "relíeis",
+   "2sg": "relias",
+   "3pl": "reliam",
+   "3sg": "relia"
+  },
+  "preterito_perfeito_indicativo": {
+   "1pl": "relemos",
+   "1sg": "reli",
+   "2pl": "relestes",
+   "2sg": "releste",
+   "3pl": "releram",
+   "3sg": "releu"
+  }
+ },
+ "reter": {
+  "condicional": {
+   "1pl": "reteríamos",
+   "1sg": "reteria",
+   "2pl": "reteríeis",
+   "2sg": "reterias",
+   "3pl": "reteriam",
+   "3sg": "reteria"
+  },
+  "futuro_conjuntivo": {
+   "1pl": "retivermos",
+   "1sg": "retiver",
+   "2pl": "retiverdes",
+   "2sg": "retiveres",
+   "3pl": "retiverem",
+   "3sg": "retiver"
+  },
+  "futuro_indicativo": {
+   "1pl": "reteremos",
+   "1sg": "reterei",
+   "2pl": "retereis",
+   "2sg": "reterás",
+   "3pl": "reterão",
+   "3sg": "reterá"
+  },
+  "gerundio": {
+   "all": "retendo"
+  },
+  "imperativo_afirmativo": {
+   "1pl": "retenhamos",
+   "2pl": "retende",
+   "2sg": "retém",
+   "3pl": "retenham",
+   "3sg": "retenha"
+  },
+  "imperativo_negativo": {
+   "1pl": "retenhamos",
+   "2pl": "retenhais",
+   "2sg": "retenhas",
+   "3pl": "retenham",
+   "3sg": "retenha"
+  },
+  "infinitivo_pessoal": {
+   "1pl": "retermos",
+   "1sg": "reter",
+   "2pl": "reterdes",
+   "2sg": "reteres",
+   "3pl": "reterem",
+   "3sg": "reter"
+  },
+  "participio_passado": {
+   "all": "retido"
+  },
+  "presente_conjuntivo": {
+   "1pl": "retenhamos",
+   "1sg": "retenha",
+   "2pl": "retenhais",
+   "2sg": "retenhas",
+   "3pl": "retenham",
+   "3sg": "retenha"
+  },
+  "presente_indicativo": {
+   "1pl": "retemos",
+   "1sg": "retenho",
+   "2pl": "retendes",
+   "2sg": "reténs",
+   "3pl": "retêm",
+   "3sg": "retém"
+  },
+  "preterito_imperfeito_conjuntivo": {
+   "1pl": "retivéssemos",
+   "1sg": "retivesse",
+   "2pl": "retivésseis",
+   "2sg": "retivesses",
+   "3pl": "retivessem",
+   "3sg": "retivesse"
+  },
+  "preterito_imperfeito_indicativo": {
+   "1pl": "retínhamos",
+   "1sg": "retinha",
+   "2pl": "retínheis",
+   "2sg": "retinhas",
+   "3pl": "retinham",
+   "3sg": "retinha"
+  },
+  "preterito_perfeito_indicativo": {
+   "1pl": "retivemos",
+   "1sg": "retive",
+   "2pl": "retivestes",
+   "2sg": "retiveste",
+   "3pl": "retiveram",
+   "3sg": "reteve"
+  }
+ },
+ "rever": {
+  "condicional": {
+   "1pl": "reveríamos",
+   "1sg": "reveria",
+   "2pl": "reveríeis",
+   "2sg": "reverias",
+   "3pl": "reveriam",
+   "3sg": "reveria"
+  },
+  "futuro_conjuntivo": {
+   "1pl": "revirmos",
+   "1sg": "revir",
+   "2pl": "revirdes",
+   "2sg": "revires",
+   "3pl": "revirem",
+   "3sg": "revir"
+  },
+  "futuro_indicativo": {
+   "1pl": "reveremos",
+   "1sg": "reverei",
+   "2pl": "revereis",
+   "2sg": "reverás",
+   "3pl": "reverão",
+   "3sg": "reverá"
+  },
+  "gerundio": {
+   "all": "revendo"
+  },
+  "imperativo_afirmativo": {
+   "1pl": "revejamos",
+   "2pl": "revede",
+   "2sg": "revê",
+   "3pl": "revejam",
+   "3sg": "reveja"
+  },
+  "imperativo_negativo": {
+   "1pl": "revejamos",
+   "2pl": "revejais",
+   "2sg": "revejas",
+   "3pl": "revejam",
+   "3sg": "reveja"
+  },
+  "infinitivo_pessoal": {
+   "1pl": "revermos",
+   "1sg": "rever",
+   "2pl": "reverdes",
+   "2sg": "reveres",
+   "3pl": "reverem",
+   "3sg": "rever"
+  },
+  "participio_passado": {
+   "all": "revisto"
+  },
+  "presente_conjuntivo": {
+   "1pl": "revejamos",
+   "1sg": "reveja",
+   "2pl": "revejais",
+   "2sg": "revejas",
+   "3pl": "revejam",
+   "3sg": "reveja"
+  },
+  "presente_indicativo": {
+   "1pl": "revemos",
+   "1sg": "revejo",
+   "2pl": "revedes",
+   "2sg": "revês",
+   "3pl": "reveem",
+   "3sg": "revê"
+  },
+  "preterito_imperfeito_conjuntivo": {
+   "1pl": "revíssemos",
+   "1sg": "revisse",
+   "2pl": "revísseis",
+   "2sg": "revisses",
+   "3pl": "revissem",
+   "3sg": "revisse"
+  },
+  "preterito_imperfeito_indicativo": {
+   "1pl": "revíamos",
+   "1sg": "revia",
+   "2pl": "revíeis",
+   "2sg": "revias",
+   "3pl": "reviam",
+   "3sg": "revia"
+  },
+  "preterito_perfeito_indicativo": {
+   "1pl": "revimos",
+   "1sg": "revi",
+   "2pl": "revistes",
+   "2sg": "reviste",
+   "3pl": "reviram",
+   "3sg": "reviu"
+  }
+ },
+ "sair": {
+  "condicional": {
+   "1pl": "sairíamos",
+   "1sg": "sairia",
+   "2pl": "sairíeis",
+   "2sg": "sairias",
+   "3pl": "sairiam",
+   "3sg": "sairia"
+  },
+  "futuro_conjuntivo": {
+   "1pl": "sairmos",
+   "1sg": "sair",
+   "2pl": "sairdes",
+   "2sg": "saíres",
+   "3pl": "saírem",
+   "3sg": "sair"
+  },
+  "futuro_indicativo": {
+   "1pl": "sairemos",
+   "1sg": "sairei",
+   "2pl": "saireis",
+   "2sg": "sairás",
+   "3pl": "sairão",
+   "3sg": "sairá"
+  },
+  "gerundio": {
+   "all": "saindo"
+  },
+  "imperativo_afirmativo": {
+   "1pl": "saiamos",
+   "2pl": "saí",
+   "2sg": "sai",
+   "3pl": "saiam",
+   "3sg": "saia"
+  },
+  "imperativo_negativo": {
+   "1pl": "saiamos",
+   "2pl": "saiais",
+   "2sg": "saias",
+   "3pl": "saiam",
+   "3sg": "saia"
+  },
+  "infinitivo_pessoal": {
+   "1pl": "sairmos",
+   "1sg": "sair",
+   "2pl": "sairdes",
+   "2sg": "saíres",
+   "3pl": "saírem",
+   "3sg": "sair"
+  },
+  "participio_passado": {
+   "all": "saído"
+  },
+  "presente_conjuntivo": {
+   "1pl": "saiamos",
+   "1sg": "saia",
+   "2pl": "saiais",
+   "2sg": "saias",
+   "3pl": "saiam",
+   "3sg": "saia"
+  },
+  "presente_indicativo": {
+   "1pl": "saímos",
+   "1sg": "saio",
+   "2pl": "saís",
+   "2sg": "sais",
+   "3pl": "saem",
+   "3sg": "sai"
+  },
+  "preterito_imperfeito_conjuntivo": {
+   "1pl": "saíssemos",
+   "1sg": "saísse",
+   "2pl": "saísseis",
+   "2sg": "saísses",
+   "3pl": "saíssem",
+   "3sg": "saísse"
+  },
+  "preterito_imperfeito_indicativo": {
+   "1pl": "saíamos",
+   "1sg": "saía",
+   "2pl": "saíeis",
+   "2sg": "saías",
+   "3pl": "saíam",
+   "3sg": "saía"
+  },
+  "preterito_perfeito_indicativo": {
+   "1pl": "saímos",
+   "1sg": "saí",
+   "2pl": "saístes",
+   "2sg": "saíste",
+   "3pl": "saíram",
+   "3sg": "saiu"
+  }
+ },
+ "sobrevir": {
+  "condicional": {
+   "1pl": "sobreviríamos",
+   "1sg": "sobreviria",
+   "2pl": "sobreviríeis",
+   "2sg": "sobrevirias",
+   "3pl": "sobreviriam",
+   "3sg": "sobreviria"
+  },
+  "futuro_conjuntivo": {
+   "1pl": "sobreviermos",
+   "1sg": "sobrevier",
+   "2pl": "sobrevierdes",
+   "2sg": "sobrevieres",
+   "3pl": "sobrevierem",
+   "3sg": "sobrevier"
+  },
+  "futuro_indicativo": {
+   "1pl": "sobreviremos",
+   "1sg": "sobrevirei",
+   "2pl": "sobrevireis",
+   "2sg": "sobrevirás",
+   "3pl": "sobrevirão",
+   "3sg": "sobrevirá"
+  },
+  "gerundio": {
+   "all": "sobrevindo"
+  },
+  "imperativo_afirmativo": {
+   "1pl": "sobrevenhamos",
+   "2pl": "sobrevinde",
+   "2sg": "sobrevém",
+   "3pl": "sobrevenham",
+   "3sg": "sobrevenha"
+  },
+  "imperativo_negativo": {
+   "1pl": "sobrevenhamos",
+   "2pl": "sobrevenhais",
+   "2sg": "sobrevenhas",
+   "3pl": "sobrevenham",
+   "3sg": "sobrevenha"
+  },
+  "infinitivo_pessoal": {
+   "1pl": "sobrevirmos",
+   "1sg": "sobrevir",
+   "2pl": "sobrevirdes",
+   "2sg": "sobrevires",
+   "3pl": "sobrevirem",
+   "3sg": "sobrevir"
+  },
+  "participio_passado": {
+   "all": "sobrevindo"
+  },
+  "presente_conjuntivo": {
+   "1pl": "sobrevenhamos",
+   "1sg": "sobrevenha",
+   "2pl": "sobrevenhais",
+   "2sg": "sobrevenhas",
+   "3pl": "sobrevenham",
+   "3sg": "sobrevenha"
+  },
+  "presente_indicativo": {
+   "1pl": "sobrevimos",
+   "1sg": "sobrevenho",
+   "2pl": "sobrevindes",
+   "2sg": "sobrevéns",
+   "3pl": "sobrevêm",
+   "3sg": "sobrevém"
+  },
+  "preterito_imperfeito_conjuntivo": {
+   "1pl": "sobreviéssemos",
+   "1sg": "sobreviesse",
+   "2pl": "sobreviésseis",
+   "2sg": "sobreviesses",
+   "3pl": "sobreviessem",
+   "3sg": "sobreviesse"
+  },
+  "preterito_imperfeito_indicativo": {
+   "1pl": "sobrevínhamos",
+   "1sg": "sobrevinha",
+   "2pl": "sobrevínheis",
+   "2sg": "sobrevinhas",
+   "3pl": "sobrevinham",
+   "3sg": "sobrevinha"
+  },
+  "preterito_perfeito_indicativo": {
+   "1pl": "sobreviemos",
+   "1sg": "sobrevim",
+   "2pl": "sobreviestes",
+   "2sg": "sobrevieste",
+   "3pl": "sobrevieram",
+   "3sg": "sobreveio"
+  }
+ },
+ "suster": {
+  "condicional": {
+   "1pl": "susteríamos",
+   "1sg": "susteria",
+   "2pl": "susteríeis",
+   "2sg": "susterias",
+   "3pl": "susteriam",
+   "3sg": "susteria"
+  },
+  "futuro_conjuntivo": {
+   "1pl": "sustivermos",
+   "1sg": "sustiver",
+   "2pl": "sustiverdes",
+   "2sg": "sustiveres",
+   "3pl": "sustiverem",
+   "3sg": "sustiver"
+  },
+  "futuro_indicativo": {
+   "1pl": "susteremos",
+   "1sg": "susterei",
+   "2pl": "sustereis",
+   "2sg": "susterás",
+   "3pl": "susterão",
+   "3sg": "susterá"
+  },
+  "gerundio": {
+   "all": "sustendo"
+  },
+  "imperativo_afirmativo": {
+   "1pl": "sustenhamos",
+   "2pl": "sustende",
+   "2sg": "sustém",
+   "3pl": "sustenham",
+   "3sg": "sustenha"
+  },
+  "imperativo_negativo": {
+   "1pl": "sustenhamos",
+   "2pl": "sustenhais",
+   "2sg": "sustenhas",
+   "3pl": "sustenham",
+   "3sg": "sustenha"
+  },
+  "infinitivo_pessoal": {
+   "1pl": "sustermos",
+   "1sg": "suster",
+   "2pl": "susterdes",
+   "2sg": "susteres",
+   "3pl": "susterem",
+   "3sg": "suster"
+  },
+  "participio_passado": {
+   "all": "sustido"
+  },
+  "presente_conjuntivo": {
+   "1pl": "sustenhamos",
+   "1sg": "sustenha",
+   "2pl": "sustenhais",
+   "2sg": "sustenhas",
+   "3pl": "sustenham",
+   "3sg": "sustenha"
+  },
+  "presente_indicativo": {
+   "1pl": "sustemos",
+   "1sg": "sustenho",
+   "2pl": "sustendes",
+   "2sg": "susténs",
+   "3pl": "sustêm",
+   "3sg": "sustém"
+  },
+  "preterito_imperfeito_conjuntivo": {
+   "1pl": "sustivéssemos",
+   "1sg": "sustivesse",
+   "2pl": "sustivésseis",
+   "2sg": "sustivesses",
+   "3pl": "sustivessem",
+   "3sg": "sustivesse"
+  },
+  "preterito_imperfeito_indicativo": {
+   "1pl": "sustínhamos",
+   "1sg": "sustinha",
+   "2pl": "sustínheis",
+   "2sg": "sustinhas",
+   "3pl": "sustinham",
+   "3sg": "sustinha"
+  },
+  "preterito_perfeito_indicativo": {
+   "1pl": "sustivemos",
+   "1sg": "sustive",
+   "2pl": "sustivestes",
+   "2sg": "sustiveste",
+   "3pl": "sustiveram",
+   "3sg": "susteve"
+  }
+ },
+ "ter": {
+  "condicional": {
+   "1pl": "teríamos",
+   "1sg": "teria",
+   "2pl": "teríeis",
+   "2sg": "terias",
+   "3pl": "teriam",
+   "3sg": "teria"
+  },
+  "futuro_conjuntivo": {
+   "1pl": "tivermos",
+   "1sg": "tiver",
+   "2pl": "tiverdes",
+   "2sg": "tiveres",
+   "3pl": "tiverem",
+   "3sg": "tiver"
+  },
+  "futuro_indicativo": {
+   "1pl": "teremos",
+   "1sg": "terei",
+   "2pl": "tereis",
+   "2sg": "terás",
+   "3pl": "terão",
+   "3sg": "terá"
+  },
+  "gerundio": {
+   "all": "tendo"
+  },
+  "imperativo_afirmativo": {
+   "1pl": "tenhamos",
+   "2pl": "tende",
+   "2sg": "tem",
+   "3pl": "tenham",
+   "3sg": "tenha"
+  },
+  "imperativo_negativo": {
+   "1pl": "tenhamos",
+   "2pl": "tenhais",
+   "2sg": "tenhas",
+   "3pl": "tenham",
+   "3sg": "tenha"
+  },
+  "infinitivo_pessoal": {
+   "1pl": "termos",
+   "1sg": "ter",
+   "2pl": "terdes",
+   "2sg": "teres",
+   "3pl": "terem",
+   "3sg": "ter"
+  },
+  "participio_passado": {
+   "all": "tido"
+  },
+  "presente_conjuntivo": {
+   "1pl": "tenhamos",
+   "1sg": "tenha",
+   "2pl": "tenhais",
+   "2sg": "tenhas",
+   "3pl": "tenham",
+   "3sg": "tenha"
+  },
+  "presente_indicativo": {
+   "1pl": "temos",
+   "1sg": "tenho",
+   "2pl": "tendes",
+   "2sg": "tens",
+   "3pl": "têm",
+   "3sg": "tem"
+  },
+  "preterito_imperfeito_conjuntivo": {
+   "1pl": "tivéssemos",
+   "1sg": "tivesse",
+   "2pl": "tivésseis",
+   "2sg": "tivesses",
+   "3pl": "tivessem",
+   "3sg": "tivesse"
+  },
+  "preterito_imperfeito_indicativo": {
+   "1pl": "tínhamos",
+   "1sg": "tinha",
+   "2pl": "tínheis",
+   "2sg": "tinhas",
+   "3pl": "tinham",
+   "3sg": "tinha"
+  },
+  "preterito_perfeito_indicativo": {
+   "1pl": "tivemos",
+   "1sg": "tive",
+   "2pl": "tivestes",
+   "2sg": "tiveste",
+   "3pl": "tiveram",
+   "3sg": "teve"
+  }
+ },
+ "ver": {
+  "condicional": {
+   "1pl": "veríamos",
+   "1sg": "veria",
+   "2pl": "veríeis",
+   "2sg": "verias",
+   "3pl": "veriam",
+   "3sg": "veria"
+  },
+  "futuro_conjuntivo": {
+   "1pl": "virmos",
+   "1sg": "vir",
+   "2pl": "virdes",
+   "2sg": "vires",
+   "3pl": "virem",
+   "3sg": "vir"
+  },
+  "futuro_indicativo": {
+   "1pl": "veremos",
+   "1sg": "verei",
+   "2pl": "vereis",
+   "2sg": "verás",
+   "3pl": "verão",
+   "3sg": "verá"
+  },
+  "gerundio": {
+   "all": "vendo"
+  },
+  "imperativo_afirmativo": {
+   "1pl": "vejamos",
+   "2pl": "vede",
+   "2sg": "vê",
+   "3pl": "vejam",
+   "3sg": "veja"
+  },
+  "imperativo_negativo": {
+   "1pl": "vejamos",
+   "2pl": "vejais",
+   "2sg": "vejas",
+   "3pl": "vejam",
+   "3sg": "veja"
+  },
+  "infinitivo_pessoal": {
+   "1pl": "vermos",
+   "1sg": "ver",
+   "2pl": "verdes",
+   "2sg": "veres",
+   "3pl": "verem",
+   "3sg": "ver"
+  },
+  "participio_passado": {
+   "all": "visto"
+  },
+  "presente_conjuntivo": {
+   "1pl": "vejamos",
+   "1sg": "veja",
+   "2pl": "vejais",
+   "2sg": "vejas",
+   "3pl": "vejam",
+   "3sg": "veja"
+  },
+  "presente_indicativo": {
+   "1pl": "vemos",
+   "1sg": "vejo",
+   "2pl": "vedes",
+   "2sg": "vês",
+   "3pl": "veem",
+   "3sg": "vê"
+  },
+  "preterito_imperfeito_conjuntivo": {
+   "1pl": "víssemos",
+   "1sg": "visse",
+   "2pl": "vísseis",
+   "2sg": "visses",
+   "3pl": "vissem",
+   "3sg": "visse"
+  },
+  "preterito_imperfeito_indicativo": {
+   "1pl": "víamos",
+   "1sg": "via",
+   "2pl": "víeis",
+   "2sg": "vias",
+   "3pl": "viam",
+   "3sg": "via"
+  },
+  "preterito_perfeito_indicativo": {
+   "1pl": "vimos",
+   "1sg": "vi",
+   "2pl": "vistes",
+   "2sg": "viste",
+   "3pl": "viram",
+   "3sg": "viu"
+  }
+ },
+ "vir": {
+  "condicional": {
+   "1pl": "viríamos",
+   "1sg": "viria",
+   "2pl": "viríeis",
+   "2sg": "virias",
+   "3pl": "viriam",
+   "3sg": "viria"
+  },
+  "futuro_conjuntivo": {
+   "1pl": "viermos",
+   "1sg": "vier",
+   "2pl": "vierdes",
+   "2sg": "vieres",
+   "3pl": "vierem",
+   "3sg": "vier"
+  },
+  "futuro_indicativo": {
+   "1pl": "viremos",
+   "1sg": "virei",
+   "2pl": "vireis",
+   "2sg": "virás",
+   "3pl": "virão",
+   "3sg": "virá"
+  },
+  "gerundio": {
+   "all": "vindo"
+  },
+  "imperativo_afirmativo": {
+   "1pl": "venhamos",
+   "2pl": "vinde",
+   "2sg": "vem",
+   "3pl": "venham",
+   "3sg": "venha"
+  },
+  "imperativo_negativo": {
+   "1pl": "venhamos",
+   "2pl": "venhais",
+   "2sg": "venhas",
+   "3pl": "venham",
+   "3sg": "venha"
+  },
+  "infinitivo_pessoal": {
+   "1pl": "virmos",
+   "1sg": "vir",
+   "2pl": "virdes",
+   "2sg": "vires",
+   "3pl": "virem",
+   "3sg": "vir"
+  },
+  "participio_passado": {
+   "all": "vindo"
+  },
+  "presente_conjuntivo": {
+   "1pl": "venhamos",
+   "1sg": "venha",
+   "2pl": "venhais",
+   "2sg": "venhas",
+   "3pl": "venham",
+   "3sg": "venha"
+  },
+  "presente_indicativo": {
+   "1pl": "vimos",
+   "1sg": "venho",
+   "2pl": "vindes",
+   "2sg": "vens",
+   "3pl": "vêm",
+   "3sg": "vem"
+  },
+  "preterito_imperfeito_conjuntivo": {
+   "1pl": "viéssemos",
+   "1sg": "viesse",
+   "2pl": "viésseis",
+   "2sg": "viesses",
+   "3pl": "viessem",
+   "3sg": "viesse"
+  },
+  "preterito_imperfeito_indicativo": {
+   "1pl": "vínhamos",
+   "1sg": "vinha",
+   "2pl": "vínheis",
+   "2sg": "vinhas",
+   "3pl": "vinham",
+   "3sg": "vinha"
+  },
+  "preterito_perfeito_indicativo": {
+   "1pl": "viemos",
+   "1sg": "vim",
+   "2pl": "viestes",
+   "2sg": "vieste",
+   "3pl": "vieram",
+   "3sg": "veio"
+  }
+ }
+}

@@ -1,0 +1,202 @@
+metadata:
+  lemma: haver
+  translation: to have / there to be
+
+transformations:
+  - conjugator_er
+
+tenses:
+  presente_indicativo:
+    forms:
+      1sg: hei
+      2sg: hás
+      3sg: há
+      1pl: havemos
+      2pl: haveis
+      3pl: hão
+
+    context:
+      default:
+        cue: "Custe o que custar,"
+        hint: "de conseguir o emprego"
+
+    notes:
+      1sg: "*Highly irregular form*."
+      2sg: "*Highly irregular form*."
+      3sg: "*Highly irregular form*."
+      3pl: "*Highly irregular form*."
+
+  preterito_perfeito_indicativo:
+    forms:
+      1sg: houve
+      2sg: houveste
+      3sg: houve
+      1pl: houvemos
+      2pl: houvestes
+      3pl: houveram
+
+    context:
+      default:
+        cue: "Após o acidente,"
+        hint: "direito a uma indemnização"
+
+    pattern: "[[Irregular]]: The pretérito perfeito uses the stem `houv-`."
+    notes:
+      1sg: "*Highly irregular form*."
+      3sg: "*Highly irregular form*."
+
+  preterito_imperfeito_indicativo:
+    forms:
+      1sg: havia
+      2sg: havias
+      3sg: havia
+      1pl: havíamos
+      2pl: havíeis
+      3pl: haviam
+
+    context:
+      default:
+        cue: "Antes da reforma da lei,"
+        hint: "direito a um subsídio"
+
+  futuro_indicativo:
+    forms:
+      1sg: haverei
+      2sg: haverás
+      3sg: haverá
+      1pl: haveremos
+      2pl: havereis
+      3pl: haverão
+
+    context:
+      default:
+        cue: "Depois da promoção,"
+        hint: "direito a um gabinete próprio"
+
+  condicional:
+    forms:
+      1sg: haveria
+      2sg: haverias
+      3sg: haveria
+      1pl: haveríamos
+      2pl: haveríeis
+      3pl: haveriam
+
+    context:
+      default:
+        cue: "Nesse caso,"
+        hint: "direito a uma compensação"
+
+  presente_conjuntivo:
+    forms:
+      1sg: haja
+      2sg: hajas
+      3sg: haja
+      1pl: hajamos
+      2pl: hajais
+      3pl: hajam
+
+    context:
+      default:
+        cue: "Não creio que"
+        hint: "direito a decidir"
+
+    pattern: "[[Irregular]]: The presente do conjuntivo uses the stem `haj-`."
+
+  preterito_imperfeito_conjuntivo:
+    forms:
+      1sg: houvesse
+      2sg: houvesses
+      3sg: houvesse
+      1pl: houvéssemos
+      2pl: houvésseis
+      3pl: houvessem
+
+    context:
+      default:
+        cue: "Se"
+        hint: "direito a recorrer"
+
+    notes:
+      1pl: "`-êssemos` is the regular ending for verbs in ~-er~. Note the change ~ê → é~."
+      2pl: "`-êsseis` is the regular ending for verbs in ~-er~. Note the change ~ê → é~."
+
+    pattern: "[[Irregular]]: The pretérito imperfeito do conjuntivo uses the stem `houv-`."
+
+  futuro_conjuntivo:
+    forms:
+      1sg: houver
+      2sg: houveres
+      3sg: houver
+      1pl: houvermos
+      2pl: houverdes
+      3pl: houverem
+
+    context:
+      default:
+        cue: "Quando"
+        hint: "direito a votar"
+
+    pattern: "[[Irregular]]: The futuro do conjuntivo uses the stem `houv-`."
+
+  imperativo_afirmativo:
+    forms:
+      2sg: há
+      3sg: haja
+      1pl: hajamos
+      2pl: havei
+      3pl: hajam
+
+    context:
+      default:
+        cue: "Nesta situação,"
+        hint: "paciência"
+
+    pattern: "[[Regular]]: Forms follow normal construction rule."
+
+  imperativo_negativo:
+    forms:
+      2sg: hajas
+      3sg: haja
+      1pl: hajamos
+      2pl: hajais
+      3pl: hajam
+
+    context:
+      default:
+        cue: "Nunca"
+        hint: "medo de errar"
+
+    pattern: "[[Regular]]: Forms follow normal construction rule."
+
+  infinitivo_pessoal:
+    forms:
+      1sg: haver
+      2sg: haveres
+      3sg: haver
+      1pl: havermos
+      2pl: haverdes
+      3pl: haverem
+
+    context:
+      default:
+        cue: "Para"
+        hint: "direito ao subsídio"
+
+  gerundio:
+    forms:
+      all: havendo
+
+    context:
+      default:
+        cue: "O jogo pode atrasar,"
+        hint: "trânsito na autoestrada"
+
+  participio_passado:
+    forms:
+      all: havido
+
+    context:
+      default:
+        cue: "Depois de ter"
+        hint: "consenso entre as partes"

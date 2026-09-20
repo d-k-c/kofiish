@@ -1,0 +1,212 @@
+metadata:
+  lemma: dizer
+  translation: to say / to tell
+
+transformations:
+  - conjugator_er
+
+tenses:
+  presente_indicativo:
+    forms:
+      1sg: digo
+      2sg: dizes
+      3sg: diz
+      1pl: dizemos
+      2pl: dizeis
+      3pl: dizem
+
+    context:
+      default:
+        cue: "Normalmente,"
+        hint: "sempre a verdade"
+
+    notes:
+      1sg: "[[Irregular]]: The ~z~ becomes ~g~ (`digo`). Other persons keep the regular stem."
+      3sg: "[[Irregular]]: Missing expected ending `-e`."
+
+  preterito_perfeito_indicativo:
+    forms:
+      1sg: disse
+      2sg: disseste
+      3sg: disse
+      1pl: dissemos
+      2pl: dissestes
+      3pl: disseram
+
+    context:
+      default:
+        cue: "Ontem,"
+        hint: "uma piada engraçada"
+
+    pattern: "[[Irregular]]: The pretérito perfeito uses the stem `diss-`."
+    notes:
+      1sg: "[[Irregular]]: Ending `-e` instead of the expected `-i`."
+      3sg: "[[Irregular]]: Ending `-e` instead of the expected `-eu`."
+
+  preterito_imperfeito_indicativo:
+    forms:
+      1sg: dizia
+      2sg: dizias
+      3sg: dizia
+      1pl: dizíamos
+      2pl: dizíeis
+      3pl: diziam
+
+    context:
+      default:
+        cue: "Antigamente,"
+        hint: "sempre olá aos vizinhos"
+
+  futuro_indicativo:
+    forms:
+      1sg: direi
+      2sg: dirás
+      3sg: dirá
+      1pl: diremos
+      2pl: direis
+      3pl: dirão
+
+    context:
+      default:
+        cue: "Amanhã,"
+        hint: "a verdade ao chefe"
+
+    pattern: "[[Irregular]]: The futuro uses the stem `dir-`."
+
+  condicional:
+    forms:
+      1sg: diria
+      2sg: dirias
+      3sg: diria
+      1pl: diríamos
+      2pl: diríeis
+      3pl: diriam
+
+    context:
+      default:
+        cue: "Nessa situação,"
+        hint: "a verdade sem hesitar"
+
+    pattern: "[[Irregular]]: The condicional uses the stem `dir-`, same as the futuro."
+
+  presente_conjuntivo:
+    forms:
+      1sg: diga
+      2sg: digas
+      3sg: diga
+      1pl: digamos
+      2pl: digais
+      3pl: digam
+
+    context:
+      default:
+        cue: "Espero que"
+        hint: "a verdade"
+
+    pattern: "[[Irregular]]: The presente do conjuntivo uses the stem `dig-`, from the presente do indicativo eu-form `digo`."
+
+  preterito_imperfeito_conjuntivo:
+    forms:
+      1sg: dissesse
+      2sg: dissesses
+      3sg: dissesse
+      1pl: disséssemos
+      2pl: dissésseis
+      3pl: dissessem
+
+    context:
+      default:
+        cue: "Se"
+        hint: "a verdade, ninguém se zangaria"
+
+    pattern: "[[Irregular]]: The pretérito imperfeito do conjuntivo uses the stem `diss-`."
+
+    notes:
+      1pl: "`-êssemos` is the regular ending for verbs in ~-er~. Note the change ~ê → é~."
+      2pl: "`-êsseis` is the regular ending for verbs in ~-er~. Note the change ~ê → é~."
+
+  futuro_conjuntivo:
+    forms:
+      1sg: disser
+      2sg: disseres
+      3sg: disser
+      1pl: dissermos
+      2pl: disserdes
+      3pl: disserem
+
+    context:
+      default:
+        cue: "Quando"
+        hint: "isso, vamos conversar"
+
+    pattern: "[[Irregular]]: The futuro do conjuntivo uses the stem `diss-`."
+
+  imperativo_afirmativo:
+    forms:
+      2sg: diz
+      3sg: diga
+      1pl: digamos
+      2pl: dizei
+      3pl: digam
+
+    context:
+      default:
+        cue: "Por favor,"
+        hint: "a verdade"
+
+    notes:
+      2sg: "[[Irregular]]: This form is usually built on ~tu~ form of the presente do indicativo without the final ~s~, which would give *dize*. This form is actually valid but familiar. The textbook form is `diz`."
+      3sg: "[[Regular]]: Form follow normal construction rule."
+      1pl: "[[Regular]]: Form follow normal construction rule."
+      2pl: "[[Regular]]: Form follow normal construction rule."
+      3pl: "[[Regular]]: Form follow normal construction rule."
+
+  imperativo_negativo:
+    forms:
+      2sg: digas
+      3sg: diga
+      1pl: digamos
+      2pl: digais
+      3pl: digam
+
+    context:
+      default:
+        cue: "Por favor, não"
+        hint: "mentiras"
+
+    pattern: "[[Regular]]: Forms follow normal construction rule."
+
+  infinitivo_pessoal:
+    forms:
+      1sg: dizer
+      2sg: dizeres
+      3sg: dizer
+      1pl: dizermos
+      2pl: dizerdes
+      3pl: dizerem
+
+    context:
+      default:
+        cue: "É importante"
+        hint: "sempre a verdade"
+
+  gerundio:
+    forms:
+      all: dizendo
+
+    context:
+      default:
+        cue: "Ela acalmou-o"
+        hint: "que tudo ia correr bem"
+
+  participio_passado:
+    forms:
+      all: dito
+
+    context:
+      default:
+        cue: "Depois de ter"
+        hint: "o que pensava"
+
+    notes:
+      all: "*Highly irregular form*."

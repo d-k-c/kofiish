@@ -1,0 +1,92 @@
+metadata:
+  lemma: partir
+  translation: to leave / to depart
+
+transformations:
+  - conjugator_ir
+
+analogs:
+  decidir: {}
+  insistir: {}
+  assistir: {}
+  permitir: {}
+  admitir: {}
+
+tenses:
+  presente_indicativo:
+    context:
+      default:
+        cue: "Todos os dias,"
+        hint: "para o trabalho às oito"
+
+  preterito_perfeito_indicativo:
+    context:
+      default:
+        cue: "Ontem,"
+        hint: "de madrugada"
+
+  preterito_imperfeito_indicativo:
+    context:
+      default:
+        cue: "Todos os verões,"
+        hint: "de férias para a praia"
+
+  futuro_indicativo:
+    context:
+      default:
+        cue: "Amanhã,"
+        hint: "para Lisboa"
+
+  condicional:
+    context:
+      default:
+        cue: "Se fosse possível,"
+        hint: "hoje mesmo"
+
+  presente_conjuntivo:
+    context:
+      default:
+        cue: "Espero que"
+        hint: "a tempo"
+
+  preterito_imperfeito_conjuntivo:
+    context:
+      default:
+        cue: "Se"
+        hint: "mais cedo"
+
+  futuro_conjuntivo:
+    context:
+      default:
+        cue: "Quando"
+        hint: "para o aeroporto"
+
+  imperativo_afirmativo:
+    context:
+      default:
+        cue: "Por favor,"
+        hint: "sem fazer barulho"
+
+  imperativo_negativo:
+    context:
+      default:
+        cue: "Por favor, não"
+        hint: "sem avisar"
+
+  infinitivo_pessoal:
+    context:
+      default:
+        cue: "É melhor"
+        hint: "antes das nove"
+
+  gerundio:
+    context:
+      default:
+        cue: "Ele despediu-se de todos,"
+        hint: "logo a seguir"
+
+  participio_passado:
+    context:
+      default:
+        cue: "Depois de ter"
+        hint: "para férias"

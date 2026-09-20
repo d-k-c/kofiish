@@ -1,0 +1,141 @@
+metadata:
+  lemma: subir
+  translation: to go up / to climb
+
+transformations:
+  - conjugator_ir
+
+analogs:
+  acudir:
+    presente_indicativo:
+      forms:
+        2sg: acodes
+        3sg: acode
+        3pl: acodem
+    imperativo_afirmativo:
+      forms:
+        2sg: acode
+
+  sacudir:
+    presente_indicativo:
+      forms:
+        2sg: sacodes
+        3sg: sacode
+        3pl: sacodem
+    imperativo_afirmativo:
+      forms:
+        2sg: sacode
+
+  consumir:
+    presente_indicativo:
+      forms:
+        2sg: consomes
+        3sg: consome
+        3pl: consomem
+    imperativo_afirmativo:
+      forms:
+        2sg: consome
+
+  fugir:
+    presente_indicativo:
+      forms:
+        2sg: foges
+        3sg: foge
+        3pl: fogem
+    imperativo_afirmativo:
+      forms:
+        2sg: foge
+
+tenses:
+  presente_indicativo:
+    forms:
+      2sg: sobes
+      3sg: sobe
+      3pl: sobem
+
+    context:
+      default:
+        cue: "Todos os dias,"
+        hint: "as escadas a correr"
+
+    notes:
+      2sg: "[[Irregular]]: Uses the stem `sob-`: the ~u~ becomes ~o~ in the stressed forms (`sobes`, `sobe`, `sobem`)."
+      3sg: "[[Irregular]]: Uses the stem `sob-`: the ~u~ becomes ~o~ in the stressed forms (`sobes`, `sobe`, `sobem`)."
+      3pl: "[[Irregular]]: Uses the stem `sob-`: the ~u~ becomes ~o~ in the stressed forms (`sobes`, `sobe`, `sobem`)."
+
+  preterito_perfeito_indicativo:
+    context:
+      default:
+        cue: "Ontem,"
+        hint: "ao telhado"
+
+  preterito_imperfeito_indicativo:
+    context:
+      default:
+        cue: "Em criança,"
+        hint: "às árvores no quintal"
+
+  futuro_indicativo:
+    context:
+      default:
+        cue: "Amanhã,"
+        hint: "ao topo da torre"
+
+  condicional:
+    context:
+      default:
+        cue: "Com mais coragem,"
+        hint: "até ao topo"
+
+  presente_conjuntivo:
+    context:
+      default:
+        cue: "Espero que"
+        hint: "sem cansaço"
+
+  preterito_imperfeito_conjuntivo:
+    context:
+      default:
+        cue: "Se"
+        hint: "mais depressa"
+
+  futuro_conjuntivo:
+    context:
+      default:
+        cue: "Quando"
+        hint: "ao próximo andar"
+
+  imperativo_afirmativo:
+    forms:
+      2sg: sobe
+
+    context:
+      default:
+        cue: "Por favor,"
+        hint: "por aqui"
+
+    pattern: "[[Regular]]: Follow normal construction rules."
+
+  imperativo_negativo:
+    context:
+      default:
+        cue: "Por favor, não"
+        hint: "tão depressa"
+
+  infinitivo_pessoal:
+    context:
+      default:
+        cue: "É importante"
+        hint: "com cuidado"
+
+  gerundio:
+    context:
+      default:
+        cue: "Ela chegou ao topo"
+        hint: "as escadas a correr"
+
+  participio_passado:
+    context:
+      default:
+        cue: "Depois de ter"
+        hint: "ao terceiro andar"

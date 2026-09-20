@@ -1,0 +1,128 @@
+metadata:
+  lemma: construir
+  translation: to build / to construct
+
+transformations:
+  - conjugator_ir
+  - construir_family
+
+analogs:
+  destruir: {}
+  reconstruir: {}
+
+tenses:
+  presente_indicativo:
+    context:
+      default:
+        cue: "Atualmente,"
+        hint: "uma casa nova"
+
+    notes:
+      2sg: "[[Note]]: Form where ~u~ becomes ~ó~ also exists (`constróis`). The ending is `-is` instead of the expected `-es`."
+      3sg: "[[Note]]: Form where ~u~ becomes ~ó~ also exists (`constrói`). The ending is `-i` instead of the expected `-e`."
+      1pl: "[[Note]]: The ~i~ takes a written accent to mark the hiato (`cons-tru-í-mos`)."
+      2pl: "[[Note]]: The ~i~ takes a written accent to mark the hiato: `construís` (vós), distinct from `construis` (tu)."
+      3pl: "[[Note]]: Form where ~u~ becomes ~o~ also exists (`constroem`)."
+
+  preterito_perfeito_indicativo:
+    context:
+      default:
+        cue: "No mês passado,"
+        hint: "vários edifícios importantes"
+
+    pattern: "[[Note]]: The ~i~ of the ending takes a written accent to mark the hiato (except `construiu`)."
+
+  preterito_imperfeito_indicativo:
+    context:
+      default:
+        cue: "Há vários anos,"
+        hint: "estradas em toda a região"
+
+    pattern: "[[Note]]: The ~i~ of the ending takes a written accent to mark the hiato."
+
+  futuro_indicativo:
+    context:
+      default:
+        cue: "No próximo ano,"
+        hint: "um novo hospital"
+
+  condicional:
+    context:
+      default:
+        cue: "Se houvesse recursos,"
+        hint: "um centro comunitário"
+
+  presente_conjuntivo:
+    context:
+      default:
+        cue: "Espero que"
+        hint: "com qualidade"
+
+  preterito_imperfeito_conjuntivo:
+    context:
+      default:
+        cue: "Se"
+        hint: "mais rapidamente"
+
+    pattern: "[[Note]]: The ~i~ of the ending takes a written accent to mark the hiato."
+
+  futuro_conjuntivo:
+    context:
+      default:
+        cue: "Quando"
+        hint: "as fundações"
+
+    notes:
+      2sg: "[[Note]]: The ~i~ takes a written accent to mark the hiato (`cons-tru-í-res`)."
+      1pl: "[[Note]]: No written accent: the ~i~ shares its syllable with the ~r~ (`cons-tru-ir-mos`)."
+      2pl: "[[Note]]: No written accent: the ~i~ shares its syllable with the ~r~ (`cons-tru-ir-des`)."
+      3pl: "[[Note]]: The ~i~ takes a written accent to mark the hiato (`cons-tru-í-rem`)."
+
+  imperativo_afirmativo:
+    context:
+      default:
+        cue: "Por favor,"
+        hint: "com cuidado"
+
+    pattern: "[[Regular]]: Follow normal construction rules."
+
+    notes:
+      2sg: "[[Note]]: Form where ~u~ becomes ~ó~ also exists (`constrói`)."
+
+  imperativo_negativo:
+    context:
+      default:
+        cue: "Por favor, não"
+        hint: "sem autorização"
+
+    pattern: "[[Regular]]: Forms follow normal construction rule."
+
+  infinitivo_pessoal:
+    context:
+      default:
+        cue: "É melhor"
+        hint: "passo a passo"
+
+    notes:
+      2sg: "[[Note]]: The ~i~ takes a written accent to mark the hiato (`cons-tru-í-res`)."
+      1pl: "[[Note]]: No written accent: the ~i~ shares its syllable with the ~r~ (`cons-tru-ir-mos`)."
+      2pl: "[[Note]]: No written accent: the ~i~ shares its syllable with the ~r~ (`cons-tru-ir-des`)."
+      3pl: "[[Note]]: The ~i~ takes a written accent to mark the hiato (`cons-tru-í-rem`)."
+
+  gerundio:
+    context:
+      default:
+        cue: "Ela trabalhou,"
+        hint: "casas para as famílias carenciadas"
+
+    notes:
+      all: "[[Note]]: No written accent: the ~i~ shares its syllable with the ~n~ (`cons-tru-in-do`)."
+
+  participio_passado:
+    context:
+      default:
+        cue: "Depois de ter"
+        hint: "o prédio, mudou-se para lá"
+
+    notes:
+      all: "[[Note]]: The ~i~ takes a written accent to mark the hiato (`cons-tru-í-do`)."

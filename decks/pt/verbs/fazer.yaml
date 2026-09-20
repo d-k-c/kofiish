@@ -1,0 +1,211 @@
+metadata:
+  lemma: fazer
+  translation: to do / to make
+
+transformations:
+  - conjugator_er
+
+tenses:
+  presente_indicativo:
+    forms:
+      1sg: faço
+      2sg: fazes
+      3sg: faz
+      1pl: fazemos
+      2pl: fazeis
+      3pl: fazem
+
+    context:
+      default:
+        cue: "Hoje,"
+        hint: "os trabalhos de casa"
+
+    notes:
+      1sg: "[[Irregular]]: The ~z~ becomes ~ç~ (`faço`). Other persons keep the regular stem."
+      3sg: "[[Irregular]]: Missing expected ending `-e`."
+
+  preterito_perfeito_indicativo:
+    forms:
+      1sg: fiz
+      2sg: fizeste
+      3sg: fez
+      1pl: fizemos
+      2pl: fizestes
+      3pl: fizeram
+
+    context:
+      default:
+        cue: "Ontem,"
+        hint: "um bolo de chocolate"
+
+    pattern: "[[Irregular]]: The pretérito perfeito uses the stem `fiz-` (except `fez`)."
+    notes:
+      1sg: "[[Irregular]]: Missing expected ending `-i`."
+      3sg: "[[Irregular]]: Missing expected ending `-eu`."
+
+  preterito_imperfeito_indicativo:
+    forms:
+      1sg: fazia
+      2sg: fazias
+      3sg: fazia
+      1pl: fazíamos
+      2pl: fazíeis
+      3pl: faziam
+
+    context:
+      default:
+        cue: "Todos os dias,"
+        hint: "exercício de manhã"
+
+  futuro_indicativo:
+    forms:
+      1sg: farei
+      2sg: farás
+      3sg: fará
+      1pl: faremos
+      2pl: fareis
+      3pl: farão
+
+    context:
+      default:
+        cue: "No próximo verão,"
+        hint: "uma longa viagem"
+
+    pattern: "[[Irregular]]: The futuro uses the stem `far-`."
+
+  condicional:
+    forms:
+      1sg: faria
+      2sg: farias
+      3sg: faria
+      1pl: faríamos
+      2pl: faríeis
+      3pl: fariam
+
+    context:
+      default:
+        cue: "Se houvesse tempo,"
+        hint: "mais perguntas"
+
+    pattern: "[[Irregular]]: The condicional uses the stem `far-`, same as the futuro."
+
+  presente_conjuntivo:
+    forms:
+      1sg: faça
+      2sg: faças
+      3sg: faça
+      1pl: façamos
+      2pl: façais
+      3pl: façam
+
+    context:
+      default:
+        cue: "Espero que"
+        hint: "um esforço"
+
+    pattern: "[[Irregular]]: The presente do conjuntivo uses the stem `faç-`, from the presente do indicativo eu-form `faço`."
+
+  preterito_imperfeito_conjuntivo:
+    forms:
+      1sg: fizesse
+      2sg: fizesses
+      3sg: fizesse
+      1pl: fizéssemos
+      2pl: fizésseis
+      3pl: fizessem
+
+    context:
+      default:
+        cue: "Se"
+        hint: "silêncio"
+
+    pattern: "[[Irregular]]: The pretérito imperfeito do conjuntivo uses the stem `fiz-`."
+    notes:
+      1pl: "`-êssemos` is the regular ending for verbs in ~-er~. Note the change ~ê → é~."
+      2pl: "`-êsseis` is the regular ending for verbs in ~-er~. Note the change ~ê → é~."
+
+  futuro_conjuntivo:
+    forms:
+      1sg: fizer
+      2sg: fizeres
+      3sg: fizer
+      1pl: fizermos
+      2pl: fizerdes
+      3pl: fizerem
+
+    context:
+      default:
+        cue: "Quando"
+        hint: "as compras"
+
+    pattern: "[[Irregular]]: The futuro do conjuntivo uses the stem `fiz-`."
+
+  imperativo_afirmativo:
+    forms:
+      2sg: faz
+      3sg: faça
+      1pl: façamos
+      2pl: fazei
+      3pl: façam
+
+    context:
+      default:
+        cue: "Por favor,"
+        hint: "a cama"
+
+    notes:
+      2sg: "[[Irregular]]: This form is usually built on ~tu~ form of the presente do indicativo without the final ~s~, which would give *faze*. This form is actually valid but familiar. The textbook form is `faz`."
+      3sg:  "[[Regular]]: Form follow normal construction rule."
+      1pl:  "[[Regular]]: Form follow normal construction rule."
+      3pl:  "[[Regular]]: Form follow normal construction rule."
+      2pl:  "[[Regular]]: Form follow normal construction rule."
+      3pl:  "[[Regular]]: Form follow normal construction rule."
+
+  imperativo_negativo:
+    forms:
+      2sg: faças
+      3sg: faça
+      1pl: façamos
+      2pl: façais
+      3pl: façam
+
+    context:
+      default:
+        cue: "Por favor, não"
+        hint: "barulho"
+
+    pattern: "[[Regular]]: Forms follow normal construction rule."
+
+  infinitivo_pessoal:
+    forms:
+      1sg: fazer
+      2sg: fazeres
+      3sg: fazer
+      1pl: fazermos
+      2pl: fazerdes
+      3pl: fazerem
+
+    context:
+      default:
+        cue: "É importante"
+        hint: "a diferença"
+
+  gerundio:
+    forms:
+      all: fazendo
+
+    context:
+      default:
+        cue: "Ela ganhou algum dinheiro"
+        hint: "biscoitos para vender"
+
+  participio_passado:
+    forms:
+      all: feito
+
+    context:
+      default:
+        cue: "Depois de ter"
+        hint: "todos os testes"
+    notes:
+      all: "*Highly irregular form*."

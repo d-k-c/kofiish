@@ -1,0 +1,218 @@
+metadata:
+  lemma: sentir
+  translation: to feel
+
+transformations:
+  - conjugator_ir
+
+analogs:
+  mentir:
+    presente_indicativo:
+      forms:
+        1sg: minto
+    presente_conjuntivo:
+      forms:
+        1sg: minta
+        2sg: mintas
+        3sg: minta
+        1pl: mintamos
+        2pl: mintais
+        3pl: mintam
+    imperativo_afirmativo:
+      forms:
+        3sg: minta
+        1pl: mintamos
+        3pl: mintam
+    imperativo_negativo:
+      forms:
+        2sg: mintas
+        3sg: minta
+        1pl: mintamos
+        2pl: mintais
+        3pl: mintam
+
+  preferir:
+    presente_indicativo:
+      forms:
+        1sg: prefiro
+    presente_conjuntivo:
+      forms:
+        1sg: prefira
+        2sg: prefiras
+        3sg: prefira
+        1pl: prefiramos
+        2pl: prefirais
+        3pl: prefiram
+    imperativo_afirmativo:
+      forms:
+        3sg: prefira
+        1pl: prefiramos
+        3pl: prefiram
+    imperativo_negativo:
+      forms:
+        2sg: prefiras
+        3sg: prefira
+        1pl: prefiramos
+        2pl: prefirais
+        3pl: prefiram
+
+  vestir:
+    presente_indicativo:
+      forms:
+        1sg: visto
+    presente_conjuntivo:
+      forms:
+        1sg: vista
+        2sg: vistas
+        3sg: vista
+        1pl: vistamos
+        2pl: vistais
+        3pl: vistam
+    imperativo_afirmativo:
+      forms:
+        3sg: vista
+        1pl: vistamos
+        3pl: vistam
+    imperativo_negativo:
+      forms:
+        2sg: vistas
+        3sg: vista
+        1pl: vistamos
+        2pl: vistais
+        3pl: vistam
+
+  servir:
+    presente_indicativo:
+      forms:
+        1sg: sirvo
+    presente_conjuntivo:
+      forms:
+        1sg: sirva
+        2sg: sirvas
+        3sg: sirva
+        1pl: sirvamos
+        2pl: sirvais
+        3pl: sirvam
+    imperativo_afirmativo:
+      forms:
+        3sg: sirva
+        1pl: sirvamos
+        3pl: sirvam
+    imperativo_negativo:
+      forms:
+        2sg: sirvas
+        3sg: sirva
+        1pl: sirvamos
+        2pl: sirvais
+        3pl: sirvam
+
+tenses:
+  presente_indicativo:
+    forms:
+      1sg: sinto
+
+    context:
+      default:
+        cue: "Agora"
+        hint: "frio"
+
+    notes:
+      1sg: "[[Irregular]]: The ~e~ becomes ~i~ (`sinto`). Other persons keep the regular stem."
+
+  preterito_perfeito_indicativo:
+    context:
+      default:
+        cue: "Ontem à noite,"
+        hint: "muito calor"
+
+  preterito_imperfeito_indicativo:
+    context:
+      default:
+        cue: "Naquela época,"
+        hint: "saudades de casa"
+
+  futuro_indicativo:
+    context:
+      default:
+        cue: "Em breve,"
+        hint: "o cheiro do café"
+
+  condicional:
+    context:
+      default:
+        cue: "Sem aquecimento,"
+        hint: "arrepios"
+
+  presente_conjuntivo:
+    forms:
+      1sg: sinta
+      2sg: sintas
+      3sg: sinta
+      1pl: sintamos
+      2pl: sintais
+      3pl: sintam
+
+    context:
+      default:
+        cue: "Espero que"
+        hint: "menos dor"
+
+    pattern: "[[Irregular]]: The presente do conjuntivo uses the stem `sint-`, from the presente do indicativo eu-form `sinto`."
+
+  preterito_imperfeito_conjuntivo:
+    context:
+      default:
+        cue: "Se"
+        hint: "o cheiro do fumo"
+
+  futuro_conjuntivo:
+    context:
+      default:
+        cue: "Quando"
+        hint: "o perigo"
+
+  imperativo_afirmativo:
+    forms:
+      3sg: sinta
+      1pl: sintamos
+      3pl: sintam
+
+    context:
+      default:
+        cue: "Por favor,"
+        hint: "as flores"
+
+    pattern: "[[Regular]]: Follow normal construction rules."
+
+  imperativo_negativo:
+    forms:
+      2sg: sintas
+      3sg: sinta
+      1pl: sintamos
+      2pl: sintais
+      3pl: sintam
+
+    context:
+      default:
+        cue: "Por favor, não"
+        hint: "medo"
+
+    pattern: "[[Regular]]: Forms follow normal construction rule."
+
+  infinitivo_pessoal:
+    context:
+      default:
+        cue: "É importante"
+        hint: "a diferença"
+
+  gerundio:
+    context:
+      default:
+        cue: "Ele encolheu-se,"
+        hint: "frio"
+
+  participio_passado:
+    context:
+      default:
+        cue: "Depois de ter"
+        hint: "o impacto"

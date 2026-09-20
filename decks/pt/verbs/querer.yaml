@@ -1,0 +1,203 @@
+metadata:
+  lemma: querer
+  translation: to want
+
+transformations:
+  - conjugator_er
+
+tenses:
+  presente_indicativo:
+    forms:
+      1sg: quero
+      2sg: queres
+      3sg: quer
+      1pl: queremos
+      2pl: quereis
+      3pl: querem
+
+    context:
+      default:
+        cue: "Agora"
+        hint: "sair esta noite"
+
+    notes:
+      3sg: "[[Irregular]]: Missing expected ending `-e`. It does become `quere` before a complement pronoun, e.g. `quere-lhe dizer algo`."
+
+  preterito_perfeito_indicativo:
+    forms:
+      1sg: quis
+      2sg: quiseste
+      3sg: quis
+      1pl: quisemos
+      2pl: quisestes
+      3pl: quiseram
+
+    context:
+      default:
+        cue: "Ontem,"
+        hint: "sair com amigos"
+
+    pattern: "[[Irregular]]: The pretérito perfeito uses the stem `quis-`."
+    notes:
+      1sg: "[[Irregular]]: Missing expected ending `-i`."
+      3sg: "[[Irregular]]: Missing expected ending `-eu`."
+
+  preterito_imperfeito_indicativo:
+    forms:
+      1sg: queria
+      2sg: querias
+      3sg: queria
+      1pl: queríamos
+      2pl: queríeis
+      3pl: queriam
+
+    context:
+      default:
+        cue: "Em criança,"
+        hint: "andar de bicicleta"
+
+  futuro_indicativo:
+    forms:
+      1sg: quererei
+      2sg: quererás
+      3sg: quererá
+      1pl: quereremos
+      2pl: querereis
+      3pl: quererão
+
+    context:
+      default:
+        cue: "Amanhã,"
+        hint: "falar sobre isto"
+
+  condicional:
+    forms:
+      1sg: quereria
+      2sg: quererias
+      3sg: quereria
+      1pl: quereríamos
+      2pl: quereríeis
+      3pl: quereriam
+
+    context:
+      default:
+        cue: "Com mais dinheiro,"
+        hint: "viajar mais"
+
+  presente_conjuntivo:
+    forms:
+      1sg: queira
+      2sg: queiras
+      3sg: queira
+      1pl: queiramos
+      2pl: queirais
+      3pl: queiram
+
+    context:
+      default:
+        cue: "Espero que"
+        hint: "ficar em casa"
+
+    pattern: "[[Irregular]]: The presente do conjuntivo uses the stem `queir-`."
+
+  preterito_imperfeito_conjuntivo:
+    forms:
+      1sg: quisesse
+      2sg: quisesses
+      3sg: quisesse
+      1pl: quiséssemos
+      2pl: quisésseis
+      3pl: quisessem
+
+    context:
+      default:
+        cue: "Se"
+        hint: "mais tempo livre"
+
+    pattern: "[[Irregular]]: The pretérito imperfeito do conjuntivo uses the stem `quis-`."
+    notes:
+      1pl: "`-êssemos` is the regular ending for verbs in ~-er~. Note the change ~ê → é~."
+      2pl: "`-êsseis` is the regular ending for verbs in ~-er~. Note the change ~ê → é~."
+
+  futuro_conjuntivo:
+    forms:
+      1sg: quiser
+      2sg: quiseres
+      3sg: quiser
+      1pl: quisermos
+      2pl: quiserdes
+      3pl: quiserem
+
+    context:
+      default:
+        cue: "Quando"
+        hint: "sair mais cedo"
+
+    pattern: "[[Irregular]]: The futuro do conjuntivo uses the stem `quis-`."
+
+  imperativo_afirmativo:
+    forms:
+      2sg: quer
+      3sg: queira
+      1pl: queiramos
+      2pl: querei
+      3pl: queiram
+
+    context:
+      default:
+        cue: "Por favor,"
+        hint: "bem aos outros"
+
+    notes:
+      2sg: "[[Irregular]]: This form is usually built on ~tu~ form of the presente do indicativo without the final ~s~, which would give *quere*. The form is `quer`, but it becomes `quere` when followed by a complement pronoun, e.g. `quere-lhe dizer algo`."
+      3sg: "[[Regular]]: Form follow normal construction rule."
+      1pl: "[[Regular]]: Form follow normal construction rule."
+      2pl: "[[Regular]]: Form follow normal construction rule."
+      3pl: "[[Regular]]: Form follow normal construction rule."
+
+  imperativo_negativo:
+    forms:
+      2sg: queiras
+      3sg: queira
+      1pl: queiramos
+      2pl: queirais
+      3pl: queiram
+
+    context:
+      default:
+        cue: "Por favor, não"
+        hint: "mal a ninguém"
+
+    pattern: "[[Regular]]: Forms follow normal construction rule."
+
+  infinitivo_pessoal:
+    forms:
+      1sg: querer
+      2sg: quereres
+      3sg: querer
+      1pl: querermos
+      2pl: quererdes
+      3pl: quererem
+
+    context:
+      default:
+        cue: "É importante"
+        hint: "vencer"
+
+  gerundio:
+    forms:
+      all: querendo
+
+    context:
+      default:
+        cue: "Ela ofereceu-se,"
+        hint: "ajudar"
+
+  participio_passado:
+    forms:
+      all: querido
+
+    context:
+      default:
+        cue: "Depois de ter"
+        hint: "isto durante anos"

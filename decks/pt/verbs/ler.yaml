@@ -1,0 +1,103 @@
+metadata:
+  lemma: ler
+  translation: to read
+
+transformations:
+  - conjugator_er
+  - ler_family
+
+analogs:
+  reler: {}
+  crer: {}
+
+tenses:
+  presente_indicativo:
+    context:
+      default:
+        cue: "Todos os dias,"
+        hint: "o jornal com café"
+
+    notes:
+      1sg: "[[Irregular]]: An ~i~ is added before the ending (`leio`)."
+      2sg: "[[Note]]: Stressed one-syllable form: the ~e~ takes a circumflex (`lês`)."
+      3sg: "[[Note]]: Stressed one-syllable form: the ~e~ takes a circumflex (`lê`)."
+      2pl: "*Highly irregular form*. Note the extra ~d~."
+      3pl: "[[Irregular]]: An ~e~ is added before the ending (`le-em`)."
+
+  preterito_perfeito_indicativo:
+    context:
+      default:
+        cue: "Ontem à noite,"
+        hint: "um capítulo inteiro"
+
+  preterito_imperfeito_indicativo:
+    context:
+      default:
+        cue: "Em criança,"
+        hint: "banda desenhada aos domingos"
+
+  futuro_indicativo:
+    context:
+      default:
+        cue: "Amanhã,"
+        hint: "esse artigo com calma"
+
+  condicional:
+    context:
+      default:
+        cue: "Com mais tempo,"
+        hint: "mais um capítulo"
+
+  presente_conjuntivo:
+    context:
+      default:
+        cue: "Espero que"
+        hint: "as instruções com atenção"
+
+    pattern: "[[Irregular]]: The presente do conjuntivo uses the stem `lei-`, from the presente do indicativo eu-form `leio`."
+
+  preterito_imperfeito_conjuntivo:
+    context:
+      default:
+        cue: "Se"
+        hint: "mais devagar"
+
+  futuro_conjuntivo:
+    context:
+      default:
+        cue: "Quando"
+        hint: "essa notícia"
+
+  imperativo_afirmativo:
+    context:
+      default:
+        cue: "Por favor,"
+        hint: "em voz alta"
+
+    pattern: "[[Regular]]: Follow normal construction rules."
+
+  imperativo_negativo:
+    context:
+      default:
+        cue: "Por favor, não"
+        hint: "tão depressa"
+
+    pattern: "[[Regular]]: Forms follow normal construction rule."
+
+  infinitivo_pessoal:
+    context:
+      default:
+        cue: "É importante"
+        hint: "as letras pequenas"
+
+  gerundio:
+    context:
+      default:
+        cue: "Ela aprendeu inglês"
+        hint: "livros em voz alta"
+
+  participio_passado:
+    context:
+      default:
+        cue: "Depois de ter"
+        hint: "o livro inteiro"

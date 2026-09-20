@@ -1,0 +1,91 @@
+metadata:
+  lemma: chamar
+  translation: to call
+
+transformations:
+  - conjugator_ar
+
+analogs:
+  usar: {}
+  levar: {}
+  deixar: {}
+  tomar: {}
+
+tenses:
+  presente_indicativo:
+    context:
+      default:
+        cue: "Sempre que é preciso,"
+        hint: "um táxi"
+
+  preterito_perfeito_indicativo:
+    context:
+      default:
+        cue: "Ontem,"
+        hint: "a médica"
+
+  preterito_imperfeito_indicativo:
+    context:
+      default:
+        cue: "Antigamente,"
+        hint: "sempre o mesmo táxi"
+
+  futuro_indicativo:
+    context:
+      default:
+        cue: "Amanhã,"
+        hint: "o eletricista"
+
+  condicional:
+    context:
+      default:
+        cue: "Se fosse preciso,"
+        hint: "a polícia"
+
+  presente_conjuntivo:
+    context:
+      default:
+        cue: "Espero que"
+        hint: "um amigo"
+
+  preterito_imperfeito_conjuntivo:
+    context:
+      default:
+        cue: "Se"
+        hint: "o gerente"
+
+  futuro_conjuntivo:
+    context:
+      default:
+        cue: "Quando"
+        hint: "os bombeiros"
+
+  imperativo_afirmativo:
+    context:
+      default:
+        cue: "Por favor,"
+        hint: "a ambulância"
+
+  imperativo_negativo:
+    context:
+      default:
+        cue: "Por favor, não"
+        hint: "o chefe"
+
+  infinitivo_pessoal:
+    context:
+      default:
+        cue: "É importante"
+        hint: "os pais"
+
+  gerundio:
+    context:
+      default:
+        cue: "Ele pediu socorro,"
+        hint: "pela vizinha"
+
+  participio_passado:
+    context:
+      default:
+        cue: "Depois de ter"
+        hint: "o segurança"

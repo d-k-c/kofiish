@@ -1,0 +1,283 @@
+metadata:
+  lemma: ser
+  translation: to be
+
+transformations:
+  - conjugator_er
+
+tenses:
+  presente_indicativo:
+    forms:
+      1sg: sou
+      2sg: és
+      3sg: é
+      1pl: somos
+      2pl: sois
+      3pl: são
+
+    context:
+      default:
+        cue: "Por natureza,"
+        hint: "de temperamento paciente"
+
+    pattern: "*Highly irregular form*."
+
+  preterito_perfeito_indicativo:
+    forms:
+      1sg: fui
+      2sg: foste
+      3sg: foi
+      1pl: fomos
+      2pl: fostes
+      3pl: foram
+
+    context:
+      default:
+        cue: "No exame de ontem,"
+        hint: "dos | das melhores da turma"
+
+    pattern: "[[Irregular]]: The pretérito perfeito uses the stem `fo-` (except `fui` for first person singular). Same forms as the verb `ir`."
+
+    notes:
+      2sg: "*Highly irregular form*."
+      3sg: "*Highly irregular form*."
+      1pl: "*Highly irregular form*."
+      2pl: "*Highly irregular form*."
+      3pl: "*Highly irregular form*."
+
+  preterito_imperfeito_indicativo:
+    forms:
+      1sg: era
+      2sg: eras
+      3sg: era
+      1pl: éramos
+      2pl: éreis
+      3pl: eram
+
+    context:
+      default:
+        cue: "Na infância,"
+        hint: "muito tímido | tímida"
+      1pl:
+        cue: "Na infância,"
+        hint: "muito tímidos | tímidas"
+      2pl:
+        cue: "Na infância,"
+        hint: "muito tímidos | tímidas"
+      3pl:
+        cue: "Na infância,"
+        hint: "muito tímidos | tímidas"
+
+    pattern: |
+      *Highly irregular form*.
+      [[Irregular]]: The pretérito imperfeito uses the stem `er-` or `ér-`.
+
+  futuro_indicativo:
+    forms:
+      1sg: serei
+      2sg: serás
+      3sg: será
+      1pl: seremos
+      2pl: sereis
+      3pl: serão
+
+    context:
+      default:
+        cue: "Amanhã,"
+        hint: "da nova direção da empresa"
+
+  condicional:
+    forms:
+      1sg: seria
+      2sg: serias
+      3sg: seria
+      1pl: seríamos
+      2pl: seríeis
+      3pl: seriam
+
+    context:
+      default:
+        cue: "Se fosse o caso,"
+        hint: "astronauta"
+      1pl:
+        cue: "Se fosse o caso,"
+        hint: "astronautas"
+      2pl:
+        cue: "Se fosse o caso,"
+        hint: "astronautas"
+      3pl:
+        cue: "Se fosse o caso,"
+        hint: "astronautas"
+
+  presente_conjuntivo:
+    forms:
+      1sg: seja
+      2sg: sejas
+      3sg: seja
+      1pl: sejamos
+      2pl: sejais
+      3pl: sejam
+
+    context:
+      default:
+        cue: "Espero que"
+        hint: "feliz"
+      1pl:
+        cue: "Espero que"
+        hint: "felizes"
+      2pl:
+        cue: "Espero que"
+        hint: "felizes"
+      3pl:
+        cue: "Espero que"
+        hint: "felizes"
+
+    pattern: "[[Irregular]]: The presente do conjuntivo uses the stem `sej-`."
+
+  preterito_imperfeito_conjuntivo:
+    forms:
+      1sg: fosse
+      2sg: fosses
+      3sg: fosse
+      1pl: fôssemos
+      2pl: fôsseis
+      3pl: fossem
+
+    context:
+      default:
+        cue: "Se"
+        hint: "mais rico | rica"
+      1pl:
+        cue: "Se"
+        hint: "mais ricos | ricas"
+      2pl:
+        cue: "Se"
+        hint: "mais ricos | ricas"
+      3pl:
+        cue: "Se"
+        hint: "mais ricos | ricas"
+
+    pattern: |
+      *Highly irregular form*.
+      [[Irregular]]: The pretérito imperfeito do conjuntivo uses the stem `fo-`. Same forms as the verb `ir`.
+
+  futuro_conjuntivo:
+    forms:
+      1sg: for
+      2sg: fores
+      3sg: for
+      1pl: formos
+      2pl: fordes
+      3pl: forem
+
+    context:
+      default:
+        cue: "Quando"
+        hint: "mais velho | velha"
+      1pl:
+        cue: "Quando"
+        hint: "mais velhos | velhas"
+      2pl:
+        cue: "Quando"
+        hint: "mais velhos | velhas"
+      3pl:
+        cue: "Quando"
+        hint: "mais velhos | velhas"
+
+    pattern: |
+      *Highly irregular form*.
+      [[Irregular]]: The futuro do conjuntivo uses the stem `fo-`. Same forms as the verb `ir`.
+
+  imperativo_afirmativo:
+    forms:
+      2sg: sê
+      3sg: seja
+      1pl: sejamos
+      2pl: sede
+      3pl: sejam
+
+    context:
+      default:
+        cue: "Por favor,"
+        hint: "corajoso | corajosa"
+      1pl:
+        cue: "Por favor,"
+        hint: "corajosos | corajosas"
+      2pl:
+        cue: "Por favor,"
+        hint: "corajosos | corajosas"
+      3pl:
+        cue: "Por favor,"
+        hint: "corajosos | corajosas"
+
+    notes:
+      2sg: "*Highly irregular form*. Does not follow usual construction rule."
+      3sg: "[[Regular]]: Same presente do conjuntivo ~ele~ form."
+      1pl: "[[Regular]]: Same presente do conjuntivo ~nós~ form."
+      2pl: "*Highly irregular form*. Does not follow usual construction rule."
+      3pl: "[[Regular]]: Same presente do conjuntivo ~eles~ form."
+
+  imperativo_negativo:
+    forms:
+      2sg: sejas
+      3sg: seja
+      1pl: sejamos
+      2pl: sejais
+      3pl: sejam
+
+    context:
+      default:
+        cue: "Por favor, não"
+        hint: "malcriado | malcriada"
+      1pl:
+        cue: "Por favor, não"
+        hint: "malcriados | malcriadas"
+      2pl:
+        cue: "Por favor, não"
+        hint: "malcriados | malcriadas"
+      3pl:
+        cue: "Por favor, não"
+        hint: "malcriados | malcriadas"
+
+    pattern: "[[Regular]]: Forms follow normal construction rule."
+
+  infinitivo_pessoal:
+    forms:
+      1sg: ser
+      2sg: seres
+      3sg: ser
+      1pl: sermos
+      2pl: serdes
+      3pl: serem
+
+    context:
+      default:
+        cue: "É importante"
+        hint: "honesto | honesta"
+      1pl:
+        cue: "É importante"
+        hint: "honestos | honestas"
+      2pl:
+        cue: "É importante"
+        hint: "honestos | honestas"
+      3pl:
+        cue: "É importante"
+        hint: "honestos | honestas"
+
+  gerundio:
+    forms:
+      all: sendo
+
+    context:
+      default:
+        cue: "Ela conhece bem Lisboa,"
+        hint: "de lá"
+
+  participio_passado:
+    forms:
+      all: sido
+
+    context:
+      default:
+        cue: "Ele parece ter"
+        hint: "muito feliz"

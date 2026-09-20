@@ -1,0 +1,93 @@
+metadata:
+  lemma: falar
+  translation: to speak / to talk
+
+transformations:
+  - conjugator_ar
+
+analogs:
+  trabalhar: {}
+  morar: {}
+  estudar: {}
+  comprar: {}
+  gostar: {}
+  ajudar: {}
+
+tenses:
+  presente_indicativo:
+    context:
+      default:
+        cue: "Todos os dias,"
+        hint: "com os colegas"
+
+  preterito_perfeito_indicativo:
+    context:
+      default:
+        cue: "Ontem,"
+        hint: "com o meu pai ao telefone"
+
+  preterito_imperfeito_indicativo:
+    context:
+      default:
+        cue: "Antigamente,"
+        hint: "sempre em português"
+
+  futuro_indicativo:
+    context:
+      default:
+        cue: "Amanhã,"
+        hint: "sobre o projeto"
+
+  condicional:
+    context:
+      default:
+        cue: "Se fosse possível,"
+        hint: "mais devagar"
+
+  presente_conjuntivo:
+    context:
+      default:
+        cue: "Espero que"
+        hint: "com mais calma"
+
+  preterito_imperfeito_conjuntivo:
+    context:
+      default:
+        cue: "Se"
+        hint: "a verdade"
+
+  futuro_conjuntivo:
+    context:
+      default:
+        cue: "Quando"
+        hint: "com o chefe"
+
+  imperativo_afirmativo:
+    context:
+      default:
+        cue: "Por favor,"
+        hint: "mais alto"
+
+  imperativo_negativo:
+    context:
+      default:
+        cue: "Por favor, não"
+        hint: "durante o filme"
+
+  infinitivo_pessoal:
+    context:
+      default:
+        cue: "É importante"
+        hint: "com clareza"
+
+  gerundio:
+    context:
+      default:
+        cue: "Ele resolveu o problema"
+        hint: "diretamente com o gerente"
+
+  participio_passado:
+    context:
+      default:
+        cue: "Depois de ter"
+        hint: "durante horas"

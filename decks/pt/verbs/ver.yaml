@@ -1,0 +1,112 @@
+metadata:
+  lemma: ver
+  translation: to see
+
+transformations:
+  - conjugator_er
+  - ver_family
+
+analogs:
+  prever: {}
+  rever: {}
+
+tenses:
+  presente_indicativo:
+    notes:
+      1sg: "[[Irregular]]: Uses the stem `vej-`. Other persons keep the regular stem."
+      2sg: "`-es` is the regular ending for verbs in ~-er~. The ~ê~ is the accent every stressed monosyllable ending in ~-es~ takes."
+      3sg: "`-e` is the regular ending for verbs in ~-er~. The ~ê~ is the accent every stressed monosyllable ending in ~-e~ takes."
+      2pl: "[[Irregular]]: Ending `-edes` instead of the expected `-eis`."
+      3pl: "[[Irregular]]: The ~e~ is doubled (`veem`, not *vem*, which is a form of `vir`)."
+
+    context:
+      default:
+        cue: "Hoje"
+        hint: "tudo com clareza"
+
+  preterito_perfeito_indicativo:
+    context:
+      default:
+        cue: "Ontem à noite,"
+        hint: "um filme incrível"
+
+    pattern: "[[Irregular]]: The pretérito perfeito uses the endings of verbs in ~-ir~ instead of ~-er~."
+
+  preterito_imperfeito_indicativo:
+    context:
+      default:
+        cue: "Em criança,"
+        hint: "desenhos animados aos sábados"
+
+  futuro_indicativo:
+    context:
+      default:
+        cue: "Amanhã,"
+        hint: "o resultado do exame"
+
+  condicional:
+    context:
+      default:
+        cue: "Se fosse o caso,"
+        hint: "as coisas de outra forma"
+
+  presente_conjuntivo:
+    context:
+      default:
+        cue: "Espero que"
+        hint: "a diferença em breve"
+
+    pattern: "[[Irregular]]: The presente do conjuntivo uses the stem `vej-`, from the presente do indicativo eu-form `vejo`."
+
+  preterito_imperfeito_conjuntivo:
+    context:
+      default:
+        cue: "Se"
+        hint: "melhor à noite"
+
+    pattern: "[[Irregular]]: The pretérito imperfeito do conjuntivo uses the endings of verbs in ~-ir~ instead of ~-er~."
+
+  futuro_conjuntivo:
+    context:
+      default:
+        cue: "Quando"
+        hint: "a oportunidade certa"
+
+    pattern: "[[Irregular]]: The futuro do conjuntivo uses the endings of verbs in ~-ir~ instead of ~-er~."
+
+  imperativo_afirmativo:
+    context:
+      default:
+        cue: "Por favor,"
+        hint: "se está tudo bem"
+
+    pattern: "[[Regular]]: Forms follow normal construction rule."
+
+  imperativo_negativo:
+    context:
+      default:
+        cue: "Por favor, não"
+        hint: "esse programa"
+
+    pattern: "[[Regular]]: Forms follow normal construction rule."
+
+  infinitivo_pessoal:
+    context:
+      default:
+        cue: "É importante"
+        hint: "as coisas com clareza"
+
+  gerundio:
+    context:
+      default:
+        cue: "Ela aprendeu a cozinhar"
+        hint: "vídeos na internet"
+
+  participio_passado:
+    context:
+      default:
+        cue: "Depois de ter"
+        hint: "o resultado"
+
+    notes:
+      all: "*Highly irregular form*."

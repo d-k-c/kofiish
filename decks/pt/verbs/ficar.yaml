@@ -1,0 +1,87 @@
+metadata:
+  lemma: ficar
+  translation: to stay / to become
+
+transformations:
+  - conjugator_ar
+
+tenses:
+  presente_indicativo:
+    context:
+      default:
+        cue: "Hoje"
+        hint: "em casa"
+
+  preterito_perfeito_indicativo:
+    context:
+      default:
+        cue: "Ontem à noite,"
+        hint: "até altas horas"
+
+  preterito_imperfeito_indicativo:
+    context:
+      default:
+        cue: "Todos os verões,"
+        hint: "na casa dos avós"
+    notes:
+      1sg: "`Ficava` here means a recurring/habitual stay, not a single completed one."
+
+  futuro_indicativo:
+    context:
+      default:
+        cue: "Amanhã,"
+        hint: "no escritório"
+
+  condicional:
+    context:
+      default:
+        cue: "Se fosse o caso,"
+        hint: "mais tempo de férias"
+
+  presente_conjuntivo:
+    context:
+      default:
+        cue: "Espero que"
+        hint: "por perto"
+
+  preterito_imperfeito_conjuntivo:
+    context:
+      default:
+        cue: "Se"
+        hint: "em silêncio"
+
+  futuro_conjuntivo:
+    context:
+      default:
+        cue: "Quando"
+        hint: "no mesmo sítio"
+
+  imperativo_afirmativo:
+    context:
+      default:
+        cue: "Por favor,"
+        hint: "por aqui"
+
+  imperativo_negativo:
+    context:
+      default:
+        cue: "Por favor, não"
+        hint: "à espera"
+
+  infinitivo_pessoal:
+    context:
+      default:
+        cue: "É melhor"
+        hint: "à vontade"
+
+  gerundio:
+    context:
+      default:
+        cue: "Ela aceitou o convite,"
+        hint: "para jantar"
+
+  participio_passado:
+    context:
+      default:
+        cue: "Depois de ter"
+        hint: "muito tempo em casa"

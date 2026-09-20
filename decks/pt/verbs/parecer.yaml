@@ -1,0 +1,183 @@
+metadata:
+  lemma: parecer
+  translation: to seem / to look like
+
+transformations:
+  - conjugator_er
+
+analogs:
+  conhecer: {}
+  crescer: {}
+  nascer: {}
+  oferecer: {}
+  agradecer: {}
+  esquecer: {}
+
+tenses:
+  presente_indicativo:
+    context:
+      default:
+        cue: "Hoje em dia,"
+        hint: "mais feliz"
+      1pl:
+        cue: "Hoje em dia,"
+        hint: "mais felizes"
+      2pl:
+        cue: "Hoje em dia,"
+        hint: "mais felizes"
+      3pl:
+        cue: "Hoje em dia,"
+        hint: "mais felizes"
+
+  preterito_perfeito_indicativo:
+    context:
+      default:
+        cue: "Na festa de ontem,"
+        hint: "muito à vontade"
+
+  preterito_imperfeito_indicativo:
+    context:
+      default:
+        cue: "Naquela época,"
+        hint: "sempre triste"
+      1pl:
+        cue: "Naquela época,"
+        hint: "sempre tristes"
+      2pl:
+        cue: "Naquela época,"
+        hint: "sempre tristes"
+      3pl:
+        cue: "Naquela época,"
+        hint: "sempre tristes"
+
+  futuro_indicativo:
+    context:
+      default:
+        cue: "Depois das férias,"
+        hint: "mais jovem"
+      1pl:
+        cue: "Depois das férias,"
+        hint: "mais jovens"
+      2pl:
+        cue: "Depois das férias,"
+        hint: "mais jovens"
+      3pl:
+        cue: "Depois das férias,"
+        hint: "mais jovens"
+
+  condicional:
+    context:
+      default:
+        cue: "Com aquela roupa,"
+        hint: "importante"
+      1pl:
+        cue: "Com aquela roupa,"
+        hint: "importantes"
+      2pl:
+        cue: "Com aquela roupa,"
+        hint: "importantes"
+      3pl:
+        cue: "Com aquela roupa,"
+        hint: "importantes"
+
+  presente_conjuntivo:
+    context:
+      default:
+        cue: "Espero que"
+        hint: "confiante na reunião"
+      1pl:
+        cue: "Espero que"
+        hint: "confiantes na reunião"
+      2pl:
+        cue: "Espero que"
+        hint: "confiantes na reunião"
+      3pl:
+        cue: "Espero que"
+        hint: "confiantes na reunião"
+
+  preterito_imperfeito_conjuntivo:
+    context:
+      default:
+        cue: "Se"
+        hint: "mais alegre"
+      1pl:
+        cue: "Se"
+        hint: "mais alegres"
+      2pl:
+        cue: "Se"
+        hint: "mais alegres"
+      3pl:
+        cue: "Se"
+        hint: "mais alegres"
+
+  futuro_conjuntivo:
+    context:
+      default:
+        cue: "Quando"
+        hint: "capaz de tudo"
+      1pl:
+        cue: "Quando"
+        hint: "capazes de tudo"
+      2pl:
+        cue: "Quando"
+        hint: "capazes de tudo"
+      3pl:
+        cue: "Quando"
+        hint: "capazes de tudo"
+
+  imperativo_afirmativo:
+    context:
+      default:
+        cue: "Por favor,"
+        hint: "firme na entrevista"
+      1pl:
+        cue: "Por favor,"
+        hint: "firmes na entrevista"
+      2pl:
+        cue: "Por favor,"
+        hint: "firmes na entrevista"
+      3pl:
+        cue: "Por favor,"
+        hint: "firmes na entrevista"
+
+  imperativo_negativo:
+    context:
+      default:
+        cue: "Por favor, não"
+        hint: "tão triste"
+      1pl:
+        cue: "Por favor, não"
+        hint: "tão tristes"
+      2pl:
+        cue: "Por favor, não"
+        hint: "tão tristes"
+      3pl:
+        cue: "Por favor, não"
+        hint: "tão tristes"
+
+  infinitivo_pessoal:
+    context:
+      default:
+        cue: "É importante"
+        hint: "credível perante o júri"
+      1pl:
+        cue: "É importante"
+        hint: "credíveis perante o júri"
+      2pl:
+        cue: "É importante"
+        hint: "credíveis perante o júri"
+      3pl:
+        cue: "É importante"
+        hint: "credíveis perante o júri"
+
+  gerundio:
+    context:
+      default:
+        cue: "Ele respondeu,"
+        hint: "muito seguro de si"
+
+  participio_passado:
+    context:
+      default:
+        cue: "Depois de ter"
+        hint: "tão confiante na entrevista"

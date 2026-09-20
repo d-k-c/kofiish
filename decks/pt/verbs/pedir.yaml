@@ -1,0 +1,218 @@
+metadata:
+  lemma: pedir
+  translation: to ask for / to request
+
+transformations:
+  - conjugator_ir
+
+analogs:
+  despedir:
+    presente_indicativo:
+      forms:
+        1sg: despeço
+    presente_conjuntivo:
+      forms:
+        1sg: despeça
+        2sg: despeças
+        3sg: despeça
+        1pl: despeçamos
+        2pl: despeçais
+        3pl: despeçam
+    imperativo_afirmativo:
+      forms:
+        3sg: despeça
+        1pl: despeçamos
+        3pl: despeçam
+    imperativo_negativo:
+      forms:
+        2sg: despeças
+        3sg: despeça
+        1pl: despeçamos
+        2pl: despeçais
+        3pl: despeçam
+
+  impedir:
+    presente_indicativo:
+      forms:
+        1sg: impeço
+    presente_conjuntivo:
+      forms:
+        1sg: impeça
+        2sg: impeças
+        3sg: impeça
+        1pl: impeçamos
+        2pl: impeçais
+        3pl: impeçam
+    imperativo_afirmativo:
+      forms:
+        3sg: impeça
+        1pl: impeçamos
+        3pl: impeçam
+    imperativo_negativo:
+      forms:
+        2sg: impeças
+        3sg: impeça
+        1pl: impeçamos
+        2pl: impeçais
+        3pl: impeçam
+
+  expedir:
+    presente_indicativo:
+      forms:
+        1sg: expeço
+    presente_conjuntivo:
+      forms:
+        1sg: expeça
+        2sg: expeças
+        3sg: expeça
+        1pl: expeçamos
+        2pl: expeçais
+        3pl: expeçam
+    imperativo_afirmativo:
+      forms:
+        3sg: expeça
+        1pl: expeçamos
+        3pl: expeçam
+    imperativo_negativo:
+      forms:
+        2sg: expeças
+        3sg: expeça
+        1pl: expeçamos
+        2pl: expeçais
+        3pl: expeçam
+
+  medir:
+    presente_indicativo:
+      forms:
+        1sg: meço
+    presente_conjuntivo:
+      forms:
+        1sg: meça
+        2sg: meças
+        3sg: meça
+        1pl: meçamos
+        2pl: meçais
+        3pl: meçam
+    imperativo_afirmativo:
+      forms:
+        3sg: meça
+        1pl: meçamos
+        3pl: meçam
+    imperativo_negativo:
+      forms:
+        2sg: meças
+        3sg: meça
+        1pl: meçamos
+        2pl: meçais
+        3pl: meçam
+
+tenses:
+  presente_indicativo:
+    forms:
+      1sg: peço
+
+    context:
+      default:
+        cue: "Todos os dias,"
+        hint: "ajuda"
+
+    notes:
+      1sg: "[[Irregular]]: The ~d~ becomes ~ç~ (`peço`). Other persons keep the regular stem."
+
+  preterito_perfeito_indicativo:
+    context:
+      default:
+        cue: "Ontem,"
+        hint: "um favor"
+
+  preterito_imperfeito_indicativo:
+    context:
+      default:
+        cue: "Em criança,"
+        hint: "desculpa por tudo"
+
+  futuro_indicativo:
+    context:
+      default:
+        cue: "Amanhã,"
+        hint: "a conta no restaurante"
+
+  condicional:
+    context:
+      default:
+        cue: "Nesse caso,"
+        hint: "outra oportunidade"
+
+  presente_conjuntivo:
+    forms:
+      1sg: peça
+      2sg: peças
+      3sg: peça
+      1pl: peçamos
+      2pl: peçais
+      3pl: peçam
+
+    context:
+      default:
+        cue: "Espero que"
+        hint: "desculpa"
+
+    pattern: "[[Irregular]]: The presente do conjuntivo uses the stem `peç-`, from the presente do indicativo eu-form `peço`."
+
+  preterito_imperfeito_conjuntivo:
+    context:
+      default:
+        cue: "Se"
+        hint: "ajuda mais cedo"
+
+  futuro_conjuntivo:
+    context:
+      default:
+        cue: "Quando"
+        hint: "alguma coisa"
+
+  imperativo_afirmativo:
+    forms:
+      3sg: peça
+      1pl: peçamos
+      3pl: peçam
+
+    context:
+      default:
+        cue: "Por favor,"
+        hint: "desculpa"
+
+    pattern: "[[Regular]]: Follow normal construction rules."
+
+  imperativo_negativo:
+    forms:
+      2sg: peças
+      3sg: peça
+      1pl: peçamos
+      2pl: peçais
+      3pl: peçam
+
+    context:
+      default:
+        cue: "Por favor, não"
+        hint: "isso"
+
+    pattern: "[[Regular]]: Forms follow normal construction rule."
+
+  infinitivo_pessoal:
+    context:
+      default:
+        cue: "É importante"
+        hint: "com educação"
+
+  gerundio:
+    context:
+      default:
+        cue: "Ela conseguiu o emprego"
+        hint: "ajuda a um antigo colega"
+
+  participio_passado:
+    context:
+      default:
+        cue: "Depois de ter"
+        hint: "várias vezes"

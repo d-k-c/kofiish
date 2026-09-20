@@ -1,0 +1,212 @@
+metadata:
+  lemma: poder
+  translation: to be able to / can
+
+transformations:
+  - conjugator_er
+
+tenses:
+  presente_indicativo:
+    forms:
+      1sg: posso
+      2sg: podes
+      3sg: pode
+      1pl: podemos
+      2pl: podeis
+      3pl: podem
+
+    context:
+      default:
+        cue: "Hoje"
+        hint: "sair mais cedo do trabalho"
+
+    notes:
+      1sg: "[[Irregular]]: The ~d~ becomes ~ss~ (`posso`). Other persons keep the regular stem."
+
+  preterito_perfeito_indicativo:
+    forms:
+      1sg: pude
+      2sg: pudeste
+      3sg: pôde
+      1pl: pudemos
+      2pl: pudestes
+      3pl: puderam
+
+    context:
+      default:
+        cue: "Ontem"
+        hint: "terminar o relatório a tempo"
+
+    pattern: "[[Irregular]]: The pretérito perfeito uses the stem `pud-` (except `pôde`)."
+    notes:
+      1sg: "[[Irregular]]: Ending `-e` instead of the expected `-i`."
+      3sg: "[[Irregular]]: Uses the stem `pôd-` and the ending `-e` instead of the expected `-eu`. The ~ô~ tells it apart from the presente `pode`."
+
+  preterito_imperfeito_indicativo:
+    forms:
+      1sg: podia
+      2sg: podias
+      3sg: podia
+      1pl: podíamos
+      2pl: podíeis
+      3pl: podiam
+
+    context:
+      default:
+        cue: "Em criança,"
+        hint: "brincar até tarde"
+
+  futuro_indicativo:
+    forms:
+      1sg: poderei
+      2sg: poderás
+      3sg: poderá
+      1pl: poderemos
+      2pl: podereis
+      3pl: poderão
+
+    context:
+      default:
+        cue: "Amanhã"
+        hint: "ajudar os vizinhos com a mudança"
+
+  condicional:
+    forms:
+      1sg: poderia
+      2sg: poderias
+      3sg: poderia
+      1pl: poderíamos
+      2pl: poderíeis
+      3pl: poderiam
+
+    context:
+      default:
+        cue: "Com mais tempo,"
+        hint: "viajar mais vezes"
+
+  presente_conjuntivo:
+    forms:
+      1sg: possa
+      2sg: possas
+      3sg: possa
+      1pl: possamos
+      2pl: possais
+      3pl: possam
+
+    context:
+      default:
+        cue: "Espero que"
+        hint: "vir à festa"
+
+    pattern: "[[Irregular]]: The presente do conjuntivo uses the stem `poss-`, from the presente do indicativo eu-form `posso`."
+
+  preterito_imperfeito_conjuntivo:
+    forms:
+      1sg: pudesse
+      2sg: pudesses
+      3sg: pudesse
+      1pl: pudéssemos
+      2pl: pudésseis
+      3pl: pudessem
+
+    context:
+      default:
+        cue: "Se"
+        hint: "resolver o problema sozinho | sozinha"
+      1pl:
+        cue: "Se"
+        hint: "resolver o problema sozinhos | sozinhas"
+      2pl:
+        cue: "Se"
+        hint: "resolver o problema sozinhos | sozinhas"
+      3pl:
+        cue: "Se"
+        hint: "resolver o problema sozinhos | sozinhas"
+
+    pattern: "[[Irregular]]: The pretérito imperfeito do conjuntivo uses the stem `pud-`."
+    notes:
+      1pl: "`-êssemos` is the regular ending for verbs in ~-er~. Note the change ~ê → é~."
+      2pl: "`-êsseis` is the regular ending for verbs in ~-er~. Note the change ~ê → é~."
+
+  futuro_conjuntivo:
+    forms:
+      1sg: puder
+      2sg: puderes
+      3sg: puder
+      1pl: pudermos
+      2pl: puderdes
+      3pl: puderem
+
+    context:
+      default:
+        cue: "Quando"
+        hint: "resolver isto sozinho | sozinha"
+      1pl:
+        cue: "Quando"
+        hint: "resolver isto sozinhos | sozinhas"
+      2pl:
+        cue: "Quando"
+        hint: "resolver isto sozinhos | sozinhas"
+      3pl:
+        cue: "Quando"
+        hint: "resolver isto sozinhos | sozinhas"
+
+    pattern: "[[Irregular]]: The futuro do conjuntivo uses the stem `pud-`."
+
+  imperativo_afirmativo:
+    forms:
+      2sg: null
+      3sg: null
+      1pl: null
+      2pl: null
+      3pl: null
+
+    context:
+      default:
+        cue: null
+        hint: null
+
+  imperativo_negativo:
+    forms:
+      2sg: null
+      3sg: null
+      1pl: null
+      2pl: null
+      3pl: null
+
+    context:
+      default:
+        cue: null
+        hint: null
+
+  infinitivo_pessoal:
+    forms:
+      1sg: poder
+      2sg: poderes
+      3sg: poder
+      1pl: podermos
+      2pl: poderdes
+      3pl: poderem
+
+    context:
+      default:
+        cue: "É importante"
+        hint: "ajudar sempre que for preciso"
+
+  gerundio:
+    forms:
+      all: podendo
+
+    context:
+      default:
+        cue: "Ela desistiu da viagem, não"
+        hint: "tirar férias"
+
+  participio_passado:
+    forms:
+      all: podido
+
+    context:
+      default:
+        cue: "Ainda bem que ele tem"
+        hint: "resolver isto sozinho"

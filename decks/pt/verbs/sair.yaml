@@ -1,0 +1,128 @@
+metadata:
+  lemma: sair
+  translation: to leave / to go out
+
+transformations:
+  - conjugator_ir
+  - sair_family
+
+analogs:
+  cair: {}
+  atrair: {}
+
+tenses:
+  presente_indicativo:
+    context:
+      default:
+        cue: "Todos os dias,"
+        hint: "de casa às oito"
+
+    notes:
+      1sg: "[[Irregular]]: An ~i~ is added before the ending (`saio`)."
+      2sg: "[[Irregular]]: Ends in `-is` instead of the expected `-es`."
+      3sg: "[[Irregular]]: Ends in `-i` instead of the expected `-e`."
+      1pl: "[[Note]]: The ~i~ takes a written accent to mark the hiato (`sa-í-mos`)."
+      2pl: "[[Note]]: The ~i~ takes a written accent to mark the hiato: `saís` (vós), distinct from `sais` (tu)."
+      3pl: "[[Note]]: This is the only form of `sair` across all persons and tenses without the `sai-` stem. All other forms keep the ~i~."
+
+  preterito_perfeito_indicativo:
+    context:
+      default:
+        cue: "Ontem,"
+        hint: "mais tarde do que o costume"
+
+    pattern: "[[Note]]: The ~i~ of the ending takes a written accent to mark the hiato (except `saiu`)."
+
+  preterito_imperfeito_indicativo:
+    context:
+      default:
+        cue: "Todos os sábados,"
+        hint: "para dançar"
+
+    pattern: "[[Note]]: The ~i~ of the ending takes a written accent to mark the hiato."
+
+  futuro_indicativo:
+    context:
+      default:
+        cue: "Amanhã,"
+        hint: "cedo para o aeroporto"
+
+  condicional:
+    context:
+      default:
+        cue: "Se fosse possível,"
+        hint: "agora mesmo"
+
+  presente_conjuntivo:
+    context:
+      default:
+        cue: "Espero que"
+        hint: "sem problemas"
+
+    pattern: "[[Irregular]]: The presente do conjuntivo uses the stem `sai-`, from the presente do indicativo eu-form `saio`."
+
+  preterito_imperfeito_conjuntivo:
+    context:
+      default:
+        cue: "Se"
+        hint: "mais cedo"
+
+    pattern: "[[Note]]: The ~i~ of the ending takes a written accent to mark the hiato."
+
+  futuro_conjuntivo:
+    context:
+      default:
+        cue: "Quando"
+        hint: "do trabalho"
+
+    notes:
+      2sg: "[[Note]]: The ~i~ takes a written accent to mark the hiato (`sa-í-res`)."
+      1pl: "[[Note]]: No written accent: the ~i~ shares its syllable with the ~r~ (`sa-ir-mos`)."
+      2pl: "[[Note]]: No written accent: the ~i~ shares its syllable with the ~r~ (`sa-ir-des`)."
+      3pl: "[[Note]]: The ~i~ takes a written accent to mark the hiato (`sa-í-rem`)."
+
+  imperativo_afirmativo:
+    context:
+      default:
+        cue: "Por favor,"
+        hint: "agora mesmo"
+
+    pattern: "[[Regular]]: Follow normal construction rules."
+
+  imperativo_negativo:
+    context:
+      default:
+        cue: "Por favor, não"
+        hint: "sem guarda-chuva"
+
+    pattern: "[[Regular]]: Forms follow normal construction rule."
+
+  infinitivo_pessoal:
+    context:
+      default:
+        cue: "É importante"
+        hint: "cedo hoje"
+
+    notes:
+      2sg: "[[Note]]: The ~i~ takes a written accent to mark the hiato (`sa-í-res`)."
+      1pl: "[[Note]]: No written accent: the ~i~ shares its syllable with the ~r~ (`sa-ir-mos`)."
+      2pl: "[[Note]]: No written accent: the ~i~ shares its syllable with the ~r~ (`sa-ir-des`)."
+      3pl: "[[Note]]: The ~i~ takes a written accent to mark the hiato (`sa-í-rem`)."
+
+  gerundio:
+    context:
+      default:
+        cue: "Ele despediu-se,"
+        hint: "sem fazer barulho"
+
+    notes:
+      all: "[[Note]]: No written accent: the ~i~ shares its syllable with the ~n~ (`sa-in-do`)."
+
+  participio_passado:
+    context:
+      default:
+        cue: "Depois de ter"
+        hint: "de casa"
+
+    notes:
+      all: "[[Note]]: The ~i~ takes a written accent to mark the hiato (`sa-í-do`)."

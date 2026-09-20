@@ -1,0 +1,88 @@
+metadata:
+  lemma: distinguir
+  translation: to distinguish / to tell apart
+
+transformations:
+  - conjugator_ir
+
+analogs:
+  extinguir: {}
+
+tenses:
+  presente_indicativo:
+    context:
+      default:
+        cue: "De longe,"
+        hint: "mal os pormenores"
+
+  preterito_perfeito_indicativo:
+    context:
+      default:
+        cue: "Na festa, finalmente"
+        hint: "os gémeos"
+
+  preterito_imperfeito_indicativo:
+    context:
+      default:
+        cue: "Naquela idade, ainda não"
+        hint: "as cores"
+
+  futuro_indicativo:
+    context:
+      default:
+        cue: "Com mais prática,"
+        hint: "os sotaques"
+
+  condicional:
+    context:
+      default:
+        cue: "Com melhor iluminação,"
+        hint: "os detalhes do quadro"
+
+  presente_conjuntivo:
+    context:
+      default:
+        cue: "É importante que"
+        hint: "os sinais de perigo"
+
+  preterito_imperfeito_conjuntivo:
+    context:
+      default:
+        cue: "Se"
+        hint: "melhor as vozes"
+
+  futuro_conjuntivo:
+    context:
+      default:
+        cue: "Quando"
+        hint: "os dois vinhos"
+
+  imperativo_afirmativo:
+    context:
+      default:
+        cue: "Por favor,"
+        hint: "os dois modelos"
+
+  imperativo_negativo:
+    context:
+      default:
+        cue: "Por favor, não"
+        hint: "os casos"
+
+  infinitivo_pessoal:
+    context:
+      default:
+        cue: "É importante"
+        hint: "os sinónimos"
+
+  gerundio:
+    context:
+      default:
+        cue: "Ela identificou o pássaro"
+        hint: "o seu canto"
+
+  participio_passado:
+    context:
+      default:
+        cue: "Depois de ter"
+        hint: "os sons"

@@ -2,22 +2,39 @@
 
 
 <div class="back">
-<br /><br />
-&mdash;<br />
-
-same family: {{Similar}}
 <br />
-&mdash;<br />
 
+{{#Pronunciation}}
+<div class="pronunciation">{{Pronunciation}}</div>
+{{/Pronunciation}}
+<hr>
+
+{{#Similar}}
+Similar:<br />
+{{Similar}}
+<br />
+<hr>
+{{/Similar}}
+
+
+{{#Notes}}
 {{Notes}}
+<br />
+<br />
+<div style="text-align: center;">&mdash;</div>
+<br />
+{{/Notes}}
+
+{{#Dictionaries}}
 {{Dictionaries}}
-{{Forvo}}
+<br /><br />
+{{/Dictionaries}}
 {{Sentence_Translation}}
 <br />
-&mdash;<br />
 
+<hr>
 </span>
-<span class="manual">the <a href="https://www.asiteaboutnothing.net/w_kofi-french.html">manual</a> | lists of <a href="https://www.asiteaboutnothing.net/w_kofi-french.html#deck-description">verbs and tags</a> | buy me a <a href="https://www.buymeacoffee.com/lutfen">coffee</a><br>
+<span class="manual">the <a href="https://www.asiteaboutnothing.net/w_kofi-french.html">official KOFI manual for french</a></span>
 &mdash;<br />
 
 
@@ -30,4 +47,5 @@ tags: <span class='tags'>{{Tags}}</span>
 
 
 <br><br>
+
 

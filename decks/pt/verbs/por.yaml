@@ -1,0 +1,223 @@
+metadata:
+  lemma: pôr
+  translation: to put
+
+transformations:
+  - conjugator_er
+
+tenses:
+  presente_indicativo:
+    forms:
+      1sg: ponho
+      2sg: pões
+      3sg: põe
+      1pl: pomos
+      2pl: pondes
+      3pl: põem
+
+    context:
+      default:
+        cue: "Agora,"
+        hint: "a mesa"
+
+    notes:
+      1sg: "[[Irregular]]: Uses the stem `ponh-`."
+      2sg: "[[Irregular]]: Uses the stem `põ-`."
+      3sg: "[[Irregular]]: Uses the stem `põ-`."
+      1pl: "[[Irregular]]: Ends in `-mos` instead of the expected `-emos`."
+      2pl: "*Highly irregular form*. Note the extra ~d~."
+      3pl: "[[Irregular]]: Uses the stem `põ-`."
+
+  preterito_perfeito_indicativo:
+    forms:
+      1sg: pus
+      2sg: puseste
+      3sg: pôs
+      1pl: pusemos
+      2pl: pusestes
+      3pl: puseram
+
+    context:
+      default:
+        cue: "Ontem,"
+        hint: "as chaves na mesa"
+
+    pattern: "[[Irregular]]: The pretérito perfeito uses the stem `pus-` (except `pôs`)."
+    notes:
+      1sg: "[[Irregular]]: Missing expected ending `-i`."
+      3sg: "*Highly irregular form."
+
+  preterito_imperfeito_indicativo:
+    forms:
+      1sg: punha
+      2sg: punhas
+      3sg: punha
+      1pl: púnhamos
+      2pl: púnheis
+      3pl: punham
+
+    context:
+      default:
+        cue: "Todos os dias,"
+        hint: "a roupa no armário"
+
+    pattern: |
+      *Highly irregular form*.
+      [[Irregular]]: The pretérito imperfeito uses the stem `punh-` or `púnh-`.
+
+  futuro_indicativo:
+    forms:
+      1sg: porei
+      2sg: porás
+      3sg: porá
+      1pl: poremos
+      2pl: poreis
+      3pl: porão
+
+    context:
+      default:
+        cue: "Amanhã,"
+        hint: "os livros na estante"
+
+    pattern: "[[Note]]: The futuro uses the stem `por-`: the infinitive loses its circumflex."
+
+  condicional:
+    forms:
+      1sg: poria
+      2sg: porias
+      3sg: poria
+      1pl: poríamos
+      2pl: poríeis
+      3pl: poriam
+
+    context:
+      default:
+        cue: "Com mais tempo,"
+        hint: "as fotos num álbum"
+
+    pattern: "[[Note]]: The condicional uses the stem `por-`: the infinitive loses its circumflex."
+
+  presente_conjuntivo:
+    forms:
+      1sg: ponha
+      2sg: ponhas
+      3sg: ponha
+      1pl: ponhamos
+      2pl: ponhais
+      3pl: ponham
+
+    context:
+      default:
+        cue: "Espero que"
+        hint: "o casaco antes de sair"
+
+    pattern: "[[Irregular]]: The presente do conjuntivo uses the stem `ponh-`, from the presente do indicativo eu-form `ponho`."
+
+  preterito_imperfeito_conjuntivo:
+    forms:
+      1sg: pusesse
+      2sg: pusesses
+      3sg: pusesse
+      1pl: puséssemos
+      2pl: pusésseis
+      3pl: pusessem
+
+    context:
+      default:
+        cue: "Se"
+        hint: "menos açúcar no café"
+
+    pattern: "[[Irregular]]: The pretérito imperfeito do conjuntivo uses the stem `pus-`."
+    notes:
+      1pl: "`-êssemos` is the regular ending for verbs in ~-er~. Note the change ~ê → é~."
+      2pl: "`-êsseis` is the regular ending for verbs in ~-er~. Note the change ~ê → é~."
+
+  futuro_conjuntivo:
+    forms:
+      1sg: puser
+      2sg: puseres
+      3sg: puser
+      1pl: pusermos
+      2pl: puserdes
+      3pl: puserem
+
+    context:
+      default:
+        cue: "Quando"
+        hint: "a mala no carro"
+
+    pattern: "[[Irregular]]: The futuro do conjuntivo uses the stem `pus-`."
+
+  imperativo_afirmativo:
+    forms:
+      2sg: põe
+      3sg: ponha
+      1pl: ponhamos
+      2pl: ponde
+      3pl: ponham
+
+    context:
+      default:
+        cue: "Por favor,"
+        hint: "isso ali"
+
+    pattern: "[[Regular]]: Follow normal construction rules."
+
+  imperativo_negativo:
+    forms:
+      2sg: ponhas
+      3sg: ponha
+      1pl: ponhamos
+      2pl: ponhais
+      3pl: ponham
+
+    context:
+      default:
+        cue: "Por favor, não"
+        hint: "isso na mesa"
+
+    pattern: "[[Regular]]: Forms follow normal construction rule."
+
+  infinitivo_pessoal:
+    forms:
+      1sg: pôr
+      2sg: pores
+      3sg: pôr
+      1pl: pormos
+      2pl: pordes
+      3pl: porem
+
+    context:
+      default:
+        cue: "É importante"
+        hint: "um fim a isto"
+
+    notes:
+      2sg: "[[Irregular]]: Loses its circumflex."
+      1pl: "[[Irregular]]: Loses its circumflex."
+      2pl: "[[Irregular]]: Loses its circumflex."
+      3pl: "[[Irregular]]: Loses its circumflex."
+
+  gerundio:
+    forms:
+      all: pondo
+
+    context:
+      default:
+        cue: "Ela resolveu o problema"
+        hint: "a chave debaixo do tapete"
+
+    notes:
+      all: "[[Irregular]]: Uses the stem `pon-`."
+
+  participio_passado:
+    forms:
+      all: posto
+
+    context:
+      default:
+        cue: "Depois de ter"
+        hint: "tudo no lugar"
+
+    notes:
+      all: "*Highly irregular form*."

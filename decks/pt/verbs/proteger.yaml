@@ -1,0 +1,89 @@
+metadata:
+  lemma: proteger
+  translation: to protect
+
+transformations:
+  - conjugator_er
+
+analogs:
+  eleger: {}
+  reger: {}
+
+tenses:
+  presente_indicativo:
+    context:
+      default:
+        cue: "Hoje em dia,"
+        hint: "o ambiente"
+
+  preterito_perfeito_indicativo:
+    context:
+      default:
+        cue: "Ontem,"
+        hint: "os documentos importantes"
+
+  preterito_imperfeito_indicativo:
+    context:
+      default:
+        cue: "Antigamente,"
+        hint: "a aldeia das cheias"
+
+  futuro_indicativo:
+    context:
+      default:
+        cue: "No futuro,"
+        hint: "os direitos dos trabalhadores"
+
+  condicional:
+    context:
+      default:
+        cue: "Se fosse preciso,"
+        hint: "a família a qualquer custo"
+
+  presente_conjuntivo:
+    context:
+      default:
+        cue: "Espero que"
+        hint: "as crianças"
+
+  preterito_imperfeito_conjuntivo:
+    context:
+      default:
+        cue: "Se"
+        hint: "os dados a tempo"
+
+  futuro_conjuntivo:
+    context:
+      default:
+        cue: "Quando"
+        hint: "a costa"
+
+  imperativo_afirmativo:
+    context:
+      default:
+        cue: "Por favor,"
+        hint: "os mais fracos"
+
+  imperativo_negativo:
+    context:
+      default:
+        cue: "Por favor, não"
+        hint: "às cegas"
+
+  infinitivo_pessoal:
+    context:
+      default:
+        cue: "É importante"
+        hint: "as provas no julgamento"
+
+  gerundio:
+    context:
+      default:
+        cue: "Ele evacuou o prédio,"
+        hint: "os moradores idosos"
+
+  participio_passado:
+    context:
+      default:
+        cue: "Depois de ter"
+        hint: "os dados sensíveis"

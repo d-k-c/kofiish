@@ -1,0 +1,221 @@
+metadata:
+  lemma: ir
+  translation: to go
+
+transformations:
+  - conjugator_ir
+
+tenses:
+  presente_indicativo:
+    forms:
+      1sg: vou
+      2sg: vais
+      3sg: vai
+      1pl: vamos
+      2pl: ides
+      3pl: vão
+
+    context:
+      default:
+        cue: "Todos os dias,"
+        hint: "ao trabalho de comboio"
+
+    pattern: "*Highly irregular form*."
+
+    notes:
+      1pl: "[[Note]]: `vamos` and `imos` both exist."
+      2pl: "[[Note]]: `ides` and `vades` both exist."
+
+  preterito_perfeito_indicativo:
+    forms:
+      1sg: fui
+      2sg: foste
+      3sg: foi
+      1pl: fomos
+      2pl: fostes
+      3pl: foram
+
+    context:
+      default:
+        cue: "Ontem,"
+        hint: "ao mercado"
+
+    pattern: "[[Irregular]]: The pretérito perfeito uses the stem `fo-` (except `fui` for first person singular). Same forms as the verb `ser`."
+
+    notes:
+      2sg: "*Highly irregular form*."
+      3sg: "*Highly irregular form*."
+
+  preterito_imperfeito_indicativo:
+    forms:
+      1sg: ia
+      2sg: ias
+      3sg: ia
+      1pl: íamos
+      2pl: íeis
+      3pl: iam
+
+    context:
+      default:
+        cue: "Antigamente,"
+        hint: "à igreja todos os domingos"
+
+    pattern: "[[Regular]]: The stem of `ir` is empty."
+
+  futuro_indicativo:
+    forms:
+      1sg: irei
+      2sg: irás
+      3sg: irá
+      1pl: iremos
+      2pl: ireis
+      3pl: irão
+
+    context:
+      default:
+        cue: "No próximo verão,"
+        hint: "a Lisboa"
+
+  condicional:
+    forms:
+      1sg: iria
+      2sg: irias
+      3sg: iria
+      1pl: iríamos
+      2pl: iríeis
+      3pl: iriam
+
+    context:
+      default:
+        cue: "Com mais tempo,"
+        hint: "ao cinema"
+
+  presente_conjuntivo:
+    forms:
+      1sg: vá
+      2sg: vás
+      3sg: vá
+      1pl: vamos
+      2pl: vades
+      3pl: vão
+
+    context:
+      default:
+        cue: "Espero que"
+        hint: "à festa"
+
+    pattern: "[[Irregular]]: The presente do conjuntivo uses the stem `v-`."
+
+    notes:
+      1sg: "`-a` is the regular ending for verbs in ~-ir~. Note the change ~a → á~."
+      2sg: "`-as` is the regular ending for verbs in ~-ir~. Note the change ~as → ás~."
+      3sg: "`-a` is the regular ending for verbs in ~-ir~. Note the change ~a → á~."
+      2pl: "*Highly irregular form*."
+      3pl: "*Highly irregular form*."
+
+  preterito_imperfeito_conjuntivo:
+    forms:
+      1sg: fosse
+      2sg: fosses
+      3sg: fosse
+      1pl: fôssemos
+      2pl: fôsseis
+      3pl: fossem
+
+    context:
+      default:
+        cue: "Se"
+        hint: "ao médico"
+
+    pattern: |
+      *Highly irregular form*.
+      [[Irregular]]: The pretérito imperfeito do conjuntivo uses the stem `fo-`. Same forms as the verb `ser`.
+
+  futuro_conjuntivo:
+    forms:
+      1sg: for
+      2sg: fores
+      3sg: for
+      1pl: formos
+      2pl: fordes
+      3pl: forem
+
+    context:
+      default:
+        cue: "Quando"
+        hint: "à praia"
+
+    pattern: |
+      *Highly irregular form*.
+      [[Irregular]]: The futuro do conjuntivo uses the stem `fo-`. Same forms as the verb `ser`.
+
+  imperativo_afirmativo:
+    forms:
+      2sg: vai
+      3sg: vá
+      1pl: vamos
+      2pl: ide
+      3pl: vão
+
+    context:
+      default:
+        cue: "Por favor,"
+        hint: "às compras"
+
+    pattern: "[[Regular]]: Forms follow normal construction rule."
+
+  imperativo_negativo:
+    forms:
+      2sg: vás
+      3sg: vá
+      1pl: vamos
+      2pl: vades
+      3pl: vão
+
+    context:
+      default:
+        cue: "Por favor, não"
+        hint: "sozinho | sozinha à noite"
+      1pl:
+        cue: "Por favor, não"
+        hint: "sozinhos | sozinhas à noite"
+      2pl:
+        cue: "Por favor, não"
+        hint: "sozinhos | sozinhas à noite"
+      3pl:
+        cue: "Por favor, não"
+        hint: "sozinhos | sozinhas à noite"
+
+    pattern: "[[Regular]]: Forms follow normal construction rule."
+
+  infinitivo_pessoal:
+    forms:
+      1sg: ir
+      2sg: ires
+      3sg: ir
+      1pl: irmos
+      2pl: irdes
+      3pl: irem
+
+    context:
+      default:
+        cue: "É importante"
+        hint: "ao dentista regularmente"
+
+  gerundio:
+    forms:
+      all: indo
+
+    context:
+      default:
+        cue: "Ela mantém a forma"
+        hint: "a pé para o trabalho"
+
+  participio_passado:
+    forms:
+      all: ido
+
+    context:
+      default:
+        cue: "Depois de ter"
+        hint: "ao supermercado"

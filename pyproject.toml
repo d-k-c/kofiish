@@ -7,7 +7,7 @@ name = "kofiish"
 version = "0.1.0"
 description = "Generate Anki Decks with the KOFI Method"
 readme = "README.md"
-requires-python = ">=3.8" # ordered dict in 3.7
+requires-python = ">=3.10"
 authors = [
     { name = "Damien Riégel", email = "damien@riegel.io" }
 ]
@@ -23,3 +23,8 @@ dependencies = [
 
 [project.scripts]
 kofiish = "kofiish.main:main"
+
+[project.optional-dependencies]
+tts = [
+    "google-cloud-texttospeech>=2.37.0",
+]

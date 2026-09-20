@@ -1,0 +1,201 @@
+metadata:
+  lemma: chamar-se
+  translation: to be called / to be named
+
+tenses:
+  presente_indicativo:
+    forms:
+      1sg: chamo-me
+      2sg: chamas-te
+      3sg: chama-se
+      1pl: chamamo-nos
+      2pl: chamais-vos
+      3pl: chamam-se
+
+    context:
+      default:
+        cue: "Oficialmente,"
+        hint: "Silva"
+
+    notes:
+      1pl: "[[Note]]: The final ~s~ of `chamamos` drops before `-nos` (`chamamo-nos`)."
+
+  preterito_perfeito_indicativo:
+    forms:
+      1sg: chamei-me
+      2sg: chamaste-te
+      3sg: chamou-se
+      1pl: chamámo-nos
+      2pl: chamastes-vos
+      3pl: chamaram-se
+
+    context:
+      default:
+        cue: "Nessa peça,"
+        hint: "Lopes"
+
+    notes:
+      1pl: "[[Note]]: The final ~s~ of `chamámos` drops before `-nos` (`chamámo-nos`)."
+
+  preterito_imperfeito_indicativo:
+    forms:
+      1sg: chamava-me
+      2sg: chamavas-te
+      3sg: chamava-se
+      1pl: chamávamo-nos
+      2pl: chamáveis-vos
+      3pl: chamavam-se
+
+    context:
+      default:
+        cue: "Antes do casamento,"
+        hint: "Ferreira"
+
+    notes:
+      1pl: "[[Note]]: The final ~s~ of `chamávamos` drops before `-nos` (`chamávamo-nos`)."
+
+  futuro_indicativo:
+    forms:
+      1sg: chamar-me-ei
+      2sg: chamar-te-ás
+      3sg: chamar-se-á
+      1pl: chamar-nos-emos
+      2pl: chamar-vos-eis
+      3pl: chamar-se-ão
+
+    context:
+      default:
+        cue: "No próximo filme,"
+        hint: "Mendes"
+
+    pattern: "[[Note]]: The pronoun goes between the infinitive and the futuro ending (`chamar-me-ei`)."
+
+  condicional:
+    forms:
+      1sg: chamar-me-ia
+      2sg: chamar-te-ias
+      3sg: chamar-se-ia
+      1pl: chamar-nos-íamos
+      2pl: chamar-vos-íeis
+      3pl: chamar-se-iam
+
+    context:
+      default:
+        cue: "Se fosse preciso,"
+        hint: "de outra maneira"
+
+    pattern: "[[Note]]: The pronoun goes between the infinitive and the condicional ending (`chamar-me-ia`)."
+
+  presente_conjuntivo:
+    forms:
+      1sg: me chame
+      2sg: te chames
+      3sg: se chame
+      1pl: nos chamemos
+      2pl: vos chameis
+      3pl: se chamem
+
+    context:
+      default:
+        cue: "Talvez"
+        hint: "Costa"
+
+    pattern: "[[Note]]: The pronoun goes before the verb."
+
+  preterito_imperfeito_conjuntivo:
+    forms:
+      1sg: me chamasse
+      2sg: te chamasses
+      3sg: se chamasse
+      1pl: nos chamássemos
+      2pl: vos chamásseis
+      3pl: se chamassem
+
+    context:
+      default:
+        cue: "Se"
+        hint: "de outra forma"
+
+    pattern: "[[Note]]: The pronoun goes before the verb."
+
+  futuro_conjuntivo:
+    forms:
+      1sg: me chamar
+      2sg: te chamares
+      3sg: se chamar
+      1pl: nos chamarmos
+      2pl: vos chamardes
+      3pl: se chamarem
+
+    context:
+      default:
+        cue: "Enquanto"
+        hint: "Silva"
+
+    pattern: "[[Note]]: The pronoun goes before the verb."
+
+  imperativo_afirmativo:
+    forms:
+      2sg: chama-te
+      3sg: chame-se
+      1pl: chamemo-nos
+      2pl: chamai-vos
+      3pl: chamem-se
+
+    context:
+      default:
+        cue: "No jogo,"
+        hint: "Zorro"
+
+    notes:
+      1pl: "[[Note]]: The final ~s~ of `chamemos` drops before `-nos` (`chamemo-nos`)."
+
+  imperativo_negativo:
+    forms:
+      2sg: te chames
+      3sg: se chame
+      1pl: nos chamemos
+      2pl: vos chameis
+      3pl: se chamem
+
+    context:
+      default:
+        cue: "Por favor, não"
+        hint: "assim"
+
+    pattern: "[[Note]]: The pronoun goes before the verb."
+
+  infinitivo_pessoal:
+    forms:
+      1sg: chamar-me
+      2sg: chamares-te
+      3sg: chamar-se
+      1pl: chamarmo-nos
+      2pl: chamardes-vos
+      3pl: chamarem-se
+
+    context:
+      default:
+        cue: "É normal"
+        hint: "como o avô"
+
+    notes:
+      1pl: "[[Note]]: The final ~s~ of `chamarmos` drops before `-nos` (`chamarmo-nos`)."
+
+  gerundio:
+    forms:
+      all: chamando-se
+
+    context:
+      default:
+        cue: "Viveu anos em Paris,"
+        hint: "Dupont"
+
+  participio_passado:
+    forms:
+      all: chamado
+
+    context:
+      default:
+        cue: "Depois de se ter"
+        hint: "Silva durante anos"

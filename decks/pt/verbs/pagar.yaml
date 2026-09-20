@@ -1,0 +1,97 @@
+metadata:
+  lemma: pagar
+  translation: to pay
+
+transformations:
+  - conjugator_ar
+
+analogs:
+  ligar: {}
+  investigar: {}
+  navegar: {}
+  regar: {}
+  carregar: {}
+
+tenses:
+  presente_indicativo:
+    context:
+      default:
+        cue: "Normalmente,"
+        hint: "as contas em dia"
+
+  preterito_perfeito_indicativo:
+    context:
+      default:
+        cue: "Ontem,"
+        hint: "a renda do apartamento"
+
+  preterito_imperfeito_indicativo:
+    context:
+      default:
+        cue: "Em criança,"
+        hint: "os doces com a semanada"
+
+  futuro_indicativo:
+    context:
+      default:
+        cue: "Amanhã,"
+        hint: "as faturas online"
+
+  condicional:
+    context:
+      default:
+        cue: "Com mais dinheiro,"
+        hint: "as dívidas todas"
+
+  presente_conjuntivo:
+    context:
+      default:
+        cue: "Espero que"
+        hint: "a tempo"
+
+  preterito_imperfeito_conjuntivo:
+    context:
+      default:
+        cue: "Se"
+        hint: "as contas a tempo"
+
+  futuro_conjuntivo:
+    context:
+      default:
+        cue: "Quando"
+        hint: "o empréstimo"
+
+  imperativo_afirmativo:
+    context:
+      default:
+        cue: "Por favor,"
+        hint: "essa fatura"
+
+  imperativo_negativo:
+    context:
+      default:
+        cue: "Por favor, não"
+        hint: "tudo agora"
+
+  infinitivo_pessoal:
+    context:
+      default:
+        cue: "É importante"
+        hint: "as despesas a tempo"
+
+  gerundio:
+    context:
+      default:
+        cue: "Ele poupa dinheiro"
+        hint: "as contas a pronto"
+
+  participio_passado:
+    forms:
+      all: pago
+
+    context:
+      default:
+        cue: "Depois de ter"
+        hint: "a renda, fui-me embora"
+    notes:
+      all: "[[Irregular]]: Short particípio. The regular `pagado` exists but is rarely used."

@@ -1,0 +1,92 @@
+metadata:
+  lemma: dever
+  translation: to must / should / owe
+
+transformations:
+  - conjugator_er
+
+analogs:
+  comer: {}
+  beber: {}
+  aprender: {}
+  correr: {}
+  viver: {}
+
+tenses:
+  presente_indicativo:
+    context:
+      default:
+        cue: "Hoje,"
+        hint: "chegar mais cedo ao trabalho"
+
+  preterito_perfeito_indicativo:
+    context:
+      default:
+        cue: "Naquele dia,"
+        hint: "chegar mais cedo, mas houve um imprevisto"
+
+  preterito_imperfeito_indicativo:
+    context:
+      default:
+        cue: "Naquela época,"
+        hint: "chegar mais cedo todos os dias"
+
+  futuro_indicativo:
+    context:
+      default:
+        cue: "Amanhã,"
+        hint: "chegar mais cedo ao trabalho"
+
+  condicional:
+    context:
+      default:
+        cue: "Nesse caso,"
+        hint: "chegar mais cedo"
+
+  presente_conjuntivo:
+    context:
+      default:
+        cue: "Talvez"
+        hint: "chegar mais cedo"
+
+  preterito_imperfeito_conjuntivo:
+    context:
+      default:
+        cue: "Se"
+        hint: "chegar mais cedo"
+
+  futuro_conjuntivo:
+    context:
+      default:
+        cue: "Quando"
+        hint: "chegar mais cedo, avisa-me"
+
+  imperativo_afirmativo:
+    context:
+      default:
+        cue: "Se for preciso,"
+        hint: "dinheiro ao banco, nunca aos amigos"
+
+  imperativo_negativo:
+    context:
+      default:
+        cue: "Nunca"
+        hint: "dinheiro aos amigos"
+
+  infinitivo_pessoal:
+    context:
+      default:
+        cue: "É importante"
+        hint: "chegar mais cedo"
+
+  gerundio:
+    context:
+      default:
+        cue: "Ele saiu do país,"
+        hint: "muito dinheiro ao banco"
+
+  participio_passado:
+    context:
+      default:
+        cue: "Depois de ter"
+        hint: "muito dinheiro ao banco"

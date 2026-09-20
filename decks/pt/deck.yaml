@@ -1,18 +1,78 @@
 metadata:
+  language: portuguese
   model:
     id: 1655903400
     name: "KOFI Portuguese"
   deck:
     id: 1662045664
-    name: 'KOFI::KOFI Portuguese (Portugal) (Ultimate Portuguese Conjugation)'
+    name: 'KOFIISH::KOFI Portuguese (Portugal)'
+  # options preset the deck is imported with (tick "Import deck presets" in
+  # Anki's import dialog); FSRS itself is a collection setting, enabled by hand
+  options:
+    id: 1758808800
+    name: "KOFIISH Portuguese"
+    new_per_day: 0
+    reviews_per_day: 9999
+    learning_steps: [15]
+    new_card_order: sequential
+    relearning_steps: [15]
+    leech_threshold: 9999
+    maximum_interval: 1826
+    desired_retention: 0.90
 
 # UUID and Prompt are always included
 fields:
   - Similar
   - Notes
   - Dictionaries
-  - Forvo
+  - Pronunciation
   - Sentence_Translation
+
+verbs:
+  # Base Corpus
+  - ter
+  - ser
+  - estar
+  - haver
+  # -ar termination with regular stem changes
+  - falar
+  - ficar
+  - começar
+  - chegar
+  # -er termination with regular stem changes
+  - vender
+  - parecer
+  - proteger
+  # -ir termination with regular stem changes
+  - partir
+  - exigir
+  - distinguir
+  # Most common irregular verbs
+  - fazer
+  - ir
+  - dizer
+  - poder
+  - ver
+  - dar
+  - saber
+  - querer
+  - dever
+  - vir
+  - trazer
+  - pôr
+  - dormir
+  - sair
+  - chamar
+  - chamar-se
+  - ler
+  - pedir
+  - ouvir
+  - sentir
+  - subir
+  - pagar
+  - chover
+  - construir
+  - rir
 
 pronouns:
   1sg:
@@ -34,7 +94,7 @@ pronouns:
     tag: null
 
 tenses:
-  indicative_present:
+  presente_indicativo:
     forms:
       - 1sg
       - 2sg
@@ -44,7 +104,7 @@ tenses:
       - 3pl
     cue: "⊙"
 
-  indicative_preterite:
+  preterito_perfeito_indicativo:
     forms:
       - 1sg
       - 2sg
@@ -54,7 +114,7 @@ tenses:
       - 3pl
     cue: "↧"
 
-  indicative_imperfect:
+  preterito_imperfeito_indicativo:
     forms:
       - 1sg
       - 2sg
@@ -64,7 +124,7 @@ tenses:
       - 3pl
     cue: "←"
 
-  indicative_future:
+  futuro_indicativo:
     forms:
       - 1sg
       - 2sg
@@ -74,7 +134,7 @@ tenses:
       - 3pl
     cue: "→"
 
-  conditional:
+  condicional:
     forms:
       - 1sg
       - 2sg
@@ -84,7 +144,7 @@ tenses:
       - 3pl
     cue: "…"
 
-  subjunctive_present:
+  presente_conjuntivo:
     forms:
       - 1sg
       - 2sg
@@ -94,7 +154,7 @@ tenses:
       - 3pl
     cue: "〰"
 
-  subjunctive_imperfect:
+  preterito_imperfeito_conjuntivo:
     forms:
       - 1sg
       - 2sg
@@ -104,7 +164,7 @@ tenses:
       - 3pl
     cue: "↫"
 
-  subjunctive_future:
+  futuro_conjuntivo:
     forms:
       - 1sg
       - 2sg
@@ -114,7 +174,7 @@ tenses:
       - 3pl
     cue: "↬"
 
-  imperative_affirmative:
+  imperativo_afirmativo:
     forms:
       - 2sg
       - 3sg
@@ -122,8 +182,12 @@ tenses:
       - 2pl
       - 3pl
     cue: "!"
+    pronoun_hint: true
+    pronouns:
+      3sg: "você"
+      3pl: "vocês"
 
-  imperative_negative:
+  imperativo_negativo:
     forms:
       - 2sg
       - 3sg
@@ -131,9 +195,13 @@ tenses:
       - 2pl
       - 3pl
     cue: "!"
+    pronoun_hint: true
+    pronouns:
+      3sg: "você"
+      3pl: "vocês"
 
 
-  personal_infinitive:
+  infinitivo_pessoal:
     forms:
       - 1sg
       - 2sg
@@ -143,10 +211,12 @@ tenses:
       - 3pl
     cue: "↻"
 
-  gerund:
+  gerundio:
     forms:
       - all
+    cue: "▷"
 
-  past_participle:
+  participio_passado:
     forms:
       - all
+    cue: "✓"

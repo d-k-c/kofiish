@@ -1,0 +1,198 @@
+metadata:
+  lemma: saber
+  translation: to know / to know how to
+
+transformations:
+  - conjugator_er
+
+tenses:
+  presente_indicativo:
+    forms:
+      1sg: sei
+      2sg: sabes
+      3sg: sabe
+      1pl: sabemos
+      2pl: sabeis
+      3pl: sabem
+
+    context:
+      default:
+        cue: "Neste momento,"
+        hint: "a resposta certa"
+
+    notes:
+      1sg: "*Highly irregular form*."
+
+  preterito_perfeito_indicativo:
+    forms:
+      1sg: soube
+      2sg: soubeste
+      3sg: soube
+      1pl: soubemos
+      2pl: soubestes
+      3pl: souberam
+
+    context:
+      default:
+        cue: "Só agora"
+        hint: "a verdade sobre o acidente"
+
+    pattern: "[[Irregular]]: The pretérito perfeito uses the stem `soub-`."
+    notes:
+      1sg: "[[Irregular]]: Ending `-e` instead of the expected `-i`."
+      3sg: "[[Irregular]]: Ending `-e` instead of the expected `-eu`."
+
+  preterito_imperfeito_indicativo:
+    forms:
+      1sg: sabia
+      2sg: sabias
+      3sg: sabia
+      1pl: sabíamos
+      2pl: sabíeis
+      3pl: sabiam
+
+    context:
+      default:
+        cue: "Em criança,"
+        hint: "nadar muito bem"
+
+  futuro_indicativo:
+    forms:
+      1sg: saberei
+      2sg: saberás
+      3sg: saberá
+      1pl: saberemos
+      2pl: sabereis
+      3pl: saberão
+
+    context:
+      default:
+        cue: "Depois do curso,"
+        hint: "conduzir sem problemas"
+
+  condicional:
+    forms:
+      1sg: saberia
+      2sg: saberias
+      3sg: saberia
+      1pl: saberíamos
+      2pl: saberíeis
+      3pl: saberiam
+
+    context:
+      default:
+        cue: "Se fosse preciso,"
+        hint: "encontrar uma solução"
+
+  presente_conjuntivo:
+    forms:
+      1sg: saiba
+      2sg: saibas
+      3sg: saiba
+      1pl: saibamos
+      2pl: saibais
+      3pl: saibam
+
+    context:
+      default:
+        cue: "Espero que"
+        hint: "lidar com a situação"
+
+    pattern: "[[Irregular]]: The presente do conjuntivo uses the stem `saib-`."
+
+  preterito_imperfeito_conjuntivo:
+    forms:
+      1sg: soubesse
+      2sg: soubesses
+      3sg: soubesse
+      1pl: soubéssemos
+      2pl: soubésseis
+      3pl: soubessem
+
+    context:
+      default:
+        cue: "Se"
+        hint: "o motivo"
+
+    pattern: "[[Irregular]]: The pretérito imperfeito do conjuntivo uses the stem `soub-`."
+    notes:
+      1pl: "`-êssemos` is the regular ending for verbs in ~-er~. Note the change ~ê → é~."
+      2pl: "`-êsseis` is the regular ending for verbs in ~-er~. Note the change ~ê → é~."
+
+  futuro_conjuntivo:
+    forms:
+      1sg: souber
+      2sg: souberes
+      3sg: souber
+      1pl: soubermos
+      2pl: souberdes
+      3pl: souberem
+
+    context:
+      default:
+        cue: "Quando"
+        hint: "o resultado"
+
+    pattern: "[[Irregular]]: The futuro do conjuntivo uses the stem `soub-`."
+
+  imperativo_afirmativo:
+    forms:
+      2sg: sabe
+      3sg: saiba
+      1pl: saibamos
+      2pl: sabei
+      3pl: saibam
+
+    context:
+      default:
+        cue: "De uma vez por todas,"
+        hint: "que isto é sério"
+
+    pattern: "[[Regular]]: Forms follow normal construction rule."
+
+  imperativo_negativo:
+    forms:
+      2sg: saibas
+      3sg: saiba
+      1pl: saibamos
+      2pl: saibais
+      3pl: saibam
+
+    context:
+      default:
+        cue: "Se perguntarem, não"
+        hint: "de nada"
+
+    pattern: "[[Regular]]: Forms follow normal construction rule."
+
+  infinitivo_pessoal:
+    forms:
+      1sg: saber
+      2sg: saberes
+      3sg: saber
+      1pl: sabermos
+      2pl: saberdes
+      3pl: saberem
+
+    context:
+      default:
+        cue: "É importante"
+        hint: "lidar com a pressão"
+
+  gerundio:
+    forms:
+      all: sabendo
+
+    context:
+      default:
+        cue: "Ele resolveu o problema"
+        hint: "exatamente o que fazer"
+
+  participio_passado:
+    forms:
+      all: sabido
+
+    context:
+      default:
+        cue: "Depois de ter"
+        hint: "a verdade"

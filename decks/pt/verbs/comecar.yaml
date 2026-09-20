@@ -1,0 +1,91 @@
+metadata:
+  lemma: começar
+  translation: to start / to begin
+
+transformations:
+  - conjugator_ar
+
+analogs:
+  almoçar: {}
+  dançar: {}
+  avançar: {}
+  lançar: {}
+
+tenses:
+  presente_indicativo:
+    context:
+      default:
+        cue: "Todos os dias,"
+        hint: "o trabalho às nove"
+
+  preterito_perfeito_indicativo:
+    context:
+      default:
+        cue: "Ontem,"
+        hint: "as aulas de piano"
+
+  preterito_imperfeito_indicativo:
+    context:
+      default:
+        cue: "Naquela altura,"
+        hint: "o dia com um café"
+
+  futuro_indicativo:
+    context:
+      default:
+        cue: "Na próxima semana,"
+        hint: "um novo projeto"
+
+  condicional:
+    context:
+      default:
+        cue: "Se houvesse tempo,"
+        hint: "a aprender alemão"
+
+  presente_conjuntivo:
+    context:
+      default:
+        cue: "Espero que"
+        hint: "a reunião a horas"
+
+  preterito_imperfeito_conjuntivo:
+    context:
+      default:
+        cue: "Se"
+        hint: "a dieta"
+
+  futuro_conjuntivo:
+    context:
+      default:
+        cue: "Quando"
+        hint: "o novo emprego"
+
+  imperativo_afirmativo:
+    context:
+      default:
+        cue: "Por favor,"
+        hint: "sem mim"
+
+  imperativo_negativo:
+    context:
+      default:
+        cue: "Por favor, não"
+        hint: "a discussão outra vez"
+
+  infinitivo_pessoal:
+    context:
+      default:
+        cue: "É importante"
+        hint: "a tempo"
+
+  gerundio:
+    context:
+      default:
+        cue: "Ele abriu a reunião,"
+        hint: "por agradecer a todos"
+
+  participio_passado:
+    context:
+      default:
+        cue: "Depois de ter"
+        hint: "o curso"

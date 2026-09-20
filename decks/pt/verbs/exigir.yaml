@@ -1,0 +1,92 @@
+metadata:
+  lemma: exigir
+  translation: to demand / to require
+
+transformations:
+  - conjugator_ir
+
+analogs:
+  dirigir: {}
+  corrigir: {}
+  fingir: {}
+  afligir: {}
+  surgir: {}
+
+tenses:
+  presente_indicativo:
+    context:
+      default:
+        cue: "Nesta empresa,"
+        hint: "muito profissionalismo"
+
+  preterito_perfeito_indicativo:
+    context:
+      default:
+        cue: "Na reunião de ontem,"
+        hint: "uma explicação clara"
+
+  preterito_imperfeito_indicativo:
+    context:
+      default:
+        cue: "Antigamente,"
+        hint: "muito mais dos empregados"
+
+  futuro_indicativo:
+    context:
+      default:
+        cue: "No próximo contrato,"
+        hint: "melhores condições"
+
+  condicional:
+    context:
+      default:
+        cue: "Nesse cargo,"
+        hint: "mais respeito"
+
+  presente_conjuntivo:
+    context:
+      default:
+        cue: "É importante que"
+        hint: "mais cuidado"
+
+  preterito_imperfeito_conjuntivo:
+    context:
+      default:
+        cue: "Se"
+        hint: "menos da equipa"
+
+  futuro_conjuntivo:
+    context:
+      default:
+        cue: "Quando"
+        hint: "mais empenho deles"
+
+  imperativo_afirmativo:
+    context:
+      default:
+        cue: "Por favor,"
+        hint: "mais atenção"
+
+  imperativo_negativo:
+    context:
+      default:
+        cue: "Por favor, não"
+        hint: "tanto de mim"
+
+  infinitivo_pessoal:
+    context:
+      default:
+        cue: "É essencial"
+        hint: "isso com clareza"
+
+  gerundio:
+    context:
+      default:
+        cue: "Ele insistiu,"
+        hint: "mais rapidez"
+
+  participio_passado:
+    context:
+      default:
+        cue: "Depois de ter"
+        hint: "tanto de nós"

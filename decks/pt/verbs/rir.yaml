@@ -1,0 +1,119 @@
+metadata:
+  lemma: rir
+  translation: to laugh
+
+transformations:
+  - conjugator_ir
+  - rir_family
+
+analogs:
+  sorrir: {}
+
+tenses:
+  presente_indicativo:
+    context:
+      default:
+        cue: "Todos os dias,"
+        hint: "com os amigos"
+
+    notes:
+      1sg: "[[Irregular]]: An ~i~ is added before the ending (`rio`)."
+      2sg: "[[Irregular]]: Ends in `-is` instead of the expected `-es`."
+      3sg: "[[Irregular]]: Ends in `-i` instead of the expected `-e`."
+      2pl: "*Highly irregular form*. Note the extra ~d~."
+      3pl: "[[Irregular]]: An ~i~ is added before the ending (`ri-em`)."
+
+  preterito_perfeito_indicativo:
+    context:
+      default:
+        cue: "Ontem,"
+        hint: "muito com aquela piada"
+
+  preterito_imperfeito_indicativo:
+    context:
+      default:
+        cue: "Naquela altura,"
+        hint: "de tudo"
+
+    notes:
+      1sg: "[[Attention]]: Form similar to conjuntivo presente."
+      2sg: "[[Attention]]: Form similar to conjuntivo presente."
+      3sg: "[[Attention]]: Form similar to conjuntivo presente."
+      1pl: "[[Attention]]: Form almost similar (~i~ vs ~í~) to conjuntivo presente."
+      2pl: "[[Attention]]: Form almost similar (~i~ vs ~í~) to conjuntivo presente."
+      3pl: "[[Attention]]: Form almost similar (~i~ vs ~í~) to conjuntivo presente."
+
+  futuro_indicativo:
+    context:
+      default:
+        cue: "No cinema,"
+        hint: "muito com essa comédia"
+
+  condicional:
+    context:
+      default:
+        cue: "Com uma boa piada,"
+        hint: "imenso"
+
+  presente_conjuntivo:
+    context:
+      default:
+        cue: "Espero que"
+        hint: "com os amigos"
+
+    notes:
+      1sg: "[[Attention]]: Form similar to indicativo imperfeito."
+      2sg: "[[Attention]]: Form similar to indicativo imperfeito."
+      3sg: "[[Attention]]: Form similar to indicativo imperfeito."
+      1pl: "[[Attention]]: Form almost similar (~i~ vs ~í~) to indicativo imperfeito."
+      2pl: "[[Attention]]: Form almost similar (~i~ vs ~í~) to indicativo imperfeito."
+      3pl: "[[Attention]]: Form almost similar (~i~ vs ~í~) to indicativo imperfeito."
+
+    pattern: "[[Irregular]]: The presente do conjuntivo uses the stem `ri-`."
+
+  preterito_imperfeito_conjuntivo:
+    context:
+      default:
+        cue: "Se"
+        hint: "naquela altura, tudo teria sido melhor"
+
+  futuro_conjuntivo:
+    context:
+      default:
+        cue: "Quando"
+        hint: "disto um dia"
+
+  imperativo_afirmativo:
+    context:
+      default:
+        cue: "Por favor,"
+        hint: "mais! É bom para a saúde"
+
+    pattern: "[[Regular]]: Follow normal construction rules."
+
+  imperativo_negativo:
+    context:
+      default:
+        cue: "Por favor, não"
+        hint: "da nossa infelicidade"
+
+    pattern: "[[Regular]]: Forms follow normal construction rule."
+
+  infinitivo_pessoal:
+    context:
+      default:
+        cue: "É importante"
+        hint: "da vida para ser feliz"
+
+  gerundio:
+    context:
+      default:
+        cue: "Ela disse que não,"
+        hint: "da minha proposta"
+
+  participio_passado:
+
+    context:
+      default:
+        cue: "Depois de ter"
+        hint: "da piada, foi-se embora"

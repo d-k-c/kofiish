@@ -1,0 +1,197 @@
+metadata:
+  lemma: chover
+  translation: to rain
+
+transformations:
+  - conjugator_er
+
+tenses:
+  presente_indicativo:
+    forms:
+      1sg: null
+      2sg: null
+      3sg: chove
+      1pl: null
+      2pl: null
+
+    context:
+      default:
+        cue: "No inverno,"
+        hint: "muito no Norte"
+      3pl:
+        cue: "As queixas? Todos os dias,"
+        hint: "de todos os lados"
+    notes:
+      3pl: "[[Note]]: Only figurative in the plural: things \"rain down\" (`chovem críticas`, `chovem pedidos`)."
+
+  preterito_perfeito_indicativo:
+    forms:
+      1sg: null
+      2sg: null
+      3sg: choveu
+      1pl: null
+      2pl: null
+
+    context:
+      default:
+        cue: "Ontem"
+        hint: "a noite toda"
+      3pl:
+        cue: "Os pedidos? Ontem,"
+        hint: "de todo o lado"
+
+  preterito_imperfeito_indicativo:
+    forms:
+      1sg: null
+      2sg: null
+      3sg: chovia
+      1pl: null
+      2pl: null
+
+    context:
+      default:
+        cue: "Na minha infância,"
+        hint: "nas tardes de verão"
+      3pl:
+        cue: "As cartas de fãs? Na altura,"
+        hint: "todas as semanas"
+
+  futuro_indicativo:
+    forms:
+      1sg: null
+      2sg: null
+      3sg: choverá
+      1pl: null
+      2pl: null
+
+    context:
+      default:
+        cue: "Amanhã"
+        hint: "durante o dia"
+      3pl:
+        cue: "As críticas? Amanhã,"
+        hint: "de certeza"
+
+  condicional:
+    forms:
+      1sg: null
+      2sg: null
+      3sg: choveria
+      1pl: null
+      2pl: null
+
+    context:
+      default:
+        cue: "Se fosse inverno,"
+        hint: "certamente"
+      3pl:
+        cue: "As ofertas? Com outro currículo,"
+        hint: "de todo o lado"
+
+  presente_conjuntivo:
+    forms:
+      1sg: null
+      2sg: null
+      3sg: chova
+      1pl: null
+      2pl: null
+
+    context:
+      default:
+        cue: "Espero que"
+        hint: "a semana inteira"
+      3pl:
+        cue: "As candidaturas? Espero que"
+        hint: "até sexta"
+
+  preterito_imperfeito_conjuntivo:
+    forms:
+      1sg: null
+      2sg: null
+      3sg: chovesse
+      1pl: null
+      2pl: null
+
+    context:
+      default:
+        cue: "Se"
+        hint: "mais, os campos estariam verdes"
+      3pl:
+        cue: "As propostas? Se"
+        hint: "assim, estaríamos ricos"
+
+  futuro_conjuntivo:
+    forms:
+      1sg: null
+      2sg: null
+      3sg: chover
+      1pl: null
+      2pl: null
+
+    context:
+      default:
+        cue: "Quando"
+        hint: "ficamos em casa"
+      3pl:
+        cue: "Os elogios? Quando"
+        hint: "de novo, aproveita-os"
+
+  imperativo_afirmativo:
+    forms:
+      2sg: null
+      3sg: null
+      1pl: null
+      2pl: null
+      3pl: null
+
+    context:
+      default:
+        cue: null
+        hint: null
+
+  imperativo_negativo:
+    forms:
+      2sg: null
+      3sg: null
+      1pl: null
+      2pl: null
+      3pl: null
+
+    context:
+      default:
+        cue: null
+        hint: null
+
+  infinitivo_pessoal:
+    forms:
+      1sg: null
+      2sg: null
+      3sg: chover
+      1pl: null
+      2pl: null
+
+    context:
+      default:
+        cue: "É possível"
+        hint: "sem aviso prévio"
+      3pl:
+        cue: "As reclamações? É normal"
+        hint: "depois de uma mudança"
+
+  gerundio:
+    forms:
+      all: chovendo
+
+    context:
+      default:
+        cue: "Mesmo"
+        hint: "a cântaros, fomos à praia"
+
+  participio_passado:
+    forms:
+      all: chovido
+
+    context:
+      default:
+        cue: "Depois de ter"
+        hint: "vários dias, o rio transbordou"

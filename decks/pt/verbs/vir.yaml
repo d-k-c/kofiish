@@ -1,0 +1,126 @@
+metadata:
+  lemma: vir
+  translation: to come
+
+transformations:
+  - conjugator_ir
+  - vir_compound
+
+analogs:
+  intervir: {}
+  provir: {}
+  convir: {}
+  sobrevir: {}
+
+tenses:
+  presente_indicativo:
+    context:
+      default:
+        cue: "Todos os domingos,"
+        hint: "visitar os avós"
+
+    notes:
+      1sg: "*Highly irregular form*."
+      2sg: "*Highly irregular form*."
+      3sg: "*Highly irregular form*."
+      2pl: "*Highly irregular form*. Note the extra ~d~."
+      3pl: "*Highly irregular form*. The circumflex tells `vêm` (eles) apart from `vem` (ele)."
+
+  preterito_perfeito_indicativo:
+    context:
+      default:
+        cue: "Ontem,"
+        hint: "à festa"
+
+    pattern: "[[Irregular]]: The pretérito perfeito uses the stem `vi-` with the endings of verbs in ~-er~ (except `vim` and `veio`)."
+    notes:
+      1sg: "*Highly irregular form*."
+      3sg: "*Highly irregular form*."
+
+  preterito_imperfeito_indicativo:
+    context:
+      default:
+        cue: "Todos os verões,"
+        hint: "à praia"
+
+    pattern: |
+      *Highly irregular form*.
+      [[Irregular]]: The pretérito imperfeito uses the stem `vinh-` or `vính-`.
+
+  futuro_indicativo:
+    context:
+      default:
+        cue: "Amanhã,"
+        hint: "para o casamento"
+
+  condicional:
+    context:
+      default:
+        cue: "Se fosse possível,"
+        hint: "mais cedo"
+
+  presente_conjuntivo:
+    context:
+      default:
+        cue: "Espero que"
+        hint: "à reunião"
+
+    pattern: "[[Irregular]]: The presente do conjuntivo uses the stem `venh-`, from the presente do indicativo eu-form `venho`."
+
+  preterito_imperfeito_conjuntivo:
+    context:
+      default:
+        cue: "Se"
+        hint: "connosco"
+
+    pattern: "[[Irregular]]: The pretérito imperfeito do conjuntivo uses the stem `vi-` with the endings of verbs in ~-er~."
+
+  futuro_conjuntivo:
+    context:
+      default:
+        cue: "Quando"
+        hint: "mais tarde"
+
+    pattern: "[[Irregular]]: The futuro do conjuntivo uses the stem `vi-` with the endings of verbs in ~-er~."
+
+  imperativo_afirmativo:
+    context:
+      default:
+        cue: "Por favor,"
+        hint: "aqui"
+
+    notes:
+      2sg: "[[Irregular]]: This form is usually built on ~tu~ form of the presente do indicativo without the final ~s~, which would give *ven*."
+      3sg: "[[Regular]]: Follow normal construction rules."
+      1pl: "[[Regular]]: Follow normal construction rules."
+      2pl: "[[Regular]]: Follow normal construction rules."
+      3pl: "[[Regular]]: Follow normal construction rules."
+
+  imperativo_negativo:
+    context:
+      default:
+        cue: "Por favor, não"
+        hint: "sem avisar"
+
+    pattern: "[[Regular]]: Forms follow normal construction rule."
+
+  infinitivo_pessoal:
+    context:
+      default:
+        cue: "É importante"
+        hint: "cedo"
+
+  gerundio:
+    context:
+      default:
+        cue: "Ele poupa tempo"
+        hint: "de bicicleta para o trabalho"
+
+  participio_passado:
+    context:
+      default:
+        cue: "Depois de ter"
+        hint: "cedo"
+
+    notes:
+      all: "*Highly irregular form*. Same form as the gerúndio `vindo`."

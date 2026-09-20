@@ -1,0 +1,117 @@
+metadata:
+  lemma: ouvir
+  translation: to hear
+
+transformations:
+  - conjugator_ir
+
+tenses:
+  presente_indicativo:
+    forms:
+      1sg: ouço
+
+    context:
+      default:
+        cue: "Normalmente,"
+        hint: "música no comboio"
+
+    notes:
+      1sg: "[[Irregular]]: The ~v~ becomes ~ç~ (`ouço`). Other persons keep the regular stem. The variant `oiço` also exists."
+
+  preterito_perfeito_indicativo:
+    context:
+      default:
+        cue: "Ontem,"
+        hint: "um barulho estranho"
+
+  preterito_imperfeito_indicativo:
+    context:
+      default:
+        cue: "Em criança,"
+        hint: "histórias antes de dormir"
+
+  futuro_indicativo:
+    context:
+      default:
+        cue: "Amanhã,"
+        hint: "os resultados"
+
+  condicional:
+    context:
+      default:
+        cue: "Mais perto do palco,"
+        hint: "melhor a música"
+
+  presente_conjuntivo:
+    forms:
+      1sg: ouça
+      2sg: ouças
+      3sg: ouça
+      1pl: ouçamos
+      2pl: ouçais
+      3pl: ouçam
+
+    context:
+      default:
+        cue: "Espero que"
+        hint: "a boa notícia em breve"
+
+    pattern: "[[Irregular]]: The presente do conjuntivo uses the stem `ouç-`, from the presente do indicativo eu-form `ouço`. Variants with stem `oiç-` also exist."
+
+  preterito_imperfeito_conjuntivo:
+    context:
+      default:
+        cue: "Se"
+        hint: "melhor sem os auscultadores"
+
+  futuro_conjuntivo:
+    context:
+      default:
+        cue: "Quando"
+        hint: "a campainha"
+
+  imperativo_afirmativo:
+    forms:
+      3sg: ouça
+      1pl: ouçamos
+      3pl: ouçam
+
+    context:
+      default:
+        cue: "Por favor,"
+        hint: "com atenção"
+
+    pattern: "[[Regular]]: Follow normal construction rules."
+
+  imperativo_negativo:
+    forms:
+      2sg: ouças
+      3sg: ouça
+      1pl: ouçamos
+      2pl: ouçais
+      3pl: ouçam
+
+    context:
+      default:
+        cue: "Por favor, não"
+        hint: "música tão alta"
+
+    pattern: "[[Regular]]: Forms follow normal construction rule."
+
+  infinitivo_pessoal:
+    context:
+      default:
+        cue: "É importante"
+        hint: "as opiniões de todos"
+
+  gerundio:
+    context:
+      default:
+        cue: "Só"
+        hint: "as duas partes se pode decidir"
+
+  participio_passado:
+    context:
+      default:
+        cue: "Depois de ter"
+        hint: "a explicação"
